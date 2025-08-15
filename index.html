@@ -792,116 +792,115 @@
         </div>
     </div>
 
-    <script>
-        let vocabularyWords = [];
-        let currentQuiz = [];
-        let currentQuestionIndex = 0;
-        let score = 0;
-        let currentWord = null;
-        let selectedAnswer = null;
-        let hasAnswered = false;
-        
-        // Flashcard mode variables
-        let flashcardMode = false;
-        let currentFlashcardIndex = 0;
-        let flashcardDeck = [];
-        let isFlipped = false;
-        
-        // Player name variable
-        let playerName = "Abby";
-        
-        // Fill in the blank variables
-        let fillBlankMode = false;
-        let currentFillBlankIndex = 0;
-        let fillBlankQuiz = [];
-        let currentFillBlankWord = null;
-        
-        // Matching game variables
-        let matchingMode = false;
-        let currentMatchingRound = 1;
-        let matchingWords = [];
-        let selectedWordCard = null;
-        let selectedSynonymCard = null;
-        let matchedPairs = 0;
-        let isProcessingMatch = false;
-        
-        // Load SSAT Vocabulary List
-        fetch('vocab.json')
-          .then(response => {
-            if (!response.ok) {
-              throw new Error('Failed to load vocabulary data');
-            }
-            return response.json();
-          })
-          .then(sampleVocab => {
-            // You can now use sampleVocab just like before
-            console.log(sampleVocab);
-            // Example: display the first word
-            document.getElementById('wordDisplay').textContent = sampleVocab[0].word;
-          })
-          .catch(error => {
-            console.error('Error loading vocab:', error);
-          });
+   <script>
+    let vocabularyWords = [];
+    let currentQuiz = [];
+    let currentQuestionIndex = 0;
+    let score = 0;
+    let currentWord = null;
+    let selectedAnswer = null;
+    let hasAnswered = false;
+    
+    // Flashcard mode variables
+    let flashcardMode = false;
+    let currentFlashcardIndex = 0;
+    let flashcardDeck = [];
+    let isFlipped = false;
+    
+    // Player name variable
+    let playerName = "Abby";
+    
+    // Fill in the blank variables
+    let fillBlankMode = false;
+    let currentFillBlankIndex = 0;
+    let fillBlankQuiz = [];
+    let currentFillBlankWord = null;
+    
+    // Matching game variables
+    let matchingMode = false;
+    let currentMatchingRound = 1;
+    let matchingWords = [];
+    let selectedWordCard = null;
+    let selectedSynonymCard = null;
+    let matchedPairs = 0;
+    let isProcessingMatch = false;
 
-       
-        
-        // Contextual sentence templates that make sense with the word meanings
-        const sentenceTemplates = [
-            {
-                template: "The K-Pop demon hunter was so {word} during battle that she {action}.",
-                contexts: {
-                    "positive": ["inspired her entire squad", "defeated three shadow lords at once", "earned the respect of ancient spirits"],
-                    "negative": ["accidentally summoned more demons", "tripped over her own cape", "forgot her own battle cry"],
-                    "neutral": ["caught everyone's attention", "became the talk of the mystical realm", "changed the course of the battle"]
-                }
-            },
-            {
-                template: "{name}'s {word} approach to demon hunting meant she would {action}.",
-                contexts: {
-                    "positive": ["always find the perfect strategy", "never give up on a mission", "turn enemies into allies"],
-                    "negative": ["often get lost in her own plans", "overthink simple situations", "miss obvious solutions"],
-                    "neutral": ["surprise everyone with her methods", "take unexpected paths to victory", "create memorable moments"]
-                }
-            },
-            {
-                template: "The mystical boy band found {name}'s {word} personality so compelling that they {action}.",
-                contexts: {
-                    "positive": ["wrote a song about her", "invited her to join their group", "dedicated their next album to her"],
-                    "negative": ["couldn't focus on their performance", "forgot their choreography", "started arguing among themselves"],
-                    "neutral": ["changed their entire image", "decided to become demon hunters too", "asked for her autograph"]
-                }
+    // Load SSAT Vocabulary List
+    fetch('vocab.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to load vocabulary data');
+        }
+        return response.json();
+      })
+      .then(loadedVocab => {
+        vocabularyWords = loadedVocab; // assign globally!
+        initializeGame();              // start game logic after vocab loads
+      })
+      .catch(error => {
+        console.error('Error loading vocab:', error);
+      });
+
+    // Contextual sentence templates that make sense with the word meanings
+    const sentenceTemplates = [
+        {
+            template: "The K-Pop demon hunter was so {word} during battle that she {action}.",
+            contexts: {
+                "positive": ["inspired her entire squad", "defeated three shadow lords at once", "earned the respect of ancient spirits"],
+                "negative": ["accidentally summoned more demons", "tripped over her own cape", "forgot her own battle cry"],
+                "neutral": ["caught everyone's attention", "became the talk of the mystical realm", "changed the course of the battle"]
             }
-        ];
-        
-        function generateContextualSentence(wordObj) {
-            const template = sentenceTemplates[Math.floor(Math.random() * sentenceTemplates.length)];
-            
-            // Determine context based on word meaning
-            let contextType = "neutral";
-            const definition = wordObj.definition.toLowerCase();
-            
-            if (definition.includes("good") || definition.includes("kind") || definition.includes("friendly") || 
-                definition.includes("wise") || definition.includes("skilled") || definition.includes("outstanding") ||
-                definition.includes("generous") || definition.includes("brave") || definition.includes("fearless") ||
-                definition.includes("clear") || definition.includes("peaceful") || definition.includes("joyful")) {
-                contextType = "positive";
-            } else if (definition.includes("bad") || definition.includes("evil") || definition.includes("harmful") ||
-                      definition.includes("lazy") || definition.includes("clumsy") || definition.includes("weak") ||
-                      definition.includes("dull") || definition.includes("boring") || definition.includes("careless") ||
-                      definition.includes("angry") || definition.includes("hostile") || definition.includes("wicked")) {
-                contextType = "negative";
+        },
+        {
+            template: "{name}'s {word} approach to demon hunting meant she would {action}.",
+            contexts: {
+                "positive": ["always find the perfect strategy", "never give up on a mission", "turn enemies into allies"],
+                "negative": ["often get lost in her own plans", "overthink simple situations", "miss obvious solutions"],
+                "neutral": ["surprise everyone with her methods", "take unexpected paths to victory", "create memorable moments"]
             }
-            
-            const actions = template.contexts[contextType];
-            const action = actions[Math.floor(Math.random() * actions.length)];
-            
-            return template.template.replace('{name}', playerName).replace('{word}', wordObj.word.toLowerCase()).replace('{action}', action);
+        },
+        {
+            template: "The mystical boy band found {name}'s {word} personality so compelling that they {action}.",
+            contexts: {
+                "positive": ["wrote a song about her", "invited her to join their group", "dedicated their next album to her"],
+                "negative": ["couldn't focus on their performance", "forgot their choreography", "started arguing among themselves"],
+                "neutral": ["changed their entire image", "decided to become demon hunters too", "asked for her autograph"]
+            }
+        }
+    ];
+
+    function generateContextualSentence(wordObj) {
+        const template = sentenceTemplates[Math.floor(Math.random() * sentenceTemplates.length)];
+        
+        // Determine context based on word meaning
+        let contextType = "neutral";
+        const definition = wordObj.definition.toLowerCase();
+        
+        if (definition.includes("good") || definition.includes("kind") || definition.includes("friendly") || 
+            definition.includes("wise") || definition.includes("skilled") || definition.includes("outstanding") ||
+            definition.includes("generous") || definition.includes("brave") || definition.includes("fearless") ||
+            definition.includes("clear") || definition.includes("peaceful") || definition.includes("joyful")) {
+            contextType = "positive";
+        } else if (definition.includes("bad") || definition.includes("evil") || definition.includes("harmful") ||
+                  definition.includes("lazy") || definition.includes("clumsy") || definition.includes("weak") ||
+                  definition.includes("dull") || definition.includes("boring") || definition.includes("careless") ||
+                  definition.includes("angry") || definition.includes("hostile") || definition.includes("wicked")) {
+            contextType = "negative";
         }
         
-        function initializeGame() {
-            vocabularyWords = sampleVocab;
-            showMainMenu();
-        }
+        const actions = template.contexts[contextType];
+        const action = actions[Math.floor(Math.random() * actions.length)];
+        
+        return template.template.replace('{name}', playerName).replace('{word}', wordObj.word.toLowerCase()).replace('{action}', action);
+    }
+
+    function initializeGame() {
+        showMainMenu();
+        // Optionally, for debugging, show the first word:
+        // if (vocabularyWords.length > 0 && document.getElementById('currentWord')) {
+        //   document.getElementById('currentWord').textContent = vocabularyWords[0].word;
+        // }
+    }
         
         function updatePlayerName() {
             const nameInput = document.getElementById('playerName');
@@ -1423,6 +1422,7 @@
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96c80f5921034ce1',t:'MTc1NDc1MDk2NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
+
 
 
 
