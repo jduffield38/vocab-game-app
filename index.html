@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>K-Pop Word Warrior: SSAT Vocabulary Quest</title>
+    /*python3 -m http.server 8000*/
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@400;600;700;800&display=swap');
         
@@ -223,13 +224,13 @@
         }
         
         .quest-buttons {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin: 30px 0;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;  /* 2 columns */
+        grid-template-rows: 1fr 1fr;     /* 2 rows */
+        gap: 1em;                        /* space between buttons */
+        width: 100%;                     /* or set a max-width if desired */
+        max-width: 400px;                /* adjust as needed */
+        margin: 0 auto;                  /* center horizontally */
         }
         
         .quest-button {
@@ -339,50 +340,83 @@
         }
         
         .flashcard-container {
-            perspective: 1000px;
-            margin: 20px auto;
-            width: min(90vw, 500px);
-            height: min(60vh, 350px);
-            cursor: pointer;
-        }
-        
-        .flashcard {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            transition: transform 0.8s ease-in-out;
-            transform-style: preserve-3d;
-            border-radius: 15px;
-            box-shadow: 0 8px 25px rgba(255, 0, 255, 0.3);
-        }
-        
-        .flashcard.flipped {
-            transform: rotateY(180deg);
-        }
-        
-        .flashcard-front, .flashcard-back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            backface-visibility: hidden;
-            border-radius: 15px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            text-align: center;
-            border: 2px solid rgba(255, 100, 255, 0.4);
-        }
-        
-        .flashcard-front {
-            background: linear-gradient(135deg, rgba(255, 0, 150, 0.2), rgba(0, 255, 255, 0.2));
-        }
-        
-        .flashcard-back {
-            background: linear-gradient(135deg, rgba(0, 255, 255, 0.2), rgba(255, 0, 150, 0.2));
-            transform: rotateY(180deg);
-        }
+    perspective: 1000px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    height: 60vw;         /* Responsive height based on viewport width */
+    max-height: 350px;
+    min-height: 220px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flashcard {
+    position: relative;
+    width: 90vw;
+    max-width: 100%;
+    height: 100%;
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(255, 0, 255, 0.3);
+    background: transparent;
+    /* overflow: hidden;  <-- REMOVE or COMMENT OUT THIS LINE */
+}
+
+@media (max-width: 600px) {
+  .flashcard-container {
+      width: 100vw;
+      max-width: 100vw;
+      height: auto;
+      min-height: 140px;
+      margin: 5px 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .flashcard {
+      width: 80vw;
+      max-width: 80vw;
+      /*height: auto;
+      aspect-ratio: 3/2; */
+  }
+}
+
+.flashcard.flipped {
+    transform: rotateY(180deg);
+}
+
+.flashcard-front, .flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid rgba(255, 100, 255, 0.4);
+}
+
+.flashcard-front {
+    background: linear-gradient(135deg, rgba(255, 0, 150, 0.2), rgba(0, 255, 255, 0.2));
+}
+
+.flashcard-back {
+    background: linear-gradient(135deg, rgba(0, 255, 255, 0.2), rgba(255, 0, 150, 0.2));
+    transform: rotateY(180deg);
+}
         
         .card-word {
             font-size: 2.5rem;
@@ -393,14 +427,14 @@
         }
         
         .card-definition {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             color: #ccccff;
             line-height: 1.4;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
         
         .card-sentence {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             color: #ffccff;
             font-style: italic;
             line-height: 1.4;
@@ -608,55 +642,51 @@
                 padding: 20px 15px;
                 min-height: 70px;
             }
+            .welcomeMessage {
+                text-align: center;
+                width: 100%;
+                margin-bottom: 0.5em;
+                grid-column: 1 / -1; /* makes it span all columns in a grid */
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1 class="title">🎤⚔️ K-POP WORD WARRIORS ⚔️🎤</h1>
+            <h1 class="title">🎤⚔️ K-POP WORD WARRIOR ⚔️🎤</h1>
             <p class="subtitle">A Mystical Vocabulary Quest</p>
         </div>
         
         <div id="mainMenu" class="game-setup">
-            <div class="setup-message">
-                <p><span style="color: #00ffff;">💙</span> Welcome to the Mystical Realm! <span style="color: #00ffff;">💙</span></p>
-                <p>The ancient K-Pop universe awaits a brave vocabulary warrior. Dark forces have scattered mystical words across dimensions, and only your knowledge can restore balance!</p>
+            <div class="setup-message" >
+                <p><span style="color: #00ffff;">💙</span> Welcome Warrior! <span style="color: #00ffff;">💙</span></p>
+                <p>Dark forces have scattered powerful K-Pop words across dimensions. Only your vocabulary skills can restore balance!</p>
                 
-                <div style="margin: 20px 0;">
-                    <label for="playerName" style="display: block; margin-bottom: 8px; color: #ff64ff; font-weight: 600;">Enter your warrior name:</label>
-                    <input type="text" id="playerName" placeholder="Enter your name..." 
-                           style="width: 100%; max-width: 300px; padding: 12px; border-radius: 10px; border: 2px solid rgba(255, 100, 255, 0.4); background: rgba(0, 0, 0, 0.3); color: #ffffff; font-size: 1rem; font-family: inherit; text-align: center;"
-                           onkeypress="if(event.key==='Enter') updatePlayerName()">
-                    <button onclick="updatePlayerName()" style="margin-left: 10px; padding: 12px 20px; border-radius: 10px; border: none; background: #4a1a5c; color: #ffffff; font-weight: 700; cursor: pointer; font-family: inherit;">Set Name</button>
-                </div>
-                
-                <p id="welcomeMessage">Choose your training method to begin your quest:</p>
             </div>
-            <div class="quest-buttons">
-                <button class="quest-button" onclick="startQuizMode()">⚔ Quiz Battle Mode</button>
-                <button class="quest-button" onclick="startMatchingMode()">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="margin-right: 8px; vertical-align: middle;">
-                        <path d="M3 4C3 4 5 6 5 12C5 18 3 20 3 20" stroke="white" stroke-width="2" fill="none"/>
-                        <path d="M5 12H15" stroke="white" stroke-width="2"/>
-                        <path d="M12 9L15 12L12 15" fill="white"/>
-                        <path d="M3 4L5 12L3 20" stroke="white" stroke-width="1" fill="none"/>
-                    </svg>
-                    Word Slaying Match
-                </button>
-                <button class="quest-button" onclick="startFillBlankMode()">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="margin-right: 8px; vertical-align: middle;">
-                        <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>
-                    </svg>
-                    Fill in the Blank
-                </button>
-                <button class="quest-button" onclick="startFlashcardMode()">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="margin-right: 8px; vertical-align: middle;">
-                        <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="white" stroke-width="2" fill="white"/>
-                        <path d="M6 8H18M6 12H18M6 16H14" stroke="black" stroke-width="1.5"/>
-                    </svg>
-                    Flashcard Study Mode
-                </button>
+            <div class="quest-selection" id="quest-selection" style="text-align: center;" >
+                <p id="welcomeMessage" style="text-align: center;">Choose your training method to begin your quest:</p>
+                <div class="quest-buttons" id="quest-buttons">
+                    <button class="quest-button" onclick="startQuizMode()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sword-icon lucide-sword"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" x2="19" y1="19" y2="13"/><line x1="16" x2="20" y1="16" y2="20"/><line x1="19" x2="21" y1="21" y2="19"/></svg>
+                        Quiz Battle Mode
+                    </button>
+                    <button class="quest-button" onclick="startMatchingMode()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bow-arrow-icon lucide-bow-arrow"><path d="M17 3h4v4"/><path d="M18.575 11.082a13 13 0 0 1 1.048 9.027 1.17 1.17 0 0 1-1.914.597L14 17"/><path d="M7 10 3.29 6.29a1.17 1.17 0 0 1 .6-1.91 13 13 0 0 1 9.03 1.05"/><path d="M7 14a1.7 1.7 0 0 0-1.207.5l-2.646 2.646A.5.5 0 0 0 3.5 18H5a1 1 0 0 1 1 1v1.5a.5.5 0 0 0 .854.354L9.5 18.207A1.7 1.7 0 0 0 10 17v-2a1 1 0 0 0-1-1z"/><path d="M9.707 14.293 21 3"/></svg>
+                        Word Slaying Match
+                    </button>
+                    <button class="quest-button" onclick="startFillBlankMode()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil-line-icon lucide-pencil-line"><path d="M13 21h8"/><path d="m15 5 4 4"/><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/></svg>
+                        Fill in the Blank
+                    </button>
+                    <button class="quest-button" onclick="startFlashcardMode()">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" style="margin-right: 8px; vertical-align: middle;">
+                            <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="white" stroke-width="2" fill="white"/>
+                            <path d="M6 8H18M6 12H18M6 16H14" stroke="black" stroke-width="1.5"/>
+                        </svg>
+                        Flashcard Study Mode
+                    </button>
+                </div>
             </div>
         </div>
         
@@ -807,9 +837,7 @@
         let flashcardDeck = [];
         let isFlipped = false;
         
-        // Player name variable
-        let playerName = "Abby";
-        
+       
         // Fill in the blank variables
         let fillBlankMode = false;
         let currentFillBlankIndex = 0;
@@ -873,51 +901,14 @@
             }
         ];
         
-        function generateContextualSentence(wordObj) {
-            const template = sentenceTemplates[Math.floor(Math.random() * sentenceTemplates.length)];
-            
-            // Determine context based on word meaning
-            let contextType = "neutral";
-            const definition = wordObj.definition.toLowerCase();
-            
-            if (definition.includes("good") || definition.includes("kind") || definition.includes("friendly") || 
-                definition.includes("wise") || definition.includes("skilled") || definition.includes("outstanding") ||
-                definition.includes("generous") || definition.includes("brave") || definition.includes("fearless") ||
-                definition.includes("clear") || definition.includes("peaceful") || definition.includes("joyful")) {
-                contextType = "positive";
-            } else if (definition.includes("bad") || definition.includes("evil") || definition.includes("harmful") ||
-                      definition.includes("lazy") || definition.includes("clumsy") || definition.includes("weak") ||
-                      definition.includes("dull") || definition.includes("boring") || definition.includes("careless") ||
-                      definition.includes("angry") || definition.includes("hostile") || definition.includes("wicked")) {
-                contextType = "negative";
-            }
-            
-            const actions = template.contexts[contextType];
-            const action = actions[Math.floor(Math.random() * actions.length)];
-            
-            return template.template.replace('{name}', playerName).replace('{word}', wordObj.word.toLowerCase()).replace('{action}', action);
-        }
         
         function initializeGame() {
-            vocabularyWords = sampleVocab;
             showMainMenu();
         }
         
-        function updatePlayerName() {
-            const nameInput = document.getElementById('playerName');
-            const inputName = nameInput.value.trim();
-            
-            if (inputName) {
-                playerName = inputName;
-                document.getElementById('welcomeMessage').innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Greetings, Warrior ${playerName}! <svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><br>Choose your training method to begin your quest:`;
-                nameInput.style.borderColor = 'rgba(0, 255, 0, 0.6)';
-            } else {
-                nameInput.style.borderColor = 'rgba(255, 0, 0, 0.6)';
-                setTimeout(() => {
-                    nameInput.style.borderColor = 'rgba(255, 100, 255, 0.4)';
-                }, 1000);
-            }
-        }
+        // Run on page load
+        window.addEventListener('DOMContentLoaded', function() {
+        });
         
         function showMainMenu() {
             document.getElementById('mainMenu').classList.remove('hidden');
@@ -931,7 +922,7 @@
         
         function startQuizMode() {
             flashcardMode = false;
-            document.getElementById('battlePrepMessage').innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Prepare for Battle, Warrior ${playerName}! <svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`;
+            document.getElementById('battlePrepMessage').innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Prepare for Battle, Warrior! <svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`;
             document.getElementById('mainMenu').classList.add('hidden');
             document.getElementById('gameSetup').classList.remove('hidden');
             setTimeout(() => {
@@ -1076,7 +1067,7 @@
             if (isCorrect) {
                 feedback.className = 'feedback correct';
                 feedback.innerHTML = `
-                    <p><svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Excellent, Warrior ${playerName}! <svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></p>
+                    <p><svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Excellent, Warrior! <svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></p>
                     <p><strong>${currentFillBlankWord.word}</strong> means "${currentFillBlankWord.definition}"</p>
                     <p>Your sentence mastery grows stronger!</p>
                 `;
@@ -1089,7 +1080,7 @@
             } else {
                 feedback.className = 'feedback incorrect';
                 feedback.innerHTML = `
-                    <p>⚡ Not quite, brave ${playerName}! ⚡</p>
+                    <p>⚡ Not quite, brave Warrior! ⚡</p>
                     <p>Try again to complete this mystical sentence!</p>
                 `;
                 
@@ -1108,7 +1099,7 @@
             document.getElementById('fillBlankContainer').classList.add('hidden');
             document.getElementById('finalScore').classList.remove('hidden');
             
-            const message = `🏆 SENTENCE MASTER! 🏆<br>Quest Complete!<br>Warrior ${playerName}, you have mastered the art of mystical sentence completion! Your understanding of vocabulary in context is legendary!`;
+            const message = `🏆 SENTENCE MASTER! 🏆<br>Quest Complete!<br>Warrior, you have mastered the art of mystical sentence completion! Your understanding of vocabulary in context is legendary!`;
             
             document.getElementById('finalMessage').innerHTML = message;
         }
@@ -1196,7 +1187,7 @@
                 score++;
                 feedback.className = 'feedback correct';
                 feedback.innerHTML = `
-                    <p><svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Excellent work, Warrior ${playerName}! <svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></p>
+                    <p><svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Excellent work, Warrior! <svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></p>
                     <p><strong>${currentWord.word}</strong> means "${currentWord.definition}"</p>
                     <p>Your mystical knowledge grows stronger! The demons tremble before your vocabulary prowess!</p>
                 `;
@@ -1204,7 +1195,7 @@
             } else {
                 feedback.className = 'feedback incorrect';
                 feedback.innerHTML = `
-                    <p>⚡ Not quite, brave ${playerName}! ⚡</p>
+                    <p>⚡ Not quite, brave Warrior! ⚡</p>
                     <p>The shadows whisper "try again"... Your destiny awaits another choice!</p>
                 `;
                 
@@ -1238,13 +1229,13 @@
             let message = "";
             
             if (percentage === 100) {
-                message = `🏆 LEGENDARY VOCAB WARRIOR! 🏆<br>Perfect score: ${score}/${currentQuiz.length}!<br>${playerName}, you have achieved ultimate vocabulary mastery! The K-Pop realm is forever in your debt!`;
+                message = `🏆 LEGENDARY VOCAB WARRIOR! 🏆<br>Perfect score: ${score}/${currentQuiz.length}!<br>Warrior, you have achieved ultimate vocabulary mastery! The K-Pop realm is forever in your debt!`;
             } else if (percentage >= 80) {
-                message = `<svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> MASTER WARRIOR! <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>Outstanding work, ${playerName}! You've proven yourself worthy of the mystical vocabulary crown!`;
+                message = `<svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> MASTER WARRIOR! <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>Outstanding work, Warrior! You've proven yourself worthy of the mystical vocabulary crown!`;
             } else if (percentage >= 60) {
-                message = `🎵 SKILLED APPRENTICE! 🎵<br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>Well done, ${playerName}! Your powers are growing stronger with each quest!`;
+                message = `🎵 SKILLED APPRENTICE! 🎵<br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>Well done, Warrior! Your powers are growing stronger with each quest!`;
             } else {
-                message = `<svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> BRAVE NOVICE! <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>Every great warrior starts somewhere, ${playerName}! Your journey to vocabulary mastery continues!`;
+                message = `<svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> BRAVE NOVICE! <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>Every great warrior starts somewhere! Your journey to vocabulary mastery continues!`;
             }
             
             document.getElementById('finalMessage').innerHTML = message;
@@ -1267,7 +1258,7 @@
             
             // Update round display
             document.getElementById('matchingRound').textContent = `Round ${currentMatchingRound} of 4`;
-            document.getElementById('matchingProgress').textContent = `Match the words with their synonyms to slay them! (${playerName}'s Battle ${currentMatchingRound})`;
+            document.getElementById('matchingProgress').textContent = `Match the words with their synonyms to slay them! (Warrior's Battle ${currentMatchingRound})`;
             
             // Select 5 random words for this round
             const shuffled = [...vocabularyWords].sort(() => 0.5 - Math.random());
@@ -1413,7 +1404,7 @@
             document.getElementById('matchingContainer').classList.add('hidden');
             document.getElementById('finalScore').classList.remove('hidden');
             
-            const message = `🏆 ULTIMATE WORD WARRIOR! 🏆<br>Conquest Complete!<br>${playerName}, you have mastered the art of word slaying! All four realms bow before your vocabulary prowess! The K-Pop universe is forever changed by your legendary skills!`;
+            const message = `🏆 ULTIMATE WORD WARRIOR! 🏆<br>Conquest Complete!<br>Warrior, you have mastered the art of word slaying! All four realms bow before your vocabulary prowess! The K-Pop universe is forever changed by your legendary skills!`;
             
             document.getElementById('finalMessage').innerHTML = message;
         }
@@ -1421,7 +1412,9 @@
         // Initialize the game
         initializeGame();
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96c80f5921034ce1',t:'MTc1NDc1MDk2NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>/*(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96c80f5921034ce1',t:'MTc1NDc1MDk2NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();*/</script>
+
+</body>
 </html>
 
 
