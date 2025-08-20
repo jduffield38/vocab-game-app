@@ -53,26 +53,25 @@
 
         @media (max-width: 600px) {
             .setup-message {
-                flex-direction: column !important;
-                align-items: center !important;
-                gap: 10px !important;
+                gap: 10px;
+                /* Keep flex-direction: row */
             }
             .speech-bubble {
-                max-width: 95vw;
+                max-width: 70vw;
                 font-size: 0.97rem;
                 padding: 16px 12px;
             }
             .speech-bubble:before {
-                left: 18px;
-                top: -18px;
-                border-top: none;
-                border-right: 14px solid transparent;
-                border-left: 14px solid transparent;
-                border-bottom: 18px solid #290045;
-                border-right-width: 0;
-                border-left-width: 0;
+                left: -18px;
+                top: 36px;
+                border-top: 14px solid transparent;
+                border-bottom: 14px solid transparent;
+                border-right: 18px solid #290045;
+                border-left: none;
+                border-bottom-width: 0;
             }
         }
+
         
         /* Animated background effects */
         body::before {
@@ -93,7 +92,7 @@
         
         @keyframes mysticalGlow {
             0% { opacity: 0.3; transform: scale(1); }
-            100% { opacity: 0.7; transform: scale(1.1); }
+            100% { opacity: 0.7; transform: scale(0.95); }
         }
         
         .container {
@@ -105,6 +104,7 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            overflow: hidden;
         }
         
         .header {
@@ -216,6 +216,7 @@
             margin-bottom: 15px;
             flex: 1;
             overflow-y: auto;
+            overflow: hidden;
         }
         
         .option-button {
@@ -238,7 +239,6 @@
         .option-button:hover {
             background: linear-gradient(45deg, rgba(255, 0, 150, 0.4), rgba(0, 255, 255, 0.4));
             border-color: rgba(255, 100, 255, 0.8);
-            transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(255, 0, 255, 0.3);
         }
         
@@ -251,18 +251,18 @@
         .option-button.incorrect {
             background: linear-gradient(45deg, rgba(255, 0, 0, 0.3), rgba(200, 0, 0, 0.3));
             border-color: #ff0000;
-            animation: incorrectShake 0.6s ease-in-out;
+            animation: incorrectShake 0.3s ease-in-out;
         }
         
         @keyframes correctPulse {
             0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.05); }
+            50% { transform: scale(0.95); }
         }
         
         @keyframes incorrectShake {
             0%, 100% { transform: translateX(0); }
-            25% { transform: translateX(-5px); }
-            75% { transform: translateX(5px); }
+            25% { transform: translateY(-2px); }
+            75% { transform: translateY(2px); }
         }
         
         .action-buttons {
@@ -305,7 +305,6 @@
         
         .quest-button:hover {
             background: #5c2070;
-            transform: translateY(-3px);
             box-shadow: 0 8px 25px rgba(74, 26, 92, 0.6);
             border-color: rgba(255, 100, 255, 0.6);
         }
@@ -325,7 +324,6 @@
         
         .action-button:hover {
             background: #5c2070;
-            transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(74, 26, 92, 0.6);
         }
         
@@ -557,7 +555,6 @@
         .matching-card:hover {
             background: linear-gradient(45deg, rgba(255, 0, 150, 0.4), rgba(0, 255, 255, 0.4));
             border-color: rgba(255, 100, 255, 0.8);
-            transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(255, 0, 255, 0.3);
         }
         
@@ -570,13 +567,13 @@
         .matching-card.correct {
             background: linear-gradient(45deg, rgba(0, 255, 0, 0.4), rgba(0, 200, 100, 0.4));
             border-color: #00ff00;
-            animation: slayAnimation 1s ease-in-out forwards;
+            animation: slayAnimation 0.5s ease-in-out forwards;
         }
         
         .matching-card.incorrect {
             background: linear-gradient(45deg, rgba(255, 0, 0, 0.3), rgba(200, 0, 0, 0.3));
             border-color: #ff0000;
-            animation: incorrectShake 0.6s ease-in-out;
+            animation: incorrectShake 0.3s ease-in-out;
         }
         
         @keyframes slayAnimation {
@@ -585,16 +582,16 @@
                 opacity: 1;
             }
             25% { 
-                transform: scale(1.1) rotate(5deg);
+                transform: scale(0.9) rotate(5deg);
                 background: linear-gradient(45deg, rgba(0, 255, 0, 0.6), rgba(0, 255, 255, 0.6));
                 box-shadow: 0 0 30px rgba(0, 255, 0, 0.8);
             }
             50% { 
-                transform: scale(1.2) rotate(-5deg);
+                transform: scale(0.8) rotate(-5deg);
                 opacity: 0.8;
             }
             75% { 
-                transform: scale(0.8) rotate(10deg);
+                transform: scale(0.7) rotate(10deg);
                 opacity: 0.4;
             }
             100% { 
@@ -625,7 +622,7 @@
         
         @keyframes victoryPulse {
             0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.05); }
+            50% { transform: scale(.95); }
         }
         
         .round-complete h3 {
@@ -658,6 +655,7 @@
             
             .container {
                 padding: 8px;
+                overflow: hidden;
             }
             
             .header {
@@ -667,6 +665,7 @@
             
             .game-setup, .quiz-container {
                 padding: 12px;
+                overflow: hidden;
             }
             
             .question-header {
@@ -712,17 +711,17 @@
         
         <div id="mainMenu" class="game-setup">
             <!-- initial menu -->
-            <div class="setup-message" style="display: flex; align-items: flex-start; justify-content: center; gap: 18px;">
+            <div class="setup-message" style="display: flex; align-items: flex-start; justify-content: center; gap: 18px; flex-wrap: nowrap;">
                 <!-- Character image -->
-                <img src="main.png" alt="Main Character" style="width: 190px; height: 290px; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 16px #380a43bb; background: #2a0037; flex-shrink: 0; margin-top: 6px;">
+                <img src="main.png" alt="Main Character" style="width: 20vw; max-width: 120px; height: auto; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 16px #380a43bb; background: #2a0037; flex-shrink: 0; margin-top: 6px;">
                 <!-- Speech bubble -->
-                <div class="speech-bubble">
+                <div class="speech-bubble" style="flex: 1; min-width: 0;">
                     <p>Welcome Warrior!</p>
                     <p>Dark forces have scattered powerful K-Pop words across dimensions. Only your vocabulary skills can restore balance!</p>
                 </div>
             </div>
             <div class="quest-selection" id="quest-selection" style="text-align: center;" >
-                <p id="welcomeMessage" style="text-align: center;">Choose your training method to begin your quest:</p>
+                <br><p id="welcomeMessage" style="text-align: center;">Choose your training method<br> to begin your quest:</p><br>
                 <div class="quest-buttons" id="quest-buttons">
                     <button class="quest-button" onclick="startQuizMode()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sword-icon lucide-sword"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" x2="19" y1="19" y2="13"/><line x1="16" x2="20" y1="16" y2="20"/><line x1="19" x2="21" y1="21" y2="19"/></svg>
@@ -1162,7 +1161,17 @@
             document.getElementById('fillBlankContainer').classList.add('hidden');
             document.getElementById('finalScore').classList.remove('hidden');
             
-            const message = `🏆 SENTENCE MASTER! 🏆<br>Quest Complete!<br>Warrior, you have mastered the art of mystical sentence completion! Your understanding of vocabulary in context is legendary!`;
+            const message = `🏆 SENTENCE MASTER! 🏆<br>
+                <br><div class="setup-message" style="display: flex; align-items: flex-start; justify-content: center; gap: 18px; flex-wrap: nowrap;">
+                    <!-- Character image -->
+                    <img src="final.png" alt="Main Character" style="width: 25vw; max-width: 120px; height: auto; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 16px #380a43bb; background: #2a0037; flex-shrink: 1; margin-top: 6px;">
+                    
+                    <!-- Speech bubble -->
+                    <div class="speech-bubble" style="flex: 1; min-width: 0;">
+                        Brave Warrior, you have mastered the art of mystical sentence completion! Your understanding of vocabulary is legendary!
+                    </div>
+                </div>
+                `;
             
             document.getElementById('finalMessage').innerHTML = message;
         }
@@ -1292,13 +1301,49 @@
             let message = "";
             
             if (percentage === 100) {
-                message = `🏆 LEGENDARY VOCAB WARRIOR! 🏆<br>Perfect score: ${score}/${currentQuiz.length}!<br>Warrior, you have achieved ultimate vocabulary mastery! The K-Pop realm is forever in your debt!`;
+                message = `🏆 LEGENDARY VOCAB WARRIOR! 🏆<br>Perfect score: ${score}/${currentQuiz.length}!<br><br><div class="setup-message" style="display: flex; align-items: flex-start; justify-content: center; gap: 18px; flex-wrap: nowrap;">
+                        <!-- Character image -->
+                        <img src="final.png" alt="Main Character" 
+                            style="width: 25vw; max-width: 120px; height: auto; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 16px #380a43bb; background: #2a0037; flex-shrink: 1; margin-top: 6px;">
+                        
+                        <!-- Speech bubble -->
+                        <div class="speech-bubble" style="flex: 1; min-width: 0;">
+                            Warrior, you have achieved ultimate vocabulary mastery! The K-Pop realm is forever in your debt!</div>
+                    </div>`;
             } else if (percentage >= 80) {
-                message = `<svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> MASTER WARRIOR! <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>Outstanding work, Warrior! You've proven yourself worthy of the mystical vocabulary crown!`;
+                message = `<svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> MASTER WARRIOR! <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>
+                    <br><div class="setup-message" style="display: flex; align-items: flex-start; justify-content: center; gap: 18px; flex-wrap: nowrap;">
+                        <!-- Character image -->
+                        <img src="final.png" alt="Main Character" 
+                            style="width: 25vw; max-width: 120px; height: auto; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 16px #380a43bb; background: #2a0037; flex-shrink: 1; margin-top: 6px;">
+                        
+                        <!-- Speech bubble -->
+                        <div class="speech-bubble" style="flex: 1; min-width: 0;">
+                            Outstanding work, Warrior! You've proven yourself worthy of the mystical vocabulary crown!
+                        </div>
+                    </div>`;
             } else if (percentage >= 60) {
-                message = `🎵 SKILLED APPRENTICE! 🎵<br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>Well done, Warrior! Your powers are growing stronger with each quest!`;
+                message = `🎵 SKILLED APPRENTICE! 🎵<br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>
+                    <br><div class="setup-message" style="display: flex; align-items: flex-start; justify-content: center; gap: 18px; flex-wrap: nowrap;">
+                        <!-- Character image -->
+                        <img src="main.png" alt="Main Character" 
+                            style="width: 25vw; max-width: 120px; height: auto; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 16px #380a43bb; background: #2a0037; flex-shrink: 1; margin-top: 6px;">
+                        
+                        <!-- Speech bubble -->
+                        <div class="speech-bubble" style="flex: 1; min-width: 0;">
+                    Well done, Warrior! Your powers are growing stronger with each quest!</div>
+                    </div>`;
             } else {
-                message = `<svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> BRAVE NOVICE! <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>Every great warrior starts somewhere! Your journey to vocabulary mastery continues!`;
+                message = `<svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> BRAVE NOVICE! <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align: middle; margin: 0 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><br>Score: ${score}/${currentQuiz.length} (${percentage}%)<br>
+                    <br><div class="setup-message" style="display: flex; align-items: flex-start; justify-content: center; gap: 18px; flex-wrap: nowrap;">
+                        <!-- Character image -->
+                        <img src="main.png" alt="Main Character" 
+                            style="width: 25vw; max-width: 120px; height: auto; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 16px #380a43bb; background: #2a0037; flex-shrink: 1; margin-top: 6px;">
+                        
+                        <!-- Speech bubble -->
+                        <div class="speech-bubble" style="flex: 1; min-width: 0;">
+                    Every great warrior starts somewhere! Your journey to vocabulary mastery continues!</div>
+                    </div>`;
             }
             
             document.getElementById('finalMessage').innerHTML = message;
@@ -1467,7 +1512,18 @@
             document.getElementById('matchingContainer').classList.add('hidden');
             document.getElementById('finalScore').classList.remove('hidden');
             
-            const message = `🏆 ULTIMATE WORD WARRIOR! 🏆<br>Conquest Complete!<br>Warrior, you have mastered the art of word slaying! All four realms bow before your vocabulary prowess! The K-Pop universe is forever changed by your legendary skills!`;
+            const message = `🏆 ULTIMATE WORD WARRIOR! 🏆<br>Conquest Complete!<br><br>
+                <div class="setup-message" style="display: flex; align-items: flex-start; justify-content: center; gap: 18px; flex-wrap: nowrap;">
+                    <!-- Character image -->
+                    <img src="main.png" alt="Main Character" 
+                        style="width: 25vw; max-width: 120px; height: auto; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 16px #380a43bb; background: #2a0037; flex-shrink: 1; margin-top: 6px;">
+                    
+                    <!-- Speech bubble -->
+                    <br><div class="speech-bubble" style="flex: 1; min-width: 0;">
+                Warrior, you have mastered the art of word slaying! All four realms bow before your vocabulary prowess! The K-Pop universe is forever changed by your legendary skills!
+                    </div>
+                </div>
+                `;
             
             document.getElementById('finalMessage').innerHTML = message;
         }
