@@ -1,0 +1,9 @@
+{
+	"appId": "com.jduffield.kpopvocab",
+	"appName": "K-Pop Word Warrior",
+	"webDir": "www",
+	"server": {
+		"androidScheme": "https"
+	},
+	"packageClassList": []
+}

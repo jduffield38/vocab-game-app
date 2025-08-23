@@ -1,0 +1,4802 @@
+[
+  {
+    "word": "SOPHOMORIC",
+    "definition": "immature or overconfident; juvenile behavior",
+    "synonym": "immature",
+    "sentence": "His sophomoric prank embarrassed the whole class."
+  },
+  {
+    "word": "ACERBIC",
+    "definition": "sharp or bitter in taste or tone",
+    "synonym": "sharp",
+    "sentence": "His acerbic comment about the play made some people laugh and others cringe."
+  },
+  {
+    "word": "IMPECCABLE",
+    "definition": "perfect and without any faults",
+    "synonym": "flawless",
+    "sentence": "Her attendance record was impeccable all year."
+  },
+  {
+    "word": "DIAPHANOUS",
+    "definition": "light, delicate, and translucent",
+    "synonym": "sheer",
+    "sentence": "The diaphanous curtain let soft sunlight into the room."
+  },
+  {
+    "word": "ELBOW",
+    "definition": "to push gently with your arm to make space or move through a crowd",
+    "synonym": "nudge",
+    "sentence": "She had to elbow her way through the crowded hallway to reach her locker."
+  },
+  {
+    "word": "JADED",
+    "definition": "tired or bored because of too much of something",
+    "synonym": "weary",
+    "sentence": "After watching so many movies, he felt jaded and wanted a new activity."
+  },
+  {
+    "word": "ADEPT",
+    "definition": "very skilled at something",
+    "synonym": "skilled",
+    "sentence": "Nina is adept at solving puzzles and rarely gets stuck."
+  },
+  {
+    "word": "DOLENT",
+    "definition": "expressing sorrow or sadness",
+    "synonym": "sorrowful",
+    "sentence": "He looked dolent after hearing the news about the canceled trip."
+  },
+  {
+    "word": "DECORUM",
+    "definition": "proper behavior and manners in public",
+    "synonym": "propriety",
+    "sentence": "Students were expected to show decorum during the assembly."
+  },
+  {
+    "word": "PRUDENT",
+    "definition": "showing careful good judgment; cautious",
+    "synonym": "wise",
+    "sentence": "Being prudent, Sam checked the weather before deciding to bike to school."
+  },
+  {
+    "word": "BENIGNITY",
+    "definition": "kindness or favor; gentle disposition",
+    "synonym": "kindness",
+    "sentence": "His benignity toward new students made them feel welcome."
+  },
+  {
+    "word": "DEFAMATION",
+    "definition": "the act of harming someoneâ€™s reputation by false statements",
+    "synonym": "slander",
+    "sentence": "The article faced legal trouble for defamation of character."
+  },
+  {
+    "word": "OPPORTUNE",
+    "definition": "happening at a good or useful time",
+    "synonym": "timely",
+    "sentence": "Your call was opportuneâ€”just when I needed help."
+  },
+  {
+    "word": "ELUSIVE",
+    "definition": "difficult to find, catch, or understand",
+    "synonym": "hard-to-find",
+    "sentence": "The solution to the puzzle remained elusive despite many attempts."
+  },
+  {
+    "word": "EQUIVOCAL",
+    "definition": "open to more than one interpretation; ambiguous",
+    "synonym": "ambiguous",
+    "sentence": "His answer was equivocal and left the group unsure of his position."
+  },
+  {
+    "word": "DEBILITATING",
+    "definition": "making someone weak or infirm (repeat)",
+    "synonym": "weakening",
+    "sentence": "A debilitating illness kept him out of school for weeks."
+  },
+  {
+    "word": "ERUDITE",
+    "definition": "having or showing great knowledge; learned",
+    "synonym": "learned",
+    "sentence": "The erudite professor answered every question with clear facts."
+  },
+  {
+    "word": "MALLEABLE",
+    "definition": "able to be shaped or changed easily",
+    "synonym": "flexible",
+    "sentence": "Gold is malleable enough to be formed into thin sheets."
+  },
+  {
+    "word": "POSTHUMOUS",
+    "definition": "happening after a personâ€™s death",
+    "synonym": "post-death",
+    "sentence": "The composer received a posthumous award for his work."
+  },
+  {
+    "word": "OMNISCIENT",
+    "definition": "knowing everything; having complete knowledge",
+    "synonym": "all-knowing",
+    "sentence": "The narrator was omniscient and explained each characterâ€™s thoughts."
+  },
+  {
+    "word": "SARDONIC",
+    "definition": "mocking or cynical in a scornful way",
+    "synonym": "sarcastic",
+    "sentence": "His sardonically phrased comment hurt her feelings."
+  },
+  {
+    "word": "GLEAN",
+    "definition": "to gather information or material bit by bit, often from different sources",
+    "synonym": "collect",
+    "sentence": "Students gleaned useful facts from many short articles for their report."
+  },
+  {
+    "word": "DIN",
+    "definition": "a loud, continuous noise that is unpleasant or confusing",
+    "synonym": "clamor",
+    "sentence": "The din of the construction made it hard to hear the announcement."
+  },
+  {
+    "word": "DOCILE",
+    "definition": "easily taught or controlled; gentle",
+    "synonym": "obedient",
+    "sentence": "The new puppy was surprisingly docile during training."
+  },
+  {
+    "word": "RECONCILE",
+    "definition": "to restore friendly relations between people",
+    "synonym": "settle",
+    "sentence": "They tried to reconcile after the misunderstanding."
+  },
+  {
+    "word": "COGENT",
+    "definition": "appealing forcibly to the mind or reason; convincing",
+    "synonym": "persuasive",
+    "sentence": "She made a cogent argument in the debate that few could refute."
+  },
+  {
+    "word": "CONFLAGRATION",
+    "definition": "a large destructive fire",
+    "synonym": "blaze",
+    "sentence": "The forest suffered a massive conflagration that forced evacuations."
+  },
+  {
+    "word": "FRAIL",
+    "definition": "physically weak and easily broken or damaged",
+    "synonym": "delicate",
+    "sentence": "The frail bird needed careful help until it could fly again."
+  },
+  {
+    "word": "COMPLEXION",
+    "definition": "the natural color, texture, and appearance of the skin, or the general character of something",
+    "synonym": "appearance",
+    "sentence": "The cityâ€™s complexion changed after the renovation projects finished."
+  },
+  {
+    "word": "ARBITRARY",
+    "definition": "based on random choice rather than reason",
+    "synonym": "random",
+    "sentence": "The seating chart seemed arbitrary, and no one knew why seats were chosen."
+  },
+  {
+    "word": "PROLIFIC",
+    "definition": "producing a lot; highly productive",
+    "synonym": "productive",
+    "sentence": "The prolific author published three books last year."
+  },
+  {
+    "word": "DESTITUTE",
+    "definition": "extremely poor and lacking basic necessities",
+    "synonym": "impoverished",
+    "sentence": "Charities work to help destitute families in the city."
+  },
+  {
+    "word": "CONDONE",
+    "definition": "to accept or allow behavior that is wrong",
+    "synonym": "overlook",
+    "sentence": "Parents should not condone cheating on tests."
+  },
+  {
+    "word": "IRASCIBLE",
+    "definition": "quickly angered; easily made angry",
+    "synonym": "irritable",
+    "sentence": "His irascible coach shouted at mistakes during practice."
+  },
+  {
+    "word": "DURABLE",
+    "definition": "able to withstand wear, pressure, or damage; long-lasting",
+    "synonym": "sturdy",
+    "sentence": "They bought a durable backpack that lasted through the school year."
+  },
+  {
+    "word": "FICKLE",
+    "definition": "changing frequently in loyalty or interest",
+    "synonym": "inconstant",
+    "sentence": "Customers are fickle and might change brands quickly."
+  },
+  {
+    "word": "CHASTISE",
+    "definition": "to scold or punish severely",
+    "synonym": "discipline",
+    "sentence": "The principal had to chastise students who vandalized the walls."
+  },
+  {
+    "word": "BASK",
+    "definition": "to enjoy warmth or praise; to relax in the sunlight",
+    "synonym": "revel",
+    "sentence": "They would bask in the sun at the beach after school."
+  },
+  {
+    "word": "AMBIVALENT",
+    "definition": "having mixed or conflicting feelings about something",
+    "synonym": "uncertain",
+    "sentence": "She felt ambivalent about moving to a new schoolâ€”excited but nervous."
+  },
+  {
+    "word": "DUBITABLE",
+    "definition": "doubtful or questionable; uncertain",
+    "synonym": "doubtful",
+    "sentence": "The evidence was dubitable, so the jury hesitated before deciding."
+  },
+  {
+    "word": "FORGE",
+    "definition": "to form or make something, often with effort; also to fake",
+    "synonym": "create",
+    "sentence": "They decided to forge a friendship after months of cooperating."
+  },
+  {
+    "word": "ARBOR",
+    "definition": "a garden structure made of branches or wood that plants can grow on",
+    "synonym": "trellis",
+    "sentence": "The roses climbed up the wooden arbor in the school garden."
+  },
+  {
+    "word": "BROADCAST",
+    "definition": "to send out a radio or television program for people to hear or watch",
+    "synonym": "transmit",
+    "sentence": "The school will broadcast the graduation ceremony live on the internet."
+  },
+  {
+    "word": "CAROUSE",
+    "definition": "to enjoy oneself with noisy, lively drinking or partying",
+    "synonym": "party",
+    "sentence": "The students promised not to carouse before important exams."
+  },
+  {
+    "word": "BALEFUL",
+    "definition": "threatening harm or evil; ominous",
+    "synonym": "menacing",
+    "sentence": "The dark clouds and wind gave a baleful feeling to the evening."
+  },
+  {
+    "word": "CALLOUS",
+    "definition": "insensitive and cruel; showing no concern for others",
+    "synonym": "heartless",
+    "sentence": "It was callous of him to ignore her feelings after the disagreement."
+  },
+  {
+    "word": "DOWNTRODDEN",
+    "definition": "treated badly and kept in a low position by those in power",
+    "synonym": "oppressed",
+    "sentence": "The story showed how downtrodden workers fought for better conditions."
+  },
+  {
+    "word": "LAMENT",
+    "definition": "to express sadness or regret",
+    "synonym": "mourn",
+    "sentence": "They lamented the loss of the old playground after it was removed."
+  },
+  {
+    "word": "ESTIMATE",
+    "definition": "an approximate calculation or opinion of value or size",
+    "synonym": "approximation",
+    "sentence": "Please give an estimate of how many people will attend the event."
+  },
+  {
+    "word": "COROLLARY",
+    "definition": "a result that follows naturally from something else",
+    "synonym": "consequence",
+    "sentence": "A corollary of practice is improved skill over time."
+  },
+  {
+    "word": "EQUITY",
+    "definition": "fairness or justice in treatment",
+    "synonym": "fairness",
+    "sentence": "The school aims to provide equity in access to resources for all students."
+  },
+  {
+    "word": "EXPANSIVE",
+    "definition": "covering a large area or including many different things",
+    "synonym": "broad",
+    "sentence": "The teacher gave an expansive explanation that covered all the important topics."
+  },
+  {
+    "word": "DISPUTATIOUS",
+    "definition": "inclined to argue or debate; argumentative",
+    "synonym": "quarrelsome",
+    "sentence": "His disputatious tone made group discussions tense."
+  },
+  {
+    "word": "EMINENT",
+    "definition": "famous and respected, especially in a particular field",
+    "synonym": "distinguished",
+    "sentence": "The eminent scientist was invited to speak at our school assembly."
+  },
+  {
+    "word": "DETRACTOR",
+    "definition": "someone who criticizes or speaks against something or someone",
+    "synonym": "critic",
+    "sentence": "Even though he had some detractors, most students supported the new class president."
+  },
+  {
+    "word": "CONSTRUE",
+    "definition": "to interpret the meaning of something",
+    "synonym": "interpret",
+    "sentence": "How you construe the poem will affect your analysis in class."
+  },
+  {
+    "word": "CONCUR",
+    "definition": "to agree with someone or something",
+    "synonym": "agree",
+    "sentence": "All the teachers concur that the project was a success."
+  },
+  {
+    "word": "IMPLACABLE",
+    "definition": "unable to be calmed or satisfied; unforgiving",
+    "synonym": "relentless",
+    "sentence": "The coach seemed implacable after the teamâ€™s repeated mistakes."
+  },
+  {
+    "word": "DIVISIVE",
+    "definition": "causing disagreement or conflict between people",
+    "synonym": "controversial",
+    "sentence": "The divisive topic led to a heated debate during student council."
+  },
+  {
+    "word": "EMULATE",
+    "definition": "to imitate someone admired in order to equal or excel them",
+    "synonym": "imitate",
+    "sentence": "She tried to emulate her older sisterâ€™s study habits to improve her grades."
+  },
+  {
+    "word": "CRUSADE",
+    "definition": "a strong movement for a cause; a campaign to change something",
+    "synonym": "campaign",
+    "sentence": "They started a crusade to improve recycling at school and set up new bins."
+  },
+  {
+    "word": "EXTOL",
+    "definition": "to praise enthusiastically",
+    "synonym": "praise",
+    "sentence": "Fans would extol the singerâ€™s performance after the concert."
+  },
+  {
+    "word": "FACILITATE",
+    "definition": "to make a process easier or smoother",
+    "synonym": "assist",
+    "sentence": "The new software will facilitate collaboration among team members."
+  },
+  {
+    "word": "ACCOLADE",
+    "definition": "an award or praise for achievement",
+    "synonym": "praise",
+    "sentence": "Receiving the accolade for her art project made Ana beam with pride."
+  },
+  {
+    "word": "ARGOT",
+    "definition": "special words or phrases used by a particular group of people",
+    "synonym": "slang",
+    "sentence": "The theater students used their own argot that other kids did not understand."
+  },
+  {
+    "word": "SUPPLANT",
+    "definition": "to take the place of something or someone else",
+    "synonym": "replace",
+    "sentence": "New technology may supplant older methods of communication."
+  },
+  {
+    "word": "ASPERITY",
+    "definition": "harshness of tone or manner",
+    "synonym": "roughness",
+    "sentence": "He spoke with asperity after hearing the unfair criticism."
+  },
+  {
+    "word": "ACCLIMATE",
+    "definition": "to adapt to a new climate or situation",
+    "synonym": "adjust",
+    "sentence": "It took a week for the students to acclimate to the new schedule."
+  },
+  {
+    "word": "ASSERT",
+    "definition": "to state something firmly and confidently",
+    "synonym": "declare",
+    "sentence": "She decided to assert her opinion during the class discussion."
+  },
+  {
+    "word": "TRUNCATE",
+    "definition": "to shorten by cutting off a part",
+    "synonym": "shorten",
+    "sentence": "The editor had to truncate the article to fit the magazineâ€™s space."
+  },
+  {
+    "word": "TURBULENT",
+    "definition": "very excited or upset; marked by disturbance",
+    "synonym": "chaotic",
+    "sentence": "The turbulent waters made it impossible to continue the swim meet."
+  },
+  {
+    "word": "DISCREET",
+    "definition": "careful and prudent in speech or action; tactful",
+    "synonym": "tactful",
+    "sentence": "Be discreet when sharing personal stories about others."
+  },
+  {
+    "word": "INCESSANT",
+    "definition": "never stopping; continuous",
+    "synonym": "continuous",
+    "sentence": "The incessant noise from construction made it hard to study."
+  },
+  {
+    "word": "CLOISTER",
+    "definition": "a peaceful or secluded place; to seclude oneself",
+    "synonym": "retreat",
+    "sentence": "She sought a cloister of calm in the library to finish her work."
+  },
+  {
+    "word": "DELIQUESCENT",
+    "definition": "becoming liquid or melting away; fading",
+    "synonym": "dissolving",
+    "sentence": "The snow had a deliquescent quality in the warm afternoon sun."
+  },
+  {
+    "word": "REPLICA",
+    "definition": "an exact copy or reproduction",
+    "synonym": "copy",
+    "sentence": "The museum displayed a replica of the ancient statue for students to study."
+  },
+  {
+    "word": "ENUMERATE",
+    "definition": "to list things one by one in order",
+    "synonym": "list",
+    "sentence": "Please enumerate the steps needed to solve this math problem."
+  },
+  {
+    "word": "CIVIL",
+    "definition": "polite and courteous; relating to citizens and government",
+    "synonym": "polite",
+    "sentence": "They had a civil discussion even when they disagreed strongly."
+  },
+  {
+    "word": "EXPORT",
+    "definition": "to send goods or services to another country to sell them there",
+    "synonym": "ship",
+    "sentence": "The company will export their handmade crafts to stores in other countries."
+  },
+  {
+    "word": "EUPHORIC",
+    "definition": "very happy or excited",
+    "synonym": "elated",
+    "sentence": "They felt euphoric after winning the championship."
+  },
+  {
+    "word": "SUPPLICATE",
+    "definition": "to ask humbly and earnestly; to beg",
+    "synonym": "plead",
+    "sentence": "They would supplicate the teacher for extra credit after the exam."
+  },
+  {
+    "word": "AGOG",
+    "definition": "very eager or excited to hear or see something",
+    "synonym": "eager",
+    "sentence": "Students were agog to see the new science exhibit on dinosaurs."
+  },
+  {
+    "word": "EXODUS",
+    "definition": "a large group of people leaving a place at the same time",
+    "synonym": "departure",
+    "sentence": "There was an exodus of students from the cafeteria when the fire alarm rang."
+  },
+  {
+    "word": "EXACERBATE",
+    "definition": "to make a problem or situation worse",
+    "synonym": "worsen",
+    "sentence": "Arguing in public will only exacerbate their disagreement."
+  },
+  {
+    "word": "MEANDER",
+    "definition": "to wander slowly without a fixed direction",
+    "synonym": "wander",
+    "sentence": "We meandered through the park enjoying the warm afternoon."
+  },
+  {
+    "word": "COPACETIC",
+    "definition": "very satisfactory or acceptable; fine",
+    "synonym": "okay",
+    "sentence": "After the changes, everything felt copacetic and back to normal."
+  },
+  {
+    "word": "HAPHAZARD",
+    "definition": "done in a random or disorganized way",
+    "synonym": "random",
+    "sentence": "The decorations looked haphazard because they were put up at the last minute."
+  },
+  {
+    "word": "KUDOS",
+    "definition": "praise or honor for an achievement",
+    "synonym": "praise",
+    "sentence": "Kudos to Mira for organizing the fundraiser so well."
+  },
+  {
+    "word": "UNDULATE",
+    "definition": "to move in waves or with a smooth wavelike motion",
+    "synonym": "ripple",
+    "sentence": "The fields of grain seemed to undulate in the wind."
+  },
+  {
+    "word": "CONTUMACIOUS",
+    "definition": "stubbornly disobedient to authority",
+    "synonym": "defiant",
+    "sentence": "A contumacious student refused to follow the detention rules."
+  },
+  {
+    "word": "INSULAR",
+    "definition": "narrow-minded or isolated from outside influences",
+    "synonym": "isolated",
+    "sentence": "The communityâ€™s insular attitude made it hard to accept new ideas."
+  },
+  {
+    "word": "ELOPE",
+    "definition": "to run away secretly, especially to get married without parental consent",
+    "synonym": "run away",
+    "sentence": "The story included a couple who would elope to avoid family objections."
+  },
+  {
+    "word": "DIVERSE",
+    "definition": "showing many different types or varieties",
+    "synonym": "varied",
+    "sentence": "Our school has a diverse student body with kids from many different countries."
+  },
+  {
+    "word": "DEJECTED",
+    "definition": "sad and depressed; low in spirits",
+    "synonym": "downcast",
+    "sentence": "He looked dejected after the team lost by one point."
+  },
+  {
+    "word": "TACITURN",
+    "definition": "not talkative; reserved in speech",
+    "synonym": "quiet",
+    "sentence": "He was taciturn in class but opened up around close friends."
+  },
+  {
+    "word": "EMERGE",
+    "definition": "to come into view or become known",
+    "synonym": "appear",
+    "sentence": "A pattern began to emerge after analyzing all the data."
+  },
+  {
+    "word": "AMBIGUOUS",
+    "definition": "having more than one possible meaning; unclear",
+    "synonym": "uncertain",
+    "sentence": "The message was ambiguous, so we werenâ€™t sure what time to meet."
+  },
+  {
+    "word": "LACONIC",
+    "definition": "using very few words; brief",
+    "synonym": "concise",
+    "sentence": "His laconic reply made everyone wonder what he really thought."
+  },
+  {
+    "word": "ANTELOPE",
+    "definition": "a swift-running deerlike animal (used as a vocabulary noun)",
+    "synonym": "gazelle",
+    "sentence": "We saw a graceful antelope leap across the plain during the safari exhibit."
+  },
+  {
+    "word": "DESTINED",
+    "definition": "meant to be; certain to happen",
+    "synonym": "meant",
+    "sentence": "They felt destined to become close friends after that shared experience."
+  },
+  {
+    "word": "CUMBERSOME",
+    "definition": "large or heavy and therefore difficult to carry or use",
+    "synonym": "unwieldy",
+    "sentence": "The cumbersome equipment slowed down their work in the lab."
+  },
+  {
+    "word": "ANTICIPATE",
+    "definition": "to expect or look forward to something",
+    "synonym": "expect",
+    "sentence": "She anticipated the party with excitement for weeks."
+  },
+  {
+    "word": "OBLIVIOUS",
+    "definition": "not aware of what is happening around one",
+    "synonym": "unaware",
+    "sentence": "Walking with headphones, she was oblivious to the rain starting."
+  },
+  {
+    "word": "LIMPID",
+    "definition": "clear and easy to understand; transparent",
+    "synonym": "clear",
+    "sentence": "His explanation was limpid, so everyone understood the plan."
+  },
+  {
+    "word": "APPEAL",
+    "definition": "a request for help or a quality that attracts people",
+    "synonym": "attraction/request",
+    "sentence": "The charityâ€™s appeal gathered donations quickly after the message was shared."
+  },
+  {
+    "word": "AMORPHOUS",
+    "definition": "without a clear shape or structure",
+    "synonym": "shapeless",
+    "sentence": "The idea was still amorphous and needed more detail."
+  },
+  {
+    "word": "FETCHING",
+    "definition": "attractive or charming in appearance",
+    "synonym": "appealing",
+    "sentence": "She wore a fetching blue dress to the school dance."
+  },
+  {
+    "word": "OBSEQUIOUS",
+    "definition": "too eager to help or obey someone important; overly flattering",
+    "synonym": "servile",
+    "sentence": "His obsequious behavior toward the principal seemed fake to his classmates."
+  },
+  {
+    "word": "MARRED",
+    "definition": "damaged or spoiled to some extent",
+    "synonym": "blemished",
+    "sentence": "The mural was marred by a few careless paint splashes."
+  },
+  {
+    "word": "CONSPICUOUS",
+    "definition": "easily seen or noticed; obvious",
+    "synonym": "noticeable",
+    "sentence": "Her bright jacket made her conspicuous in the crowd."
+  },
+  {
+    "word": "ARROGANT",
+    "definition": "having an exaggerated sense of oneâ€™s own importance or abilities",
+    "synonym": "haughty",
+    "sentence": "The arrogant student bragged about his grades and annoyed others."
+  },
+  {
+    "word": "EXTRAPOLATE",
+    "definition": "to use known information to make educated guesses about unknown situations",
+    "synonym": "predict",
+    "sentence": "Scientists extrapolate from current data to predict future climate changes."
+  },
+  {
+    "word": "EASYGOING",
+    "definition": "relaxed and not easily worried or upset",
+    "synonym": "laid-back",
+    "sentence": "The easygoing teacher never got angry when students asked questions."
+  },
+  {
+    "word": "PROSAIC",
+    "definition": "commonplace and dull; lacking imagination",
+    "synonym": "ordinary",
+    "sentence": "His prosaic report failed to capture the classâ€™s attention."
+  },
+  {
+    "word": "BEMOAN",
+    "definition": "to express sorrow or disappointment about something",
+    "synonym": "lament",
+    "sentence": "They would bemoan the cancellation of the fair all week."
+  },
+  {
+    "word": "REMORSE",
+    "definition": "deep regret for wrongdoing or a mistake",
+    "synonym": "regret",
+    "sentence": "He felt genuine remorse after breaking his friendâ€™s model airplane."
+  },
+  {
+    "word": "NIMBLE",
+    "definition": "quick and light in movement or thinking",
+    "synonym": "agile",
+    "sentence": "Her nimble fingers fixed the broken toy in minutes."
+  },
+  {
+    "word": "ATONE",
+    "definition": "to make amends or fix a wrongdoing",
+    "synonym": "make amends",
+    "sentence": "He tried to atone for his mistake by helping clean the mess he made."
+  },
+  {
+    "word": "DIVERSION",
+    "definition": "something that distracts attention or provides entertainment",
+    "synonym": "distraction",
+    "sentence": "The funny movie was a welcome diversion from studying for exams."
+  },
+  {
+    "word": "ENTHRALL",
+    "definition": "to capture someone's attention completely; to fascinate",
+    "synonym": "captivate",
+    "sentence": "The magician's performance enthralled the entire audience."
+  },
+  {
+    "word": "DISPERSE",
+    "definition": "to scatter or spread widely",
+    "synonym": "scatter",
+    "sentence": "After the show, the crowd began to disperse toward the exits."
+  },
+  {
+    "word": "CRYPTIC",
+    "definition": "mysterious or having a hidden meaning",
+    "synonym": "mysterious",
+    "sentence": "The teacher left a cryptic hint about the test that confused everyone."
+  },
+  {
+    "word": "COMPLY",
+    "definition": "to follow rules or do what someone asks you to do",
+    "synonym": "obey",
+    "sentence": "All students must comply with the school dress code."
+  },
+  {
+    "word": "DELUGE",
+    "definition": "a severe flood or an overwhelming amount of something",
+    "synonym": "flood",
+    "sentence": "They received a deluge of emails after the announcement."
+  },
+  {
+    "word": "COVERT",
+    "definition": "done secretly or hidden from others",
+    "synonym": "secret",
+    "sentence": "The spy carried out a covert mission to gather information."
+  },
+  {
+    "word": "COLLUSION",
+    "definition": "a secret agreement to commit dishonest or illegal acts",
+    "synonym": "conspiracy",
+    "sentence": "Investigators uncovered collusion among competing businesses to fix prices."
+  },
+  {
+    "word": "NEGLIGIBLE",
+    "definition": "so small or unimportant as to be not worth considering",
+    "synonym": "insignificant",
+    "sentence": "The cost was negligible compared to the benefit it brought."
+  },
+  {
+    "word": "CONSENSUS",
+    "definition": "general agreement among a group",
+    "synonym": "agreement",
+    "sentence": "After long discussion, the class reached a consensus about the field trip."
+  },
+  {
+    "word": "PRECIPITATE",
+    "definition": "to cause something to happen suddenly or sooner than expected",
+    "synonym": "hasten",
+    "sentence": "The announcement could precipitate a rush of applicants."
+  },
+  {
+    "word": "MYRIAD",
+    "definition": "a very large number or many",
+    "synonym": "countless",
+    "sentence": "There are a myriad of stars visible on a clear night."
+  },
+  {
+    "word": "DIALECT",
+    "definition": "a form of language spoken in a particular area or by a particular group",
+    "synonym": "accent",
+    "sentence": "She spoke with a southern dialect that was different from ours."
+  },
+  {
+    "word": "DOLOROUS",
+    "definition": "feeling or expressing great sorrow or distress",
+    "synonym": "sorrowful",
+    "sentence": "The dolorous music matched the sad scene in the play."
+  },
+  {
+    "word": "INVECTIVE",
+    "definition": "insulting or abusive language used to attack someone",
+    "synonym": "abuse",
+    "sentence": "The online discussion descended into invective rather than debate."
+  },
+  {
+    "word": "COMPLACENCY",
+    "definition": "a feeling of self-satisfaction that prevents improvement",
+    "synonym": "self-satisfaction",
+    "sentence": "Complacency after an easy win led to a surprising loss later."
+  },
+  {
+    "word": "ENTREAT",
+    "definition": "to ask someone earnestly or anxiously to do something",
+    "synonym": "implore",
+    "sentence": "They would entreat the judge for a second chance."
+  },
+  {
+    "word": "AUGURY",
+    "definition": "a sign or omen about the future",
+    "synonym": "omen",
+    "sentence": "Many people looked at the clear sky as an augury of good luck for the trip."
+  },
+  {
+    "word": "OBSTINATE",
+    "definition": "stubborn and refusing to change opinion or action",
+    "synonym": "stubborn",
+    "sentence": "The donkey remained obstinate and would not move forward."
+  },
+  {
+    "word": "TUMULT",
+    "definition": "a loud, confused noise, especially from a crowd; chaos",
+    "synonym": "uproar",
+    "sentence": "A tumult broke out when the popular band took the stage unexpectedly."
+  },
+  {
+    "word": "DISSECT",
+    "definition": "to cut apart and examine something carefully",
+    "synonym": "analyze",
+    "sentence": "In biology class, we will dissect a frog to learn about its organs."
+  },
+  {
+    "word": "CENSOR",
+    "definition": "to remove or block parts of books, movies, or speech that are considered inappropriate",
+    "synonym": "ban",
+    "sentence": "The school decided to censor certain websites on student computers."
+  },
+  {
+    "word": "NOCTURNAL",
+    "definition": "active at night",
+    "synonym": "nighttime",
+    "sentence": "Owls are nocturnal birds that hunt when itâ€™s dark."
+  },
+  {
+    "word": "FORMULATE",
+    "definition": "to create or develop a plan, idea, or strategy carefully",
+    "synonym": "develop",
+    "sentence": "The team worked together to formulate a winning strategy for the debate."
+  },
+  {
+    "word": "HEDONIST",
+    "definition": "someone who seeks pleasure as their main goal",
+    "synonym": "pleasure-seeker",
+    "sentence": "A hedonist might choose fun activities over chores every time."
+  },
+  {
+    "word": "MARITAL",
+    "definition": "relating to marriage",
+    "synonym": "matrimonial",
+    "sentence": "They attended a workshop that discussed marital communication skills."
+  },
+  {
+    "word": "DIMINISH",
+    "definition": "to make or become smaller, weaker, or less important",
+    "synonym": "reduce",
+    "sentence": "The loud noise will diminish as we move away from the construction site."
+  },
+  {
+    "word": "GENESIS",
+    "definition": "the beginning or origin of something",
+    "synonym": "beginning",
+    "sentence": "The genesis of her interest in science began with a visit to the museum."
+  },
+  {
+    "word": "DECADENT",
+    "definition": "characterized by moral or cultural decline through luxury or self-indulgence",
+    "synonym": "decaying",
+    "sentence": "Many novels describe decadent societies before they fall apart."
+  },
+  {
+    "word": "RELEGATE",
+    "definition": "to assign to a lower position or place",
+    "synonym": "demote",
+    "sentence": "They threatened to relegate the team to the second division after poor performance."
+  },
+  {
+    "word": "COSMOPOLITAN",
+    "definition": "worldly and familiar with many cultures",
+    "synonym": "worldly",
+    "sentence": "The cityâ€™s cosmopolitan food scene included dishes from around the globe."
+  },
+  {
+    "word": "COMMENSURATE",
+    "definition": "equal in measure or proportion; corresponding in size or degree",
+    "synonym": "proportionate",
+    "sentence": "The prize was commensurate with the effort the team put in."
+  },
+  {
+    "word": "ENNUI",
+    "definition": "a feeling of being bored and tired because nothing interesting is happening",
+    "synonym": "boredom",
+    "sentence": "After three days of rain, the students felt ennui during indoor recess."
+  },
+  {
+    "word": "CRIMSON",
+    "definition": "a deep red color",
+    "synonym": "red",
+    "sentence": "The school colors were crimson and gold for the football team."
+  },
+  {
+    "word": "CONSULT",
+    "definition": "to seek advice or information from someone",
+    "synonym": "ask",
+    "sentence": "Please consult the teacher if you need clarification on the assignment."
+  },
+  {
+    "word": "DISCREDIT",
+    "definition": "to make someone or something seem less trustworthy or reliable",
+    "synonym": "undermine",
+    "sentence": "False rumors can discredit a student's reputation unfairly."
+  },
+  {
+    "word": "RIGOROUS",
+    "definition": "strict, thorough, and demanding",
+    "synonym": "demanding",
+    "sentence": "The rigorous training program prepared athletes for Olympic competition."
+  },
+  {
+    "word": "FACILE",
+    "definition": "too simple or easy; lacking depth",
+    "synonym": "superficial",
+    "sentence": "The teacher said his facile answer showed he hadn't thought deeply about the question."
+  },
+  {
+    "word": "MENTOR",
+    "definition": "an experienced person who advises or helps someone less experienced",
+    "synonym": "advisor",
+    "sentence": "The senior student acted as a mentor to the newcomers."
+  },
+  {
+    "word": "IMPEDE",
+    "definition": "to slow or block progress",
+    "synonym": "obstruct",
+    "sentence": "The fallen tree might impede the cars on the road until crews remove it."
+  },
+  {
+    "word": "ASTUTE",
+    "definition": "clever and quick at understanding things",
+    "synonym": "shrewd",
+    "sentence": "The astute student noticed the teacherâ€™s hint and found the answer."
+  },
+  {
+    "word": "EXPOUND",
+    "definition": "to explain something in detail",
+    "synonym": "explain",
+    "sentence": "The professor asked the student to expound on her interesting theory."
+  },
+  {
+    "word": "DISCONCERTED",
+    "definition": "having been disconcert or affected by disconcert",
+    "synonym": "disconcert",
+    "sentence": "He looked disconcerted after the long, hard day."
+  },
+  {
+    "word": "GREGARIOUS",
+    "definition": "enjoying the company of others; sociable",
+    "synonym": "sociable",
+    "sentence": "Her gregarious nature made her the center of many parties."
+  },
+  {
+    "word": "DOGMATIC",
+    "definition": "strongly expressing beliefs as if they are facts",
+    "synonym": "opinionated",
+    "sentence": "He was dogmatic about his method even though others had good ideas."
+  },
+  {
+    "word": "PERNICIOUS",
+    "definition": "very harmful or destructive, often in a subtle way",
+    "synonym": "harmful",
+    "sentence": "The pernicious rumor damaged her reputation over time."
+  },
+  {
+    "word": "EPITOME",
+    "definition": "a perfect example of a particular quality",
+    "synonym": "example",
+    "sentence": "She was the epitome of kindness during the charity drive."
+  },
+  {
+    "word": "CELESTIAL",
+    "definition": "relating to the sky or outer space",
+    "synonym": "heavenly",
+    "sentence": "They used a telescope to spot celestial bodies during the night watch."
+  },
+  {
+    "word": "REDUNDANT",
+    "definition": "unnecessary because it repeats something else",
+    "synonym": "superfluous",
+    "sentence": "The teacher removed redundant sentences to make the essay clearer."
+  },
+  {
+    "word": "CONTRITE",
+    "definition": "feeling or showing regret for wrongdoing",
+    "synonym": "remorseful",
+    "sentence": "He wrote a contrite apology after breaking her favorite mug."
+  },
+  {
+    "word": "ASCETIC",
+    "definition": "practicing severe self-discipline, often for religious reasons",
+    "synonym": "austere",
+    "sentence": "The monk led an ascetic life, giving up many comforts."
+  },
+  {
+    "word": "DOWDY",
+    "definition": "unfashionable and dull in appearance",
+    "synonym": "frumpy",
+    "sentence": "She decided to update her dowdy wardrobe with more stylish clothes."
+  },
+  {
+    "word": "COALESCE",
+    "definition": "to come together and form one group or mass",
+    "synonym": "merge",
+    "sentence": "The small teams coalesced into a single group for the big competition."
+  },
+  {
+    "word": "COPIOUS",
+    "definition": "abundant in supply or quantity",
+    "synonym": "plentiful",
+    "sentence": "She took copious notes during the lecture to study later."
+  },
+  {
+    "word": "BECOMING",
+    "definition": "attractive, suitable or appropriate",
+    "synonym": "suitable",
+    "sentence": "Her simple dress was becoming for the formal event and tasteful."
+  },
+  {
+    "word": "GLIB",
+    "definition": "speaking smoothly but not sincerely or thoughtfully",
+    "synonym": "smooth-talking",
+    "sentence": "His glib response showed he hadn't really considered the serious question."
+  },
+  {
+    "word": "ABYSMAL",
+    "definition": "extremely bad or terrible",
+    "synonym": "awful",
+    "sentence": "Their performance in the match was abysmal compared to their earlier games."
+  },
+  {
+    "word": "NUANCE",
+    "definition": "a small difference in meaning or feeling",
+    "synonym": "subtlety",
+    "sentence": "She noticed a nuance in her friendâ€™s tone that suggested worry."
+  },
+  {
+    "word": "PACIFY",
+    "definition": "to calm down or soothe someone who is angry or upset",
+    "synonym": "soothe",
+    "sentence": "A friendly apology helped pacify the upset customer."
+  },
+  {
+    "word": "ASSIDUOUS",
+    "definition": "showing great care and perseverance",
+    "synonym": "diligent",
+    "sentence": "Through assiduous practice, she improved her piano playing dramatically."
+  },
+  {
+    "word": "SLOVENLY",
+    "definition": "messy and careless in appearance or work",
+    "synonym": "untidy",
+    "sentence": "His slovenly desk made it hard to find his homework."
+  },
+  {
+    "word": "DETERRENT",
+    "definition": "something that discourages or prevents an action",
+    "synonym": "hindrance",
+    "sentence": "A strong alarm system acts as a deterrent to thieves."
+  },
+  {
+    "word": "ADAGE",
+    "definition": "a short traditional saying that expresses a general truth",
+    "synonym": "proverb",
+    "sentence": "As the adage goes, 'practice makes perfect.'"
+  },
+  {
+    "word": "IMPASSE",
+    "definition": "a situation where no progress is possible; a deadlock",
+    "synonym": "stalemate",
+    "sentence": "Negotiations reached an impasse when both sides refused to budge."
+  },
+  {
+    "word": "EUPHORIA",
+    "definition": "a feeling of intense happiness and excitement (repeat)",
+    "synonym": "elation",
+    "sentence": "Winning the championship brought a wave of euphoria to the team."
+  },
+  {
+    "word": "ABRIDGE",
+    "definition": "to shorten a text while keeping the main ideas",
+    "synonym": "condense",
+    "sentence": "The editor had to abridge the long article for the school paper."
+  },
+  {
+    "word": "PLACID",
+    "definition": "calm and peaceful",
+    "synonym": "tranquil",
+    "sentence": "The placid lake reflected the clouds perfectly."
+  },
+  {
+    "word": "MODEST",
+    "definition": "not thinking too highly of oneself; simple",
+    "synonym": "humble",
+    "sentence": "Despite his success, he remained modest and kind to others."
+  },
+  {
+    "word": "FRUITION",
+    "definition": "the achievement of something desired or worked for",
+    "synonym": "fulfillment",
+    "sentence": "Years of practice brought her piano skills to fruition at the recital."
+  },
+  {
+    "word": "EXUBERANT",
+    "definition": "filled with lively energy and excitement",
+    "synonym": "enthusiastic",
+    "sentence": "The children were exuberant on the last day of school."
+  },
+  {
+    "word": "EFFICACIOUS",
+    "definition": "effective in producing a desired result",
+    "synonym": "effective",
+    "sentence": "The new method proved efficacious in improving test scores."
+  },
+  {
+    "word": "CROWD PLEASER",
+    "definition": "a person who crowd pleass or a thing that does crowd pleas",
+    "synonym": "crowd pleas",
+    "sentence": "The crowd pleaser showed how to do the task quickly and well."
+  },
+  {
+    "word": "MEAGER",
+    "definition": "very small or insufficient in amount",
+    "synonym": "scanty",
+    "sentence": "The meager snack was not enough to keep them going until dinner."
+  },
+  {
+    "word": "DIVULGE",
+    "definition": "to reveal or make known something secret",
+    "synonym": "disclose",
+    "sentence": "She refused to divulge the surprise her friend had planned."
+  },
+  {
+    "word": "ERUDITION",
+    "definition": "deep, extensive learning or knowledge",
+    "synonym": "learning",
+    "sentence": "Her erudition on the topic impressed the visiting scholars."
+  },
+  {
+    "word": "LAVISH",
+    "definition": "very generous or extravagant",
+    "synonym": "extravagant",
+    "sentence": "The party was lavish, with decorations everywhere and a big cake."
+  },
+  {
+    "word": "DENOUEMENT",
+    "definition": "the final part of a story where the plot is explained or resolved",
+    "synonym": "conclusion",
+    "sentence": "The denouement of the mystery novel surprised readers with an unexpected twist."
+  },
+  {
+    "word": "SAVVY",
+    "definition": "having practical knowledge or cleverness",
+    "synonym": "shrewd",
+    "sentence": "The savvy student knew how to find reliable sources for projects."
+  },
+  {
+    "word": "TACIT",
+    "definition": "understood without being openly expressed; implied",
+    "synonym": "implicit",
+    "sentence": "There was a tacit agreement to keep the plan secret for now."
+  },
+  {
+    "word": "COTERIE",
+    "definition": "a small group of people with shared interests or tastes",
+    "synonym": "clique",
+    "sentence": "A coterie of artists met weekly to critique each otherâ€™s work."
+  },
+  {
+    "word": "EXTRAVAGANT",
+    "definition": "exceeding reasonable limits in spending or behavior",
+    "synonym": "lavish",
+    "sentence": "An extravagant party used more decorations than anyone expected."
+  },
+  {
+    "word": "DEFERENCE",
+    "definition": "respectful submission or yielding to anotherâ€™s opinion",
+    "synonym": "respect",
+    "sentence": "Out of deference to the older students, they waited until they spoke."
+  },
+  {
+    "word": "FORBEARANCE",
+    "definition": "patience and self-control when faced with trouble",
+    "synonym": "patience",
+    "sentence": "With great forbearance, she waited her turn without complaint."
+  },
+  {
+    "word": "APATHETIC",
+    "definition": "showing no interest, enthusiasm, or concern",
+    "synonym": "uninterested",
+    "sentence": "An apathetic crowd might not react when excitement is expected."
+  },
+  {
+    "word": "SANCTIMONIOUS",
+    "definition": "pretending to be morally better than others",
+    "synonym": "hypocritical",
+    "sentence": "His sanctimonious lecture annoyed classmates who knew his record."
+  },
+  {
+    "word": "MONOTONOUS",
+    "definition": "boring because of sameness; unchanging",
+    "synonym": "dull",
+    "sentence": "The lecture became monotonous and several students nodded off."
+  },
+  {
+    "word": "GENRE",
+    "definition": "a category or type of art, music, or literature",
+    "synonym": "category",
+    "sentence": "Mystery is her favorite genre of books to read."
+  },
+  {
+    "word": "ECLECTIC",
+    "definition": "derived from many different sources or styles",
+    "synonym": "diverse",
+    "sentence": "Her music playlist was eclectic, full of different genres."
+  },
+  {
+    "word": "BUREAUCRACY",
+    "definition": "a system of government with many rules and officials",
+    "synonym": "administration",
+    "sentence": "Filling out forms felt like navigating a giant bureaucracy."
+  },
+  {
+    "word": "DORMANT",
+    "definition": "inactive but able to become active later",
+    "synonym": "inactive",
+    "sentence": "The volcano has been dormant for decades but is still watched closely."
+  },
+  {
+    "word": "BURGEON",
+    "definition": "to grow or increase rapidly (repeat)",
+    "synonym": "expand",
+    "sentence": "After the first success, club membership continued to burgeon each month."
+  },
+  {
+    "word": "ENERVATE",
+    "definition": "to weaken or drain energy from someone",
+    "synonym": "debilitate",
+    "sentence": "The long march would enervate even the strongest hikers."
+  },
+  {
+    "word": "DIFFERENTIATE",
+    "definition": "to recognize or show the differences between things",
+    "synonym": "distinguish",
+    "sentence": "Students must learn to differentiate between reliable and unreliable sources."
+  },
+  {
+    "word": "AMICABLE",
+    "definition": "peaceful and friendly; showing goodwill",
+    "synonym": "friendly",
+    "sentence": "They reached an amicable agreement after talking calmly."
+  },
+  {
+    "word": "IMPLICATION",
+    "definition": "a possible result or effect, or a suggestion indirectly made",
+    "synonym": "consequence",
+    "sentence": "The implication of skipping school could be missing important lessons."
+  },
+  {
+    "word": "AUTONOMY",
+    "definition": "independence; freedom to make your own choices",
+    "synonym": "independence",
+    "sentence": "Teenagers often seek more autonomy as they grow older."
+  },
+  {
+    "word": "QUELL",
+    "definition": "to put an end to something, especially by force or authority",
+    "synonym": "suppress",
+    "sentence": "The teacher had to quell the noisy argument before class continued."
+  },
+  {
+    "word": "EXCRUCIATE",
+    "definition": "to cause severe pain or anguish",
+    "synonym": "torture",
+    "sentence": "The difficult decision continued to excruciate her long after she made it."
+  },
+  {
+    "word": "EMBELLISH",
+    "definition": "to add details to make something more attractive or interesting",
+    "synonym": "decorate",
+    "sentence": "She would embellish her stories to make them more exciting."
+  },
+  {
+    "word": "DELETERIOUS",
+    "definition": "harmful or damaging",
+    "synonym": "harmful",
+    "sentence": "The chemical proved deleterious to the plants in the garden."
+  },
+  {
+    "word": "COSSET",
+    "definition": "to pamper or treat with excessive care",
+    "synonym": "pamper",
+    "sentence": "She would cosset the new kitten with toys and treats until it grew comfortable."
+  },
+  {
+    "word": "EPICURE",
+    "definition": "a person who enjoys fine food and drink",
+    "synonym": "gourmet",
+    "sentence": "An epicure might spend hours selecting the perfect cheese for a meal."
+  },
+  {
+    "word": "CHRONICLE",
+    "definition": "to record events in order; a record of events",
+    "synonym": "record",
+    "sentence": "The book will chronicle the clubâ€™s history from its start."
+  },
+  {
+    "word": "DISTILL",
+    "definition": "to extract the most important parts of something",
+    "synonym": "extract",
+    "sentence": "The teacher helped students distill the main ideas from the long chapter."
+  },
+  {
+    "word": "ANACHRONISTIC",
+    "definition": "out of its proper time period (repeat)",
+    "synonym": "out-of-time",
+    "sentence": "The costume looked anachronistic in the modern movie scene."
+  },
+  {
+    "word": "CONCISE",
+    "definition": "using few words; clear and brief",
+    "synonym": "brief",
+    "sentence": "Her concise instructions helped everyone complete the assignment quickly."
+  },
+  {
+    "word": "BLASPHEMY",
+    "definition": "speaking disrespectfully about something sacred",
+    "synonym": "sacrilege",
+    "sentence": "Some viewed the comedianâ€™s joke as blasphemy and complained."
+  },
+  {
+    "word": "BOORISH",
+    "definition": "rude, unmannerly, and rough in behavior",
+    "synonym": "uncouth",
+    "sentence": "His boorish behavior at the event embarrassed his friends."
+  },
+  {
+    "word": "ILLUSTRATE",
+    "definition": "to explain or make something clear by giving examples or pictures",
+    "synonym": "demonstrate",
+    "sentence": "The teacher used a cartoon to illustrate the difficult concept."
+  },
+  {
+    "word": "CANDIDATE",
+    "definition": "a person who seeks or is nominated for a position",
+    "synonym": "applicant",
+    "sentence": "Each candidate gave a short speech before the vote."
+  },
+  {
+    "word": "INANE",
+    "definition": "silly or stupid; lacking sense",
+    "synonym": "foolish",
+    "sentence": "They laughed at the inane joke even though it made little sense."
+  },
+  {
+    "word": "AROMATIC",
+    "definition": "having a pleasant and distinctive smell",
+    "synonym": "fragrant",
+    "sentence": "The aromatic flowers made the room smell sweet and fresh."
+  },
+  {
+    "word": "BUNGLE",
+    "definition": "to make a mistake or do something clumsily",
+    "synonym": "botch",
+    "sentence": "Donâ€™t bungled the spelling on the final test or points will be lost."
+  },
+  {
+    "word": "CANVASS",
+    "definition": "to solicit votes, opinions, or orders; to examine closely",
+    "synonym": "solicit",
+    "sentence": "Volunteers will canvass the neighborhood for community feedback."
+  },
+  {
+    "word": "CREDIBLE",
+    "definition": "believable and worthy of trust",
+    "synonym": "plausible",
+    "sentence": "The witness provided a credible account that helped the investigation."
+  },
+  {
+    "word": "AUTONOMOUS",
+    "definition": "independent and self-governing",
+    "synonym": "independent",
+    "sentence": "The club wanted to be autonomous in choosing its own activities."
+  },
+  {
+    "word": "ANNIHILATE",
+    "definition": "to destroy completely",
+    "synonym": "obliterate",
+    "sentence": "The invading army threatened to annihilate the small village in the story."
+  },
+  {
+    "word": "APPRISE",
+    "definition": "to inform or tell someone about something",
+    "synonym": "notify",
+    "sentence": "Please apprise the teacher if you will be absent from class."
+  },
+  {
+    "word": "PETULANT",
+    "definition": "easily annoyed and irritable, especially over small things",
+    "synonym": "peevish",
+    "sentence": "The petulant child pouted when he couldnâ€™t have extra dessert."
+  },
+  {
+    "word": "CANDID",
+    "definition": "honest and straightforward",
+    "synonym": "honest",
+    "sentence": "When asked about the messy room, Jamal gave a candid answer instead of making excuses."
+  },
+  {
+    "word": "COMPLICIT",
+    "definition": "involved with others in wrongdoing",
+    "synonym": "involved",
+    "sentence": "He was complicit in hiding the truth, so he received part of the blame."
+  },
+  {
+    "word": "DISSENT",
+    "definition": "to disagree with a common opinion or decision",
+    "synonym": "disagree",
+    "sentence": "A few students dissent from the popular view and explain why."
+  },
+  {
+    "word": "PROCLAIM",
+    "definition": "to announce publicly or declare",
+    "synonym": "announce",
+    "sentence": "The principal will proclaim the winners at the assembly."
+  },
+  {
+    "word": "CONJECTURAL",
+    "definition": "based on guesswork rather than solid evidence",
+    "synonym": "speculative",
+    "sentence": "Their ideas remained conjectural until experiments provided proof."
+  },
+  {
+    "word": "NARCISSISTIC",
+    "definition": "having an excessive interest in oneself",
+    "synonym": "self-centered",
+    "sentence": "He seemed narcissistic, always talking about his own achievements."
+  },
+  {
+    "word": "ANTIPATHY",
+    "definition": "a strong feeling of dislike",
+    "synonym": "hostility",
+    "sentence": "Her antipathy toward broccoli meant she avoided it at dinner."
+  },
+  {
+    "word": "CURTAIL",
+    "definition": "to reduce or limit something",
+    "synonym": "shorten",
+    "sentence": "They had to curtail the event because of the storm warning."
+  },
+  {
+    "word": "QUINTESSENTIAL",
+    "definition": "representing the most perfect example of something",
+    "synonym": "ideal",
+    "sentence": "She is the quintessential studentâ€”polite, curious, and hardworking."
+  },
+  {
+    "word": "DICHOTOMY",
+    "definition": "a division into two contrasting parts or groups",
+    "synonym": "division",
+    "sentence": "There was a clear dichotomy between theory and practice in the lesson."
+  },
+  {
+    "word": "DAPPER",
+    "definition": "a person who dapps or a thing that does dapp",
+    "synonym": "dapp",
+    "sentence": "The dapper showed how to do the task quickly and well."
+  },
+  {
+    "word": "ULTIMATUM",
+    "definition": "a final demand or statement of terms, the rejection of which may lead to consequences",
+    "synonym": "final demand",
+    "sentence": "The club gave an ultimatum: practice or you canâ€™t play in the game."
+  },
+  {
+    "word": "PROTRACTED",
+    "definition": "lasting for a long time or extended in duration",
+    "synonym": "lengthy",
+    "sentence": "They faced a protracted dispute that lasted months."
+  },
+  {
+    "word": "DEPLETE",
+    "definition": "to use up or reduce the amount of something",
+    "synonym": "exhaust",
+    "sentence": "Overfishing may deplete the lakeâ€™s supply of fish."
+  },
+  {
+    "word": "FORTUITOUS",
+    "definition": "happening by a lucky chance; fortunate",
+    "synonym": "fortunate",
+    "sentence": "It was fortuitous that they found the lost ring on the sidewalk."
+  },
+  {
+    "word": "DEBILITATE",
+    "definition": "to weaken or make someone less effective",
+    "synonym": "weaken",
+    "sentence": "The illness could debilitate even strong athletes for weeks."
+  },
+  {
+    "word": "CIPHER",
+    "definition": "a person who ciphs or a thing that does ciph",
+    "synonym": "ciph",
+    "sentence": "The cipher showed how to do the task quickly and well."
+  },
+  {
+    "word": "ENDEAVOR",
+    "definition": "to try hard to do or achieve something",
+    "synonym": "attempt",
+    "sentence": "They would endeavor to finish the project before the deadline."
+  },
+  {
+    "word": "METAMORPHOSIS",
+    "definition": "a complete change of form or character",
+    "synonym": "transformation",
+    "sentence": "The caterpillarâ€™s metamorphosis into a butterfly amazed the class."
+  },
+  {
+    "word": "PERMEATE",
+    "definition": "to spread throughout something",
+    "synonym": "penetrate",
+    "sentence": "The smell of baking bread permeated the whole house."
+  },
+  {
+    "word": "DETERMINED",
+    "definition": "having made a firm decision and being resolved not to change it",
+    "synonym": "resolute",
+    "sentence": "She was determined to learn the piano no matter how long it took."
+  },
+  {
+    "word": "CONSTERNATION",
+    "definition": "a feeling of anxiety or dismay often at something unexpected",
+    "synonym": "alarm",
+    "sentence": "To everyoneâ€™s consternation, the experiment failed at the last minute."
+  },
+  {
+    "word": "ARIDITY",
+    "definition": "dryness; lack of moisture",
+    "synonym": "dryness",
+    "sentence": "The aridity of the region made farming especially difficult."
+  },
+  {
+    "word": "FIGMENT",
+    "definition": "something that exists only in someone's imagination",
+    "synonym": "fantasy",
+    "sentence": "The monster under his bed was just a figment of his imagination."
+  },
+  {
+    "word": "COMPUNCTION",
+    "definition": "a feeling of guilt or moral scruple after doing wrong",
+    "synonym": "remorse",
+    "sentence": "He felt compunction after forgetting to help his friend move."
+  },
+  {
+    "word": "ENORMOUS",
+    "definition": "very large",
+    "synonym": "very",
+    "sentence": "The mountain looked enormous from the valley below."
+  },
+  {
+    "word": "BROACH",
+    "definition": "to bring up a topic for discussion or to open a cask",
+    "synonym": "introduce",
+    "sentence": "She decided to broach the sensitive topic carefully during class."
+  },
+  {
+    "word": "ANNUAL",
+    "definition": "happening once every year",
+    "synonym": "yearly",
+    "sentence": "The school holds an annual talent show every spring."
+  },
+  {
+    "word": "DISDAIN",
+    "definition": "a feeling that someone or something is unworthy of respect",
+    "synonym": "scorn",
+    "sentence": "She showed disdain for the idea without listening to the reasons."
+  },
+  {
+    "word": "TANGIBLE",
+    "definition": "able to be touched or clearly understood; real",
+    "synonym": "concrete",
+    "sentence": "They needed tangible proof before accepting the claim."
+  },
+  {
+    "word": "EXTRACT",
+    "definition": "to take something out or remove it from somewhere",
+    "synonym": "remove",
+    "sentence": "The dentist will extract the loose tooth carefully and painlessly."
+  },
+  {
+    "word": "TIRADE",
+    "definition": "a long, angry speech of criticism or reprimand",
+    "synonym": "rant",
+    "sentence": "The coachâ€™s tirade shook the players into focusing on defense."
+  },
+  {
+    "word": "PARIAH",
+    "definition": "a person rejected and avoided by others",
+    "synonym": "outcast",
+    "sentence": "After the rumor spread, he felt like a pariah at school."
+  },
+  {
+    "word": "QUIESCENT",
+    "definition": "inactive or resting; quiet",
+    "synonym": "dormant",
+    "sentence": "The volcano has been quiescent for many years."
+  },
+  {
+    "word": "LETHAL",
+    "definition": "able to cause death or very harmful",
+    "synonym": "deadly",
+    "sentence": "Some chemicals are lethal and must be handled with care."
+  },
+  {
+    "word": "EXALT",
+    "definition": "to praise highly or elevate in rank or status",
+    "synonym": "glorify",
+    "sentence": "They would exalt the hero in songs after the rescue."
+  },
+  {
+    "word": "SULLEN",
+    "definition": "silent and gloomy because of anger or sadness",
+    "synonym": "morose",
+    "sentence": "He sat in a sullen mood after losing the match."
+  },
+  {
+    "word": "TRIVIAL",
+    "definition": "of little importance; not serious",
+    "synonym": "insignificant",
+    "sentence": "They argued over a trivial point instead of focusing on the main issue."
+  },
+  {
+    "word": "ADMONITION",
+    "definition": "a gentle warning or piece of advice",
+    "synonym": "warning",
+    "sentence": "The coachâ€™s admonition reminded them to warm up properly."
+  },
+  {
+    "word": "ABSTRUSE",
+    "definition": "hard to understand; complex",
+    "synonym": "complex",
+    "sentence": "The teacher tried to explain the abstruse theory with a simple diagram."
+  },
+  {
+    "word": "DEPLORABLE",
+    "definition": "very bad and deserving strong disapproval",
+    "synonym": "terrible",
+    "sentence": "The deplorable condition of the old playground needed immediate attention."
+  },
+  {
+    "word": "AGILE",
+    "definition": "able to move quickly and easily",
+    "synonym": "nimble",
+    "sentence": "The agile gymnast performed amazing flips on the balance beam."
+  },
+  {
+    "word": "DEMEAN",
+    "definition": "to lower in dignity or make someone feel worse",
+    "synonym": "belittle",
+    "sentence": "Itâ€™s wrong to demean others because of differences."
+  },
+  {
+    "word": "ADMONISH",
+    "definition": "to warn or scold gently",
+    "synonym": "warn",
+    "sentence": "The coach had to admonish the players for being late to practice."
+  },
+  {
+    "word": "DISCREPANCY",
+    "definition": "a difference between two things that should match",
+    "synonym": "inconsistency",
+    "sentence": "The accountant found a discrepancy in the numbers and double-checked the report."
+  },
+  {
+    "word": "QUOTIDIAN",
+    "definition": "everyday or ordinary; commonplace",
+    "synonym": "daily",
+    "sentence": "She wrote in her diary about quotidian details of school life."
+  },
+  {
+    "word": "CONNOTATION",
+    "definition": "an idea or feeling that a word suggests in addition to its main meaning",
+    "synonym": "implication",
+    "sentence": "The word \"home\" has a warm connotation beyond just meaning a place to live."
+  },
+  {
+    "word": "DENOUNCE",
+    "definition": "to publicly declare something to be wrong or evil",
+    "synonym": "condemn",
+    "sentence": "The mayor denounced the vandalism and promised action."
+  },
+  {
+    "word": "COERCION",
+    "definition": "the practice of forcing someone to do something by threats or pressure",
+    "synonym": "compulsion",
+    "sentence": "Good leaders avoid coercion and instead persuade others respectfully."
+  },
+  {
+    "word": "CASTIGATE",
+    "definition": "to criticize or punish severely",
+    "synonym": "chastise",
+    "sentence": "The coach would castigate players when practice was missed without reason."
+  },
+  {
+    "word": "DESCRIBE",
+    "definition": "to give an account of something in words",
+    "synonym": "portray",
+    "sentence": "Please describe your science project clearly in the report."
+  },
+  {
+    "word": "FERVOR",
+    "definition": "intense and passionate feeling",
+    "synonym": "enthusiasm",
+    "sentence": "The fans cheered with fervor when their team scored."
+  },
+  {
+    "word": "DISSEMINATE",
+    "definition": "to spread information or ideas widely",
+    "synonym": "spread",
+    "sentence": "The club used posters to disseminate news about the bake sale."
+  },
+  {
+    "word": "DULCET",
+    "definition": "pleasant to hear; sweet-sounding",
+    "synonym": "melodious",
+    "sentence": "Her dulcet voice made the poem pleasant to listen to."
+  },
+  {
+    "word": "COMMEMORATE",
+    "definition": "to honor the memory of someone or something",
+    "synonym": "honor",
+    "sentence": "Every year they commemorate the school founders with a small ceremony."
+  },
+  {
+    "word": "RECALCITRANT",
+    "definition": "stubbornly refusing to obey or follow orders",
+    "synonym": "resistant",
+    "sentence": "The recalcitrant student refused to hand in his project."
+  },
+  {
+    "word": "FACETIOUS",
+    "definition": "treating serious issues with inappropriate humor",
+    "synonym": "flippant",
+    "sentence": "His facetious comment about homework didnâ€™t sit well with the principal."
+  },
+  {
+    "word": "INTRIGUE",
+    "definition": "to arouse interest or curiosity; a secret plot",
+    "synonym": "fascinate",
+    "sentence": "The mysterious clue helped to intrigue the readers of the story."
+  },
+  {
+    "word": "ACRIMONIOUS",
+    "definition": "angry and bitter in tone or words",
+    "synonym": "hostile",
+    "sentence": "Their acrimonious argument left both friends upset for days."
+  },
+  {
+    "word": "DEMEANOR",
+    "definition": "outward behavior or manner",
+    "synonym": "behavior",
+    "sentence": "Her calm demeanor reassured everyone during the emergency."
+  },
+  {
+    "word": "PORTEND",
+    "definition": "to be a sign that something momentous or bad will happen",
+    "synonym": "foreshadow",
+    "sentence": "The sudden drop in temperature seemed to portend a fierce storm."
+  },
+  {
+    "word": "ELEGANT",
+    "definition": "graceful and attractive",
+    "synonym": "graceful",
+    "sentence": "The dance routine looked elegant and graceful."
+  },
+  {
+    "word": "CLIQUÃ‰",
+    "definition": "a small group of people who spend time together and exclude others",
+    "synonym": "group",
+    "sentence": "The lunch table clique made it hard for new students to make friends."
+  },
+  {
+    "word": "DUPLICITY",
+    "definition": "deceitfulness in speech or conduct; double-dealing",
+    "synonym": "deception",
+    "sentence": "They discovered the politicianâ€™s duplicity after looking at the records."
+  },
+  {
+    "word": "ANIMOSITY",
+    "definition": "strong dislike or hatred",
+    "synonym": "hostility",
+    "sentence": "There was animosity between the two rival schools before the big game."
+  },
+  {
+    "word": "EXPURGATE",
+    "definition": "to remove objectionable material from a text",
+    "synonym": "censor",
+    "sentence": "Editors would sometimes expurgate offensive language from older works."
+  },
+  {
+    "word": "ANTAGONIZE",
+    "definition": "to make someone hostile or angry",
+    "synonym": "provoke",
+    "sentence": "Try not to antagonize your little brother when heâ€™s already upset."
+  },
+  {
+    "word": "APOLOGIZE",
+    "definition": "to say sorry for something wrong you have done",
+    "synonym": "apologize",
+    "sentence": "She decided to apologize for interrupting the class discussion."
+  },
+  {
+    "word": "ARTIFICE",
+    "definition": "clever or cunning devices used to trick or deceive",
+    "synonym": "trickery",
+    "sentence": "The magicianâ€™s artifice surprised the audience with clever illusions."
+  },
+  {
+    "word": "DISSEMBLE",
+    "definition": "to hide true feelings or intentions; to disguise",
+    "synonym": "pretend",
+    "sentence": "She tried to dissemble her disappointment with a smile."
+  },
+  {
+    "word": "ELOQUENT",
+    "definition": "expressing ideas clearly and effectively in speech or writing",
+    "synonym": "persuasive",
+    "sentence": "His eloquent speech convinced many people to volunteer."
+  },
+  {
+    "word": "CHIMERICAL",
+    "definition": "imaginary or wildly fanciful",
+    "synonym": "fantastic",
+    "sentence": "His chimerical inventions were fun to imagine but unlikely to work."
+  },
+  {
+    "word": "PARTISAN",
+    "definition": "strongly supporting a political party or cause; biased",
+    "synonym": "biased",
+    "sentence": "The article seemed partisan and favored one side heavily."
+  },
+  {
+    "word": "FASTIDIOUS",
+    "definition": "very attentive to detail; hard to please",
+    "synonym": "fussy",
+    "sentence": "She was fastidious about keeping her desk clean and organized."
+  },
+  {
+    "word": "ATTUNE",
+    "definition": "to adjust or adapt to be in harmony with something",
+    "synonym": "adjust",
+    "sentence": "She needed time to attune herself to the new school's schedule."
+  },
+  {
+    "word": "FRUGAL",
+    "definition": "careful about spending money; saving",
+    "synonym": "thrifty",
+    "sentence": "Because she was frugal, Maya repaired her sneakers instead of buying new ones."
+  },
+  {
+    "word": "DOCUDRAMA",
+    "definition": "a film or TV show that dramatizes real events",
+    "synonym": "dramatized documentary",
+    "sentence": "The docudrama showed real events with actors playing the parts."
+  },
+  {
+    "word": "LIGAMENT",
+    "definition": "a band of tissue that connects bones or holds organs in place",
+    "synonym": "band",
+    "sentence": "The athlete injured a ligament in her knee during the game."
+  },
+  {
+    "word": "DEPICT",
+    "definition": "to show or describe something in words or pictures",
+    "synonym": "portray",
+    "sentence": "The book vividly depicts life in the old city."
+  },
+  {
+    "word": "BOISTEROUS",
+    "definition": "noisy, energetic, and cheerful in a rough way",
+    "synonym": "rowdy",
+    "sentence": "The boisterous crowd cheered loudly at the concert."
+  },
+  {
+    "word": "MERCIFUL",
+    "definition": "showing compassion and forgiveness",
+    "synonym": "compassionate",
+    "sentence": "The merciful teacher gave students extra time to complete their projects."
+  },
+  {
+    "word": "COMPREHEND",
+    "definition": "to understand or grasp the meaning of something",
+    "synonym": "understand",
+    "sentence": "Itâ€™s hard to comprehend how long a century really is without examples."
+  },
+  {
+    "word": "GERMINATE",
+    "definition": "to begin to grow or develop, especially for seeds or ideas",
+    "synonym": "sprout",
+    "sentence": "The seeds will germinate faster in warm, moist soil."
+  },
+  {
+    "word": "COALITION",
+    "definition": "an alliance for combined action, often temporary",
+    "synonym": "alliance",
+    "sentence": "Several clubs formed a coalition to organize the community fair."
+  },
+  {
+    "word": "DEFLECT",
+    "definition": "to cause something to change direction; to avoid attention",
+    "synonym": "divert",
+    "sentence": "She tried to deflect the question with a joke."
+  },
+  {
+    "word": "SKEPTICAL",
+    "definition": "having doubts or not easily convinced",
+    "synonym": "doubtful",
+    "sentence": "She was skeptical of the rumor until she saw proof."
+  },
+  {
+    "word": "OBSCENE",
+    "definition": "offensive to moral feelings or inappropriate",
+    "synonym": "indecent",
+    "sentence": "The movie received complaints because of some obscene language."
+  },
+  {
+    "word": "INDISCRIMINATE",
+    "definition": "done without careful judgment or choice",
+    "synonym": "random",
+    "sentence": "An indiscriminate selection of colors made the painting look messy."
+  },
+  {
+    "word": "LEGACY",
+    "definition": "something handed down from the past, like traditions or money",
+    "synonym": "inheritance",
+    "sentence": "Her grandmother left a legacy of kindness and family recipes."
+  },
+  {
+    "word": "AXIOM",
+    "definition": "a statement that is accepted as true without proof",
+    "synonym": "principle",
+    "sentence": "The math lesson began with a basic axiom everyone must remember."
+  },
+  {
+    "word": "BACCHANALIAN",
+    "definition": "wild and noisy, often involving excessive drinking or partying",
+    "synonym": "riotous",
+    "sentence": "The backyard bash turned bacchanalian and annoyed the neighbors."
+  },
+  {
+    "word": "BIZARRE",
+    "definition": "very strange or unusual; odd",
+    "synonym": "odd",
+    "sentence": "The costume parade included many bizarre and creative outfits."
+  },
+  {
+    "word": "ORTHODOX",
+    "definition": "conventional or traditional in beliefs or methods",
+    "synonym": "traditional",
+    "sentence": "He preferred orthodox solutions rather than risky experiments."
+  },
+  {
+    "word": "ERA",
+    "definition": "a long period of time marked by particular events or characteristics",
+    "synonym": "age",
+    "sentence": "We are living in the digital era of computers and smartphones."
+  },
+  {
+    "word": "GENIALITY",
+    "definition": "friendliness and cheerfulness",
+    "synonym": "warmth",
+    "sentence": "The principal's geniality made all students feel welcome at school."
+  },
+  {
+    "word": "INCORRIGIBLE",
+    "definition": "impossible to change or reform",
+    "synonym": "unchangeable",
+    "sentence": "The incorrigible class clown continued making jokes despite repeated warnings."
+  },
+  {
+    "word": "CRITERION",
+    "definition": "a standard used to judge or decide something",
+    "synonym": "standard",
+    "sentence": "Good grades were the main criterion for getting into the honor society."
+  },
+  {
+    "word": "CONTUSE",
+    "definition": "to injure by striking or bruising",
+    "synonym": "bruise",
+    "sentence": "The blow would contuse his arm and require a bandage."
+  },
+  {
+    "word": "LEERY",
+    "definition": "cautious or suspicious about something",
+    "synonym": "suspicious",
+    "sentence": "Iâ€™m leery of taking advice from someone I just met online."
+  },
+  {
+    "word": "ELONGATE",
+    "definition": "to make something longer or stretch it out",
+    "synonym": "lengthen",
+    "sentence": "The dancer could elongate her arms gracefully during the performance."
+  },
+  {
+    "word": "CONTORT",
+    "definition": "to twist or bend something out of its normal shape",
+    "synonym": "twist",
+    "sentence": "The yoga instructor could contort her body into amazing positions."
+  },
+  {
+    "word": "INNOVATE",
+    "definition": "to introduce new ideas or methods",
+    "synonym": "invent",
+    "sentence": "The team tried to innovate a faster way to charge laptops."
+  },
+  {
+    "word": "CLINCH",
+    "definition": "to settle something definitely or to hold tightly",
+    "synonym": "secure",
+    "sentence": "The winning goal helped clinch the championship for our team."
+  },
+  {
+    "word": "ETHOS",
+    "definition": "the characteristic spirit or beliefs of a community or culture",
+    "synonym": "spirit",
+    "sentence": "The schoolâ€™s ethos encourages curiosity and respect for others."
+  },
+  {
+    "word": "MEDIATE",
+    "definition": "to help settle a disagreement between people",
+    "synonym": "intervene",
+    "sentence": "A counselor helped mediate the dispute between friends."
+  },
+  {
+    "word": "DIRGE",
+    "definition": "a mournful song for the dead; a funeral hymn",
+    "synonym": "lament",
+    "sentence": "A slow dirge played at the memorial service to honor the victims."
+  },
+  {
+    "word": "DECADENCE",
+    "definition": "moral or cultural decline characterized by excessive indulgence",
+    "synonym": "decay",
+    "sentence": "Some novels describe a cityâ€™s decadence before it fell into ruin."
+  },
+  {
+    "word": "FLUCTUATE",
+    "definition": "to change or vary often by rising and falling",
+    "synonym": "vary",
+    "sentence": "Temperatures may fluctuate wildly in springtime."
+  },
+  {
+    "word": "EBULLIENT",
+    "definition": "overflowing with enthusiasm or excitement",
+    "synonym": "exuberant",
+    "sentence": "The ebullient crowd cheered loudly as the parade passed by."
+  },
+  {
+    "word": "IMPROMPTU",
+    "definition": "done without being planned or rehearsed; spontaneous",
+    "synonym": "spontaneous",
+    "sentence": "They gave an impromptu performance in the cafeteria that surprised everyone."
+  },
+  {
+    "word": "APATHY",
+    "definition": "lack of interest or feeling; indifference",
+    "synonym": "indifference",
+    "sentence": "Apathy among voters can lead to low turnout in elections."
+  },
+  {
+    "word": "ASSUAGE",
+    "definition": "to make less severe; to ease or calm",
+    "synonym": "relieve",
+    "sentence": "A kind note helped assuage his worries before the test."
+  },
+  {
+    "word": "DEBRIS",
+    "definition": "scattered pieces of waste or remains after destruction",
+    "synonym": "rubble",
+    "sentence": "After the storm, workers cleared the debris from the roads to reopen them."
+  },
+  {
+    "word": "DEVIATE",
+    "definition": "to turn away from a course or standard; to depart",
+    "synonym": "depart",
+    "sentence": "We chose to deviate from the planned route to explore a scenic trail."
+  },
+  {
+    "word": "BRIEF",
+    "definition": "short in duration or extent",
+    "synonym": "short",
+    "sentence": "They had a brief break between classes to grab snacks."
+  },
+  {
+    "word": "BOUTIQUE",
+    "definition": "a small shop that sells fashionable items",
+    "synonym": "shop",
+    "sentence": "She browsed a boutique for a unique gift for her mom."
+  },
+  {
+    "word": "AGGRANDIZE",
+    "definition": "to increase in power, influence, or reputation",
+    "synonym": "inflate",
+    "sentence": "The celebrity tried to aggrandize his role in the movie during interviews."
+  },
+  {
+    "word": "CHIVALRY",
+    "definition": "polite and honorable behavior, especially by men toward women",
+    "synonym": "courtesy",
+    "sentence": "His act of chivalry was holding the door open for his classmates."
+  },
+  {
+    "word": "CONGENIAL",
+    "definition": "pleasant because of a personality or interests similar to oneâ€™s own",
+    "synonym": "agreeable",
+    "sentence": "The club was congenial, and she made friends easily there."
+  },
+  {
+    "word": "ARTLESS",
+    "definition": "without deception; simple and natural",
+    "synonym": "innocent",
+    "sentence": "Her artless honesty made people trust her immediately."
+  },
+  {
+    "word": "ADJACENT",
+    "definition": "next to or near something else",
+    "synonym": "nearby",
+    "sentence": "The library is adjacent to the cafeteria, so we met there easily."
+  },
+  {
+    "word": "DESOLATE",
+    "definition": "empty, lonely, and depressing; devastated",
+    "synonym": "bleak",
+    "sentence": "After the festival ended, the fairgrounds looked desolate."
+  },
+  {
+    "word": "CONFLUENCE",
+    "definition": "a place where two rivers meet, or a coming together of ideas",
+    "synonym": "meeting",
+    "sentence": "The confluence of the two streams created a beautiful natural pool."
+  },
+  {
+    "word": "IMPUDENT",
+    "definition": "rude or disrespectfully bold",
+    "synonym": "insolent",
+    "sentence": "It was impudent of him to interrupt the speaker so loudly."
+  },
+  {
+    "word": "PENSIVE",
+    "definition": "deeply or seriously thoughtful, often with sadness",
+    "synonym": "thoughtful",
+    "sentence": "He grew pensive while looking at old photographs."
+  },
+  {
+    "word": "INADVERTENT",
+    "definition": "not done on purpose; accidental",
+    "synonym": "unintentional",
+    "sentence": "She made an inadvertent error on the form and corrected it quickly."
+  },
+  {
+    "word": "NONCHALANT",
+    "definition": "appearing calm and not showing worry or interest",
+    "synonym": "casual",
+    "sentence": "He answered the question with a nonchalant shrug, as if it were no big deal."
+  },
+  {
+    "word": "GRIEVANCE",
+    "definition": "a complaint about a wrong or unfair situation",
+    "synonym": "complaint",
+    "sentence": "The students filed a grievance about the cafeteria food."
+  },
+  {
+    "word": "EXPIRE",
+    "definition": "to come to an end or stop being valid",
+    "synonym": "end",
+    "sentence": "Make sure to renew your library card before it expires next month."
+  },
+  {
+    "word": "CONDENSE",
+    "definition": "to make something shorter or more concentrated",
+    "synonym": "compress",
+    "sentence": "Please condense your five-page report into a one-page summary."
+  },
+  {
+    "word": "HYPOTHETICAL",
+    "definition": "based on a suggested idea or theory rather than actual fact",
+    "synonym": "theoretical",
+    "sentence": "In the debate, they discussed a hypothetical situation to test their ideas."
+  },
+  {
+    "word": "ABJURE",
+    "definition": "to formally give up a belief or claim",
+    "synonym": "renounce",
+    "sentence": "He decided to abjure his earlier support when he learned the truth."
+  },
+  {
+    "word": "PHENOMENON",
+    "definition": "an event or fact that can be observed and studied",
+    "synonym": "occurrence",
+    "sentence": "The northern lights are a natural phenomenon that draws tourists."
+  },
+  {
+    "word": "COMPLIANT",
+    "definition": "willing to agree or obey rules",
+    "synonym": "obedient",
+    "sentence": "The compliant student followed safety protocols during the experiment."
+  },
+  {
+    "word": "LUSTROUS",
+    "definition": "shiny and glowing",
+    "synonym": "shiny",
+    "sentence": "The new car had a lustrous finish that reflected the sun."
+  },
+  {
+    "word": "NOTORIOUS",
+    "definition": "famous for something bad",
+    "synonym": "infamous",
+    "sentence": "The intersection is notorious for causing traffic jams."
+  },
+  {
+    "word": "CONCOMITANT",
+    "definition": "happening at the same time as something else",
+    "synonym": "accompanying",
+    "sentence": "Hard work and the concomitant stress are part of preparing for finals."
+  },
+  {
+    "word": "ELECTIVE",
+    "definition": "a school subject that students can choose to take",
+    "synonym": "optional",
+    "sentence": "Art class is an elective that many students enjoy taking."
+  },
+  {
+    "word": "ADVERSARY",
+    "definition": "an opponent or enemy in a contest",
+    "synonym": "opponent",
+    "sentence": "The debate team prepared for their toughest adversary yet."
+  },
+  {
+    "word": "EVANESCENT",
+    "definition": "lasting for only a short time; quickly fading",
+    "synonym": "fleeting",
+    "sentence": "The beautiful sunset was evanescent, lasting only a few minutes."
+  },
+  {
+    "word": "PRODIGY",
+    "definition": "a young person with exceptional talents or abilities",
+    "synonym": "genius",
+    "sentence": "The piano prodigy played a difficult concerto at only nine years old."
+  },
+  {
+    "word": "EXHORT",
+    "definition": "to strongly encourage or urge someone to do something",
+    "synonym": "urge",
+    "sentence": "Her coach would exhort the team to give one more push in the final quarter."
+  },
+  {
+    "word": "PRODIGAL",
+    "definition": "spending money or resources freely and wastefully",
+    "synonym": "wasteful",
+    "sentence": "The prodigal prince spent his fortune on exotic parties."
+  },
+  {
+    "word": "PRECLUDE",
+    "definition": "to prevent something from happening; to make impossible",
+    "synonym": "prevent",
+    "sentence": "A closed door can preclude others from entering the room."
+  },
+  {
+    "word": "ARDENT",
+    "definition": "very passionate or enthusiastic",
+    "synonym": "fervent",
+    "sentence": "An ardent fan painted the banner and cheered loudly at every game."
+  },
+  {
+    "word": "PLAUSIBLE",
+    "definition": "seeming reasonable or likely to be true",
+    "synonym": "credible",
+    "sentence": "Her explanation sounded plausible enough to convince the teacher."
+  },
+  {
+    "word": "RIVALRY",
+    "definition": "competition between people or groups for the same goal",
+    "synonym": "competition",
+    "sentence": "A friendly rivalry between the schools pushed both teams to improve."
+  },
+  {
+    "word": "DRAUGHT",
+    "definition": "a current of cold air or a drink",
+    "synonym": "breeze",
+    "sentence": "The cold draught from the open window made everyone shiver."
+  },
+  {
+    "word": "CACOPHONY",
+    "definition": "a harsh mixture of sounds",
+    "synonym": "din",
+    "sentence": "The city street produced a cacophony of honks and shouts."
+  },
+  {
+    "word": "JUBILANT",
+    "definition": "extremely happy and joyful",
+    "synonym": "elated",
+    "sentence": "The team was jubilant after winning the championship."
+  },
+  {
+    "word": "DEMURE",
+    "definition": "quiet, serious, and modest in behavior",
+    "synonym": "modest",
+    "sentence": "At the recital she was demure and focused on her playing."
+  },
+  {
+    "word": "MELANCHOLY",
+    "definition": "a deep, long-lasting sadness",
+    "synonym": "sadness",
+    "sentence": "A feeling of melancholy settled over him after reading the sad letter."
+  },
+  {
+    "word": "CENSURE",
+    "definition": "to express strong disapproval of someone or something",
+    "synonym": "criticize",
+    "sentence": "The committee chose to censure the player for cheating."
+  },
+  {
+    "word": "FLORID",
+    "definition": "excessively ornate or flowery in style",
+    "synonym": "ornate",
+    "sentence": "The novelâ€™s florid descriptions sometimes made it slow to read."
+  },
+  {
+    "word": "PARADOX",
+    "definition": "a statement that seems contradictory but might be true",
+    "synonym": "contradiction",
+    "sentence": "Itâ€™s a paradox that sometimes being quiet helps you be heard more."
+  },
+  {
+    "word": "ANACHRONISM",
+    "definition": "something placed in the wrong time period",
+    "synonym": "misplacement",
+    "sentence": "The filmâ€™s modern slang felt like an anachronism in the historical scene."
+  },
+  {
+    "word": "COSTIVE",
+    "definition": "slow to act or speak; hesitant",
+    "synonym": "hesitant",
+    "sentence": "The costive student took a long time to answer the teacher's question."
+  },
+  {
+    "word": "MAGNANIMOUS",
+    "definition": "very generous or forgiving toward others",
+    "synonym": "generous",
+    "sentence": "Despite the loss, he was magnanimous and praised the winners."
+  },
+  {
+    "word": "LUCID",
+    "definition": "clear and easy to understand",
+    "synonym": "clear",
+    "sentence": "He gave a lucid account of what happened at the event."
+  },
+  {
+    "word": "METTLE",
+    "definition": "courage and determination in a difficult situation",
+    "synonym": "courage",
+    "sentence": "She showed her mettle by leading the rescue during the storm."
+  },
+  {
+    "word": "DILAPIDATED",
+    "definition": "having been dilapidat or affected by dilapidat",
+    "synonym": "dilapidat",
+    "sentence": "He looked dilapidated after the long, hard day."
+  },
+  {
+    "word": "ENABLE",
+    "definition": "to make something possible or easier",
+    "synonym": "allow",
+    "sentence": "The new computers will enable students to research topics more easily."
+  },
+  {
+    "word": "DAUNTLESS",
+    "definition": "showing fearlessness and determination",
+    "synonym": "brave",
+    "sentence": "The dauntless swimmer dove into the rough water to help the stranded dog."
+  },
+  {
+    "word": "DEPRECATE",
+    "definition": "to express disapproval of someone or something",
+    "synonym": "disapprove",
+    "sentence": "He tended to deprecate his own work even when others praised it."
+  },
+  {
+    "word": "EXIGENT",
+    "definition": "pressing and demanding immediate attention",
+    "synonym": "urgent",
+    "sentence": "The fire created an exigent situation that required quick action."
+  },
+  {
+    "word": "CONCILIATORY",
+    "definition": "intended to placate or pacify; making peace",
+    "synonym": "peacemaking",
+    "sentence": "She offered a conciliatory apology to smooth tensions in the group."
+  },
+  {
+    "word": "JUXTAPOSE",
+    "definition": "to place side by side for comparison",
+    "synonym": "place together",
+    "sentence": "The artist chose to juxtapose bright and dark colors for contrast."
+  },
+  {
+    "word": "NUMEROUS",
+    "definition": "many; a lot of people or things",
+    "synonym": "many",
+    "sentence": "Numerous volunteers showed up to help clean the beach."
+  },
+  {
+    "word": "COWER",
+    "definition": "to crouch down in fear",
+    "synonym": "cringe",
+    "sentence": "They would cower behind the sofa during the scary scenes of the movie."
+  },
+  {
+    "word": "SLANDER",
+    "definition": "a false spoken statement that harms someoneâ€™s reputation",
+    "synonym": "defamation",
+    "sentence": "Spreading slander about classmates can cause serious trouble."
+  },
+  {
+    "word": "MANDATE",
+    "definition": "an official order or command; to give authority to do something",
+    "synonym": "command",
+    "sentence": "The school issued a mandate that all students wear badges at events."
+  },
+  {
+    "word": "DAUNT",
+    "definition": "to make someone feel intimidated or apprehensive",
+    "synonym": "intimidate",
+    "sentence": "The big project did not daunt her; she started right away."
+  },
+  {
+    "word": "LURID",
+    "definition": "very vivid in a shocking or unpleasant way",
+    "synonym": "gruesome",
+    "sentence": "The newspaper printed a lurid description that upset readers."
+  },
+  {
+    "word": "ASCERTAIN",
+    "definition": "to find out or learn with certainty",
+    "synonym": "determine",
+    "sentence": "The detective worked to ascertain the time of the accident."
+  },
+  {
+    "word": "ANGUISH",
+    "definition": "great pain or suffering",
+    "synonym": "great",
+    "sentence": "She felt real anguish when she lost her pet, and it took time to heal."
+  },
+  {
+    "word": "ABUNDANT",
+    "definition": "more than enough; plentiful",
+    "synonym": "plentiful",
+    "sentence": "After the storm, the garden produced an abundant supply of tomatoes."
+  },
+  {
+    "word": "CANDOR",
+    "definition": "the quality of being honest and straightforward",
+    "synonym": "honesty",
+    "sentence": "I admired his candor when he admitted his mistake."
+  },
+  {
+    "word": "TANTAMOUNT",
+    "definition": "equivalent in value or effect",
+    "synonym": "equal",
+    "sentence": "Her silence was tantamount to an admission of guilt."
+  },
+  {
+    "word": "CONSIGN",
+    "definition": "to give something to someone elseâ€™s care; to hand over",
+    "synonym": "entrust",
+    "sentence": "They consign the old books to the archive for safekeeping."
+  },
+  {
+    "word": "ABSTAIN",
+    "definition": "to choose not to do something, especially to not vote",
+    "synonym": "refrain",
+    "sentence": "She decided to abstain from voting because she felt uninformed about the issue."
+  },
+  {
+    "word": "RECLUSE",
+    "definition": "a person who lives alone and avoids others",
+    "synonym": "loner",
+    "sentence": "The famous actor became a recluse and rarely left his home."
+  },
+  {
+    "word": "ARTICULATE",
+    "definition": "able to express ideas clearly in speech or writing",
+    "synonym": "expressive",
+    "sentence": "She was able to articulate her ideas during the debate with confidence."
+  },
+  {
+    "word": "LIBERAL",
+    "definition": "generous or open-minded; not strict",
+    "synonym": "generous",
+    "sentence": "The school took a liberal approach to helping students who needed time."
+  },
+  {
+    "word": "PERSEVERE",
+    "definition": "to keep trying despite difficulties",
+    "synonym": "persist",
+    "sentence": "She chose to persevere with math even when it was hard."
+  },
+  {
+    "word": "GRATUITOUS",
+    "definition": "done without good reason; unnecessary",
+    "synonym": "unnecessary",
+    "sentence": "The movie contained gratuitous violence that didn't help the story."
+  },
+  {
+    "word": "AUDACIOUS",
+    "definition": "very bold or daring",
+    "synonym": "bold",
+    "sentence": "Her audacious idea surprised everyone but worked brilliantly."
+  },
+  {
+    "word": "EQUITABLE",
+    "definition": "fair and impartial; just",
+    "synonym": "fair",
+    "sentence": "The teacher tried to make the grading system equitable for everyone."
+  },
+  {
+    "word": "TENTATIVE",
+    "definition": "not certain or fixed; done as a trial or experiment",
+    "synonym": "hesitant",
+    "sentence": "They made tentative plans to meet after school, but nothing was set in stone."
+  },
+  {
+    "word": "EXPLOIT",
+    "definition": "to use something or someone for selfish gain; a notable deed",
+    "synonym": "take advantage of/use",
+    "sentence": "They learned about the explorerâ€™s bold exploits in history class."
+  },
+  {
+    "word": "EVASIVE",
+    "definition": "trying to avoid giving a direct answer or committing",
+    "synonym": "avoidant",
+    "sentence": "His evasive answers made the teacher suspicious about the missing book."
+  },
+  {
+    "word": "DIFFIDENT",
+    "definition": "lacking confidence in oneself; shy",
+    "synonym": "shy",
+    "sentence": "The diffident student rarely spoke up in class discussions."
+  },
+  {
+    "word": "JARGON",
+    "definition": "special words used by a particular group or profession",
+    "synonym": "terminology",
+    "sentence": "The doctorâ€™s jargon confused the family until someone explained it plainly."
+  },
+  {
+    "word": "ESCHEW",
+    "definition": "to deliberately avoid or stay away from something",
+    "synonym": "avoid",
+    "sentence": "She decided to eschew junk food and eat healthier meals instead."
+  },
+  {
+    "word": "ASSIMILATE",
+    "definition": "to absorb and make similar; to learn and adapt",
+    "synonym": "integrate",
+    "sentence": "New students often need time to assimilate into a different culture."
+  },
+  {
+    "word": "UNEQUIVOCAL",
+    "definition": "clear and leaving no doubt; unambiguous",
+    "synonym": "clear",
+    "sentence": "The teacher gave an unequivocal answer to the cheating question."
+  },
+  {
+    "word": "CURSORY",
+    "definition": "done quickly with little attention to detail",
+    "synonym": "brief",
+    "sentence": "His cursory review missed several important mistakes in the paper."
+  },
+  {
+    "word": "PERVADE",
+    "definition": "to spread through every part of something",
+    "synonym": "permeate",
+    "sentence": "A feeling of excitement pervaded the stadium before the game."
+  },
+  {
+    "word": "COHERENT",
+    "definition": "clear and logical; easy to understand",
+    "synonym": "logical",
+    "sentence": "Her presentation was coherent and moved smoothly from point to point."
+  },
+  {
+    "word": "CIRCUMVENT",
+    "definition": "to find a way around an obstacle or rule; to avoid by cleverness",
+    "synonym": "bypass",
+    "sentence": "They tried to circumvent the strict rules, but consequences followed."
+  },
+  {
+    "word": "EMEND",
+    "definition": "to correct or revise a text",
+    "synonym": "edit",
+    "sentence": "She had to emend several typos before turning in the essay."
+  },
+  {
+    "word": "METICULOUS",
+    "definition": "very careful and paying great attention to details",
+    "synonym": "careful",
+    "sentence": "The model was so meticulous that every tiny paint stroke matched the real building."
+  },
+  {
+    "word": "ERRONEOUS",
+    "definition": "incorrect or mistaken",
+    "synonym": "wrong",
+    "sentence": "An erroneous calculation led to the wrong final score."
+  },
+  {
+    "word": "COMMUTE",
+    "definition": "to travel regularly between home and work or school",
+    "synonym": "travel",
+    "sentence": "Many students commute to school by bus every morning."
+  },
+  {
+    "word": "ENIGMATIC",
+    "definition": "mysterious and difficult to understand (repeat)",
+    "synonym": "cryptic",
+    "sentence": "The old map contained enigmatic symbols that puzzled everyone."
+  },
+  {
+    "word": "ABHOR",
+    "definition": "to dislike something very strongly",
+    "synonym": "detest",
+    "sentence": "Many people abhor cruelty to animals and volunteer to help shelters."
+  },
+  {
+    "word": "EVADE",
+    "definition": "to avoid or escape from something",
+    "synonym": "avoid",
+    "sentence": "He tried to evade the teacher's question about his missing homework."
+  },
+  {
+    "word": "FLAMBOYANT",
+    "definition": "very colorful, showy, and noticeable",
+    "synonym": "flashy",
+    "sentence": "The drama teacher wore flamboyant costumes during school plays."
+  },
+  {
+    "word": "ARID",
+    "definition": "very dry; lacking moisture",
+    "synonym": "dry",
+    "sentence": "Cacti thrive in arid climates where most plants cannot grow."
+  },
+  {
+    "word": "ERRATIC",
+    "definition": "not regular or predictable in movement or behavior",
+    "synonym": "unpredictable",
+    "sentence": "His erratic attendance worried his counselor."
+  },
+  {
+    "word": "AFFRONT",
+    "definition": "to insult or offend someone openly",
+    "synonym": "offense",
+    "sentence": "His comment was an affront to her hard work and made the room quiet."
+  },
+  {
+    "word": "SUMPTUOUS",
+    "definition": "rich and expensive-looking",
+    "synonym": "luxurious",
+    "sentence": "The banquet featured sumptuous foods and elegant decorations."
+  },
+  {
+    "word": "MERCENARY",
+    "definition": "working only for money, especially without loyalty",
+    "synonym": "money-driven",
+    "sentence": "The mercenary soldier fought for whichever side paid him most."
+  },
+  {
+    "word": "FORESHADOW",
+    "definition": "to give a hint or warning about something that will happen later",
+    "synonym": "hint",
+    "sentence": "The dark clouds foreshadowed the storm that was coming."
+  },
+  {
+    "word": "ASPERSE",
+    "definition": "to attack or criticize someoneâ€™s reputation unfairly",
+    "synonym": "slander",
+    "sentence": "Itâ€™s wrong to asperse someoneâ€™s character based on rumors."
+  },
+  {
+    "word": "COERCE",
+    "definition": "to force someone to do something they do not want to do",
+    "synonym": "compel",
+    "sentence": "No one should coerce others into doing something they find wrong."
+  },
+  {
+    "word": "COMPATIBLE",
+    "definition": "able to exist or work well together",
+    "synonym": "able",
+    "sentence": "The two software programs were compatible and worked well together."
+  },
+  {
+    "word": "UBIQUITOUS",
+    "definition": "present or found everywhere",
+    "synonym": "omnipresent",
+    "sentence": "Smartphones are ubiquitous in school hallways today."
+  },
+  {
+    "word": "INUNDATE",
+    "definition": "to flood or overwhelm by too much of something",
+    "synonym": "overwhelm",
+    "sentence": "After the announcement, the club was inundated with new members."
+  },
+  {
+    "word": "LIBEL",
+    "definition": "a false written statement that harms someoneâ€™s reputation",
+    "synonym": "slander (written)",
+    "sentence": "Publishing lies about someone can result in a libel lawsuit."
+  },
+  {
+    "word": "CLEMENCY",
+    "definition": "mercy or leniency shown toward someone",
+    "synonym": "mercy",
+    "sentence": "The judge showed clemency because the mistake was minor and unintentional."
+  },
+  {
+    "word": "EXPIATE",
+    "definition": "to make amends or atone for a wrongdoing",
+    "synonym": "atonement",
+    "sentence": "He would try to expiate his mistake by helping repair the damage."
+  },
+  {
+    "word": "CATHARTIC",
+    "definition": "providing psychological relief through the expression of strong emotions",
+    "synonym": "therapeutic",
+    "sentence": "Writing poems was cathartic and helped him process feelings after the move."
+  },
+  {
+    "word": "CONFERRAL",
+    "definition": "the act of giving or granting something, especially an honor",
+    "synonym": "granting",
+    "sentence": "The conferral of the award took place at the graduation ceremony."
+  },
+  {
+    "word": "ASSENT",
+    "definition": "to agree or give approval",
+    "synonym": "agree",
+    "sentence": "The committee gave its assent to the new plan after discussion."
+  },
+  {
+    "word": "RAVENOUS",
+    "definition": "extremely hungry",
+    "synonym": "starving",
+    "sentence": "After practice he was ravenous and ate two sandwiches."
+  },
+  {
+    "word": "ASCEND",
+    "definition": "to move upward or rise",
+    "synonym": "rise",
+    "sentence": "The hikers began to ascend the steep trail at dawn."
+  },
+  {
+    "word": "SANGUINE",
+    "definition": "optimistic or positive, especially in a difficult situation",
+    "synonym": "hopeful",
+    "sentence": "She remained sanguine about passing the test despite the hard material."
+  },
+  {
+    "word": "AGITATE",
+    "definition": "to stir up public feeling or trouble; to disturb emotionally",
+    "synonym": "disturb",
+    "sentence": "Activists hoped to agitate for change through organized rallies."
+  },
+  {
+    "word": "AUSTERE",
+    "definition": "simple and without decoration; strict or serious",
+    "synonym": "severe",
+    "sentence": "The old house had an austere look, with plain walls and few furnishings."
+  },
+  {
+    "word": "SURMOUNT",
+    "definition": "to overcome a difficulty or obstacle",
+    "synonym": "conquer",
+    "sentence": "She worked hard to surmount the challenges in her science project."
+  },
+  {
+    "word": "PARAGON",
+    "definition": "a perfect example of a quality or model of excellence",
+    "synonym": "ideal",
+    "sentence": "She was a paragon of patience while helping her classmates."
+  },
+  {
+    "word": "CIRCUMSPECT",
+    "definition": "careful to consider all circumstances and possible consequences",
+    "synonym": "cautious",
+    "sentence": "Be circumspect when sharing personal information online."
+  },
+  {
+    "word": "INTREPID",
+    "definition": "very brave and unafraid of danger",
+    "synonym": "fearless",
+    "sentence": "The intrepid explorer climbed cliffs most people avoided."
+  },
+  {
+    "word": "DELINEATE",
+    "definition": "to describe or portray something precisely",
+    "synonym": "describe",
+    "sentence": "The map clearly delineated the parkâ€™s walking trails."
+  },
+  {
+    "word": "COTTON",
+    "definition": "to begin to understand or like something",
+    "synonym": "understand",
+    "sentence": "It took him a while to cotton to the new teaching method."
+  },
+  {
+    "word": "MANIFEST",
+    "definition": "clear or obvious to the mind; to show or reveal",
+    "synonym": "obvious",
+    "sentence": "Her talent for drawing was manifest from a young age."
+  },
+  {
+    "word": "CROWD-PLEASER",
+    "definition": "something that appeals to many people; a performer popular with general audiences",
+    "synonym": "popular",
+    "sentence": "The band played several crowd-pleasers to get everyone singing along."
+  },
+  {
+    "word": "ANTITHESIS",
+    "definition": "a direct opposite or contrast",
+    "synonym": "opposite",
+    "sentence": "Her calm reaction was the antithesis of his panicked response."
+  },
+  {
+    "word": "INSATIABLE",
+    "definition": "impossible to satisfy; always wanting more",
+    "synonym": "unquenchable",
+    "sentence": "His insatiable curiosity led him to read every book in the library."
+  },
+  {
+    "word": "DISQUIET",
+    "definition": "a feeling of worry or uneasiness",
+    "synonym": "unease",
+    "sentence": "The strange noise in the hallway caused disquiet among the students."
+  },
+  {
+    "word": "PROBITY",
+    "definition": "honesty and strong moral principles",
+    "synonym": "integrity",
+    "sentence": "Her probity was clear when she returned the lost wallet untouched."
+  },
+  {
+    "word": "CONTUMELY",
+    "definition": "insulting or humiliating treatment",
+    "synonym": "insult",
+    "sentence": "He endured contumely from classmates but eventually proved his value."
+  },
+  {
+    "word": "ALLUDE",
+    "definition": "to refer to indirectly without mentioning something directly",
+    "synonym": "hint",
+    "sentence": "The speaker would allude to past events without naming names."
+  },
+  {
+    "word": "PLACATE",
+    "definition": "to calm someone by giving in or apologizing",
+    "synonym": "soothe",
+    "sentence": "He tried to placate his friend after the argument."
+  },
+  {
+    "word": "ENTRENCH",
+    "definition": "to establish something so firmly that it is difficult to change",
+    "synonym": "establish",
+    "sentence": "The school's tradition of excellence is entrenched in its history."
+  },
+  {
+    "word": "DIVERGENT",
+    "definition": "moving or extending in different directions from a common point",
+    "synonym": "separate",
+    "sentence": "Divergent opinions made it hard to reach a single decision."
+  },
+  {
+    "word": "CORDON",
+    "definition": "a line of police or soldiers preventing people from entering an area",
+    "synonym": "barrier",
+    "sentence": "Police set up a cordon around the building during the emergency drill."
+  },
+  {
+    "word": "NAIVE",
+    "definition": "lacking experience or judgment; easily fooled",
+    "synonym": "innocent",
+    "sentence": "She was naive about online scams and nearly gave away personal info."
+  },
+  {
+    "word": "JUNCTURE",
+    "definition": "a particular point in time or where things join",
+    "synonym": "crossing",
+    "sentence": "At this crucial juncture, the group decided to change plans."
+  },
+  {
+    "word": "PSEUDONYM",
+    "definition": "a false name used by an author or person",
+    "synonym": "pen name",
+    "sentence": "The writer published the book under a pseudonym to stay anonymous."
+  },
+  {
+    "word": "ADJURE",
+    "definition": "to strongly urge or command someone to do something",
+    "synonym": "urge",
+    "sentence": "The judge adjured the witness to tell the whole truth under oath."
+  },
+  {
+    "word": "PIQUE",
+    "definition": "a sudden feeling of annoyance or interest",
+    "synonym": "irritation/curiosity",
+    "sentence": "Her curiosity was piqued by the mysterious package on the doorstep."
+  },
+  {
+    "word": "OBLIVION",
+    "definition": "the state of being forgotten or unknown",
+    "synonym": "forgetfulness",
+    "sentence": "After the trend passed, the old song faded into oblivion."
+  },
+  {
+    "word": "COMMISERATE",
+    "definition": "to express sympathy or pity for someoneâ€™s misfortune",
+    "synonym": "sympathize",
+    "sentence": "Friends would commiserate with her after the disappointing tryout."
+  },
+  {
+    "word": "DESPONDENT",
+    "definition": "very sad and without hope",
+    "synonym": "dejected",
+    "sentence": "She felt despondent after failing the big test, but friends cheered her up."
+  },
+  {
+    "word": "ACCLAIM",
+    "definition": "public praise or approval",
+    "synonym": "praise",
+    "sentence": "The young artist received acclaim for her striking mural."
+  },
+  {
+    "word": "CONNIVE",
+    "definition": "to secretly cooperate in wrongdoing or to allow it to happen",
+    "synonym": "schemÐµ",
+    "sentence": "They seemed to connive to skip class and blame it on traffic."
+  },
+  {
+    "word": "HINDER",
+    "definition": "to create difficulties that make something slower or harder",
+    "synonym": "obstruct",
+    "sentence": "Heavy rain would hinder the outdoor match from being played."
+  },
+  {
+    "word": "COGNIZANT",
+    "definition": "aware or informed about something",
+    "synonym": "aware",
+    "sentence": "Be cognizant of deadlines to avoid missing important dates."
+  },
+  {
+    "word": "MALIGN",
+    "definition": "to speak harmful untruths about someone; to slander",
+    "synonym": "defame",
+    "sentence": "Itâ€™s wrong to malign others just to make yourself look better."
+  },
+  {
+    "word": "HOMOGENEOUS",
+    "definition": "made up of parts that are the same or similar",
+    "synonym": "uniform",
+    "sentence": "The field of wheat looked homogeneous from a distance."
+  },
+  {
+    "word": "OVERWHELM",
+    "definition": "to be too much to handle; to overpower",
+    "synonym": "overcome",
+    "sentence": "The sudden amount of homework would overwhelm any student."
+  },
+  {
+    "word": "SERVILE",
+    "definition": "excessively obedient or eager to please",
+    "synonym": "submissive",
+    "sentence": "His servile behavior toward authority annoyed his classmates."
+  },
+  {
+    "word": "BOLSTER",
+    "definition": "to support or strengthen",
+    "synonym": "reinforce",
+    "sentence": "Her notes helped bolster his understanding before the exam."
+  },
+  {
+    "word": "SEVER",
+    "definition": "to cut off or separate by cutting",
+    "synonym": "cut",
+    "sentence": "The rescue team had to sever the tangled ropes to free the climber."
+  },
+  {
+    "word": "EMBRACE",
+    "definition": "to accept something willingly or hug someone",
+    "synonym": "accept",
+    "sentence": "They decided to embrace the new rules after discussing them."
+  },
+  {
+    "word": "DILEMMA",
+    "definition": "a difficult situation requiring a choice between two options",
+    "synonym": "problem",
+    "sentence": "She faced a dilemma: study for the test or help her sick friend."
+  },
+  {
+    "word": "DISTEND",
+    "definition": "to swell or expand from internal pressure",
+    "synonym": "swell",
+    "sentence": "The balloon began to distend as they blew more air into it."
+  },
+  {
+    "word": "CHARISMA",
+    "definition": "a special charm or appeal that inspires devotion in others",
+    "synonym": "magnetism",
+    "sentence": "His charisma made him a natural leader among classmates."
+  },
+  {
+    "word": "RESILIENT",
+    "definition": "able to recover quickly from difficulties or changes",
+    "synonym": "tough",
+    "sentence": "After the loss, the team proved resilient and came back stronger."
+  },
+  {
+    "word": "UNCTUOUS",
+    "definition": "excessively flattering or oily in manner; insincere",
+    "synonym": "smarmy",
+    "sentence": "His unctuous compliments felt fake and made her uncomfortable."
+  },
+  {
+    "word": "DEMISE",
+    "definition": "the end or death of something or someone",
+    "synonym": "end",
+    "sentence": "The demise of the old playground led to plans for a new one."
+  },
+  {
+    "word": "DECIPHER",
+    "definition": "to figure out the meaning of something difficult to read or understand",
+    "synonym": "decode",
+    "sentence": "She worked to decipher the old handwriting in the letter."
+  },
+  {
+    "word": "CADGE",
+    "definition": "to ask for something, especially money or food, without paying",
+    "synonym": "beg",
+    "sentence": "He tried to cadge a few dollars from his friends for lunch."
+  },
+  {
+    "word": "ONEROUS",
+    "definition": "burdensome or difficult to deal with",
+    "synonym": "burdensome",
+    "sentence": "The regulations proved onerous for the small business to follow."
+  },
+  {
+    "word": "SUBSTANTIATE",
+    "definition": "to provide evidence to support or prove something",
+    "synonym": "prove",
+    "sentence": "Can you substantiate your claim with facts or data?"
+  },
+  {
+    "word": "ANONYMITY",
+    "definition": "the condition of being unknown or unnamed",
+    "synonym": "privacy",
+    "sentence": "Many contributors preferred anonymity to avoid being singled out."
+  },
+  {
+    "word": "DISPARAGE",
+    "definition": "to speak about someone in a negative way; belittle",
+    "synonym": "criticize",
+    "sentence": "Itâ€™s unfair to disparage someoneâ€™s effort when they tried their best."
+  },
+  {
+    "word": "CONTEND",
+    "definition": "to struggle against something or to assert an opinion",
+    "synonym": "assert/compete",
+    "sentence": "Experts contend that early practice improves test scores."
+  },
+  {
+    "word": "CONCOCT",
+    "definition": "to create or invent, especially a story or plan",
+    "synonym": "invent",
+    "sentence": "They concocted a funny tale to explain why they were late."
+  },
+  {
+    "word": "ARCANE",
+    "definition": "known or understood by only a few; mysterious",
+    "synonym": "mysterious",
+    "sentence": "The old book was full of arcane rules that puzzled the students."
+  },
+  {
+    "word": "LITHE",
+    "definition": "moving gracefully and easily",
+    "synonym": "supple",
+    "sentence": "The dancerâ€™s lithe movements earned her a standing ovation."
+  },
+  {
+    "word": "CAPITULATE",
+    "definition": "to surrender after negotiation; to give in",
+    "synonym": "surrender",
+    "sentence": "After hours of debate, they refused to capitulate on the main point."
+  },
+  {
+    "word": "INHIBIT",
+    "definition": "to hold back or prevent someone from doing something",
+    "synonym": "restrain",
+    "sentence": "Shyness can inhibit students from speaking up in class."
+  },
+  {
+    "word": "ENGENDER",
+    "definition": "to cause or give rise to a feeling or situation",
+    "synonym": "produce",
+    "sentence": "His comment engendered a lively debate among the students."
+  },
+  {
+    "word": "EFFICIENT",
+    "definition": "working well without wasting time or resources",
+    "synonym": "productive",
+    "sentence": "An efficient study routine helped him finish homework quickly."
+  },
+  {
+    "word": "MALEVOLENT",
+    "definition": "having or showing a wish to do evil to others",
+    "synonym": "malicious",
+    "sentence": "The villain in the story had a malevolent plan to take the throne."
+  },
+  {
+    "word": "CONDESCENDING",
+    "definition": "having a superior attitude toward others; patronizing",
+    "synonym": "patronizing",
+    "sentence": "His condescending tone made the students feel small."
+  },
+  {
+    "word": "ARTIFACT",
+    "definition": "an object made by humans, often of historical interest",
+    "synonym": "relic",
+    "sentence": "The museum displayed an ancient artifact found at the dig site."
+  },
+  {
+    "word": "CHIMERA",
+    "definition": "an illusion or impossible idea; a mythic creature made from parts of different animals",
+    "synonym": "illusion",
+    "sentence": "His hope of finishing without studying was a chimera that led to poor planning."
+  },
+  {
+    "word": "CAPRICIOUS",
+    "definition": "changing suddenly in mood or behavior; unpredictable",
+    "synonym": "fickle",
+    "sentence": "The weather here is capricious â€” sunny one hour and stormy the next."
+  },
+  {
+    "word": "BENIGN",
+    "definition": "kind and harmless",
+    "synonym": "harmless",
+    "sentence": "The doctor said the growth was benign, so Mia could relax."
+  },
+  {
+    "word": "NOVEL",
+    "definition": "new and not like anything seen before",
+    "synonym": "new",
+    "sentence": "They tried a novel approach to solve the recycling problem."
+  },
+  {
+    "word": "AVERSION",
+    "definition": "a strong dislike or reluctance",
+    "synonym": "dislike",
+    "sentence": "Her aversion to loud noises made concerts unpleasant for her."
+  },
+  {
+    "word": "AMALGAMATE",
+    "definition": "to combine into a unified whole; to merge",
+    "synonym": "merge",
+    "sentence": "Two small clubs decided to amalgamate to have more members and resources."
+  },
+  {
+    "word": "RENOWNED",
+    "definition": "famous and respected for achievements",
+    "synonym": "famous",
+    "sentence": "The scientist became renowned for her important discoveries."
+  },
+  {
+    "word": "SCRUTINIZE",
+    "definition": "to examine something carefully and closely",
+    "synonym": "inspect",
+    "sentence": "The scientist had to scrutinize the samples under a microscope."
+  },
+  {
+    "word": "ELUDE",
+    "definition": "to avoid or escape from someone or something cleverly",
+    "synonym": "escape",
+    "sentence": "The answer continued to elude him despite hours of studying."
+  },
+  {
+    "word": "EUPHEMISM",
+    "definition": "a mild or indirect word used instead of a harsh one",
+    "synonym": "mild term",
+    "sentence": "Saying someone 'passed away' is a euphemism for saying they died."
+  },
+  {
+    "word": "ENIGMA",
+    "definition": "a person or thing that is mysterious or puzzling",
+    "synonym": "mystery",
+    "sentence": "The old mansion was an enigma that attracted curious visitors."
+  },
+  {
+    "word": "AGGRIEVE",
+    "definition": "to cause someone to feel injustice or distress",
+    "synonym": "wrong",
+    "sentence": "He felt aggrieved when his contributions were ignored."
+  },
+  {
+    "word": "DISMAL",
+    "definition": "very poor or gloomy; depressing",
+    "synonym": "gloomy",
+    "sentence": "The team had a dismal performance in the championship game."
+  },
+  {
+    "word": "MITIGATE",
+    "definition": "to make less severe or painful",
+    "synonym": "lessen",
+    "sentence": "A good explanation might mitigate the teacherâ€™s disappointment."
+  },
+  {
+    "word": "EXPLICIT",
+    "definition": "clearly expressed and leaving no room for confusion",
+    "synonym": "clear",
+    "sentence": "The teacherâ€™s explicit instructions prevented many mistakes."
+  },
+  {
+    "word": "FALLACIOUS",
+    "definition": "based on a mistaken belief or unsound reasoning",
+    "synonym": "false",
+    "sentence": "The argument fell apart once the fallacious idea was exposed."
+  },
+  {
+    "word": "DISPARITY",
+    "definition": "a noticeable difference between two things",
+    "synonym": "gap",
+    "sentence": "There is often a disparity between what people say and what they do."
+  },
+  {
+    "word": "HARBINGER",
+    "definition": "a sign that something will happen soon",
+    "synonym": "forerunner",
+    "sentence": "Falling leaves can be a harbinger of colder weather."
+  },
+  {
+    "word": "CURVATURE",
+    "definition": "the fact of being curved or the degree to which something curves",
+    "synonym": "curve",
+    "sentence": "The curvature of the earth can be seen from high altitudes."
+  },
+  {
+    "word": "UNANIMOUS",
+    "definition": "in complete agreement with no opposing votes",
+    "synonym": "united",
+    "sentence": "The decision to cancel the event was unanimous among the committee."
+  },
+  {
+    "word": "KERNEL",
+    "definition": "the central or most important part",
+    "synonym": "core",
+    "sentence": "The kernel of his idea was simple but clever."
+  },
+  {
+    "word": "CORPULENT",
+    "definition": "having a large, heavy body; overweight",
+    "synonym": "heavy",
+    "sentence": "The corpulent cat needed to go on a diet to become healthier."
+  },
+  {
+    "word": "CONTRAVENE",
+    "definition": "to act against or violate a law or rule",
+    "synonym": "breach",
+    "sentence": "Parking there would contravene the posted regulations."
+  },
+  {
+    "word": "RETICENT",
+    "definition": "not revealing oneâ€™s thoughts or feelings readily; reserved",
+    "synonym": "reserved",
+    "sentence": "Though shy, he was not rudeâ€”just reticent in groups."
+  },
+  {
+    "word": "INDIGNANT",
+    "definition": "feeling anger because of unfair treatment",
+    "synonym": "angry",
+    "sentence": "She was indignant when falsely accused of cheating."
+  },
+  {
+    "word": "TENABLE",
+    "definition": "able to be defended or maintained against attack or objection",
+    "synonym": "defensible",
+    "sentence": "Her argument was tenable because she used solid evidence."
+  },
+  {
+    "word": "INCOHERENT",
+    "definition": "not logically connected; hard to understand",
+    "synonym": "unclear",
+    "sentence": "After being so tired, his explanation became incoherent and jumbled."
+  },
+  {
+    "word": "CHASTEN",
+    "definition": "to correct by punishment or discipline; to restrain or moderate",
+    "synonym": "discipline",
+    "sentence": "The teamâ€™s coach hoped the loss would chasten the players into practicing harder."
+  },
+  {
+    "word": "ENSUE",
+    "definition": "to happen as a result of something",
+    "synonym": "follow",
+    "sentence": "Chaos will ensue if we don't organize the school dance properly."
+  },
+  {
+    "word": "CREDULOUS",
+    "definition": "too ready to believe things; gullible",
+    "synonym": "gullible",
+    "sentence": "The advertisement tricked credulous shoppers into buying the fake product."
+  },
+  {
+    "word": "DEFT",
+    "definition": "skillful and quick in movement or thought",
+    "synonym": "nimble",
+    "sentence": "Her deft handling of the camera produced great photos."
+  },
+  {
+    "word": "BEWILDER",
+    "definition": "to confuse or puzzle completely",
+    "synonym": "perplex",
+    "sentence": "The complicated map would bewilder anyone without directions."
+  },
+  {
+    "word": "STERN",
+    "definition": "serious and strict in manner",
+    "synonym": "severe",
+    "sentence": "The coachâ€™s stern look stopped the noisy crowd immediately."
+  },
+  {
+    "word": "MOLLIFY",
+    "definition": "to calm someone down or reduce their anger",
+    "synonym": "soothe",
+    "sentence": "An apology helped mollify her anger after the argument."
+  },
+  {
+    "word": "ARC",
+    "definition": "a curved line or shape, like part of a circle",
+    "synonym": "curve",
+    "sentence": "The basketball followed a perfect arc as it went through the hoop."
+  },
+  {
+    "word": "PROVOKE",
+    "definition": "to cause a strong reaction or anger",
+    "synonym": "incite",
+    "sentence": "Donâ€™t provoke your sister when sheâ€™s studying for finals."
+  },
+  {
+    "word": "DALLY",
+    "definition": "to waste time or act slowly; to flirt playfully",
+    "synonym": "linger",
+    "sentence": "Donâ€™t dally on the way to class or youâ€™ll miss the bell."
+  },
+  {
+    "word": "PROSPER",
+    "definition": "to succeed or become wealthy and healthy",
+    "synonym": "thrive",
+    "sentence": "With good planning, the small business began to prosper."
+  },
+  {
+    "word": "DESPOTIC",
+    "definition": "ruling with absolute power often in a cruel way",
+    "synonym": "tyrannical",
+    "sentence": "The storyâ€™s ruler was so despotic that people lived in fear."
+  },
+  {
+    "word": "EULOGIZE",
+    "definition": "to praise someone highly, especially after death",
+    "synonym": "praise",
+    "sentence": "They will eulogize the coach for his dedication at the memorial."
+  },
+  {
+    "word": "AGENDA",
+    "definition": "a list of things to be discussed or done",
+    "synonym": "schedule",
+    "sentence": "The meetingâ€™s agenda included planning the spring festival."
+  },
+  {
+    "word": "EPHEMERAL",
+    "definition": "lasting a very short time",
+    "synonym": "short-lived",
+    "sentence": "The beauty of the sunset felt ephemeral but unforgettable."
+  },
+  {
+    "word": "DISSIPATE",
+    "definition": "to disappear or cause to disappear; to waste",
+    "synonym": "disperse/waste",
+    "sentence": "Their excitement would dissipate after the long bus ride home."
+  },
+  {
+    "word": "EMULSIFY",
+    "definition": "to mix two liquids that usually donâ€™t combine smoothly",
+    "synonym": "blend",
+    "sentence": "The chef would emulsify oil and vinegar to create a smooth dressing."
+  },
+  {
+    "word": "DEBACLE",
+    "definition": "a sudden and complete failure or collapse",
+    "synonym": "disaster",
+    "sentence": "The surprise party turned into a debacle when the lights went out."
+  },
+  {
+    "word": "MORBID",
+    "definition": "having an unhealthy interest in unpleasant subjects, especially death",
+    "synonym": "gruesome",
+    "sentence": "His morbid fascination with horror stories made others uneasy."
+  },
+  {
+    "word": "AMENABLE",
+    "definition": "willing to agree or be persuaded; open to suggestion",
+    "synonym": "cooperative",
+    "sentence": "If the schedule is changed, most students were amenable to the new time."
+  },
+  {
+    "word": "SCINTILLATING",
+    "definition": "sparkling or brilliant in conversation or performance",
+    "synonym": "brilliant",
+    "sentence": "Her scintillating commentary made the lecture enjoyable."
+  },
+  {
+    "word": "ACQUIESCE",
+    "definition": "to accept or agree without protest",
+    "synonym": "consent",
+    "sentence": "Although he had doubts, Marco decided to acquiesce to the plan."
+  },
+  {
+    "word": "RECANT",
+    "definition": "to withdraw or take back a statement or belief",
+    "synonym": "retract",
+    "sentence": "Under pressure, he had to recant his earlier claim."
+  },
+  {
+    "word": "EXPEDIENT",
+    "definition": "a quick or practical solution that may not be fair or moral",
+    "synonym": "convenient",
+    "sentence": "Choosing the expedient response solved the problem but upset some people."
+  },
+  {
+    "word": "QUANDARY",
+    "definition": "a state of uncertainty or doubt about what to do",
+    "synonym": "dilemma",
+    "sentence": "We were in a quandary about which route to take home."
+  },
+  {
+    "word": "REDOLENT",
+    "definition": "strongly reminiscent of something; fragrant",
+    "synonym": "suggestive",
+    "sentence": "The kitchen was redolent with the scent of fresh bread."
+  },
+  {
+    "word": "PUNGENT",
+    "definition": "having a strong, sharp smell or taste; sharp in expression",
+    "synonym": "sharp",
+    "sentence": "The cheese had a pungent odor that filled the kitchen."
+  },
+  {
+    "word": "ALACRITY",
+    "definition": "eagerness or quick willingness",
+    "synonym": "enthusiasm",
+    "sentence": "She accepted the invitation with alacrity and started planning immediately."
+  },
+  {
+    "word": "CONSECRATE",
+    "definition": "to make or declare something holy or set apart for a sacred purpose",
+    "synonym": "sanctify",
+    "sentence": "They planned to consecrate the memorial with a short ceremony."
+  },
+  {
+    "word": "ESPRIT",
+    "definition": "liveliness and enthusiasm, especially in a group",
+    "synonym": "spirit",
+    "sentence": "The team showed great esprit during their championship season."
+  },
+  {
+    "word": "MYOPIC",
+    "definition": "short-sighted; lacking imagination or foresight",
+    "synonym": "narrow-minded",
+    "sentence": "Making decisions only for today can seem myopic in the long run."
+  },
+  {
+    "word": "DISCERNING",
+    "definition": "showing good judgment and understanding",
+    "synonym": "perceptive",
+    "sentence": "A discerning reader could spot the authorâ€™s message quickly."
+  },
+  {
+    "word": "DELEGATE",
+    "definition": "to assign responsibility or authority to someone else",
+    "synonym": "assign",
+    "sentence": "The manager would delegate tasks so the project finished on time."
+  },
+  {
+    "word": "IDIOSYNCRASY",
+    "definition": "a strange or unusual habit that is unique to a person",
+    "synonym": "quirk",
+    "sentence": "One idiosyncrasy of Mr. Park is that he taps his pen when thinking."
+  },
+  {
+    "word": "COHESIVE",
+    "definition": "forming a united whole; sticking together",
+    "synonym": "united",
+    "sentence": "A cohesive team works well and supports each other during challenges."
+  },
+  {
+    "word": "PASTORAL",
+    "definition": "relating to the countryside or rural life",
+    "synonym": "rural",
+    "sentence": "They enjoyed a pastoral walk through fields and farms."
+  },
+  {
+    "word": "DILATORY",
+    "definition": "slow to act or causing delay",
+    "synonym": "tardy",
+    "sentence": "His dilatory approach to deadlines caused stress for the group."
+  },
+  {
+    "word": "BROOD",
+    "definition": "to think deeply about something that makes one unhappy; young animals in a single nest",
+    "synonym": "ponder/offspring",
+    "sentence": "Donâ€™t brood too much over one mistake; learn from it and move on."
+  },
+  {
+    "word": "QUIXOTIC",
+    "definition": "unrealistic and impractical but romantic or noble",
+    "synonym": "idealistic",
+    "sentence": "His quixotic plan to travel the world with no money sounded risky."
+  },
+  {
+    "word": "ADVERSIVE",
+    "definition": "acting to oppose or deter; hostile",
+    "synonym": "opposing",
+    "sentence": "Their adversive reaction slowed the proposalâ€™s progress."
+  },
+  {
+    "word": "CRUCIAL",
+    "definition": "extremely important or essential",
+    "synonym": "critical",
+    "sentence": "The final project was crucial to earning a top grade in the class."
+  },
+  {
+    "word": "IRONIC",
+    "definition": "when something happens in a way opposite to what is expected, often amusingly so",
+    "synonym": "sarcastic",
+    "sentence": "It was ironic that the fire station burned down due to a small electrical fire."
+  },
+  {
+    "word": "ANIMATE",
+    "definition": "to give life or energy to something",
+    "synonym": "energize",
+    "sentence": "His stories animate the characters and make them feel real."
+  },
+  {
+    "word": "UNDERMINE",
+    "definition": "to weaken or damage something gradually",
+    "synonym": "weaken",
+    "sentence": "Spreading false rumors can undermine peopleâ€™s trust in each other."
+  },
+  {
+    "word": "FRAUGHT",
+    "definition": "filled with something negative like worry or danger",
+    "synonym": "laden",
+    "sentence": "The journey was fraught with challenges, but they finished it."
+  },
+  {
+    "word": "POLEMIC",
+    "definition": "a strong written or spoken attack on someone or something",
+    "synonym": "controversy",
+    "sentence": "The essay became a polemic against unfair school policies."
+  },
+  {
+    "word": "MALICIOUS",
+    "definition": "intended to harm or upset someone",
+    "synonym": "spiteful",
+    "sentence": "Posting malicious comments online can hurt peopleâ€™s feelings."
+  },
+  {
+    "word": "EXACTING",
+    "definition": "making great demands on oneâ€™s skill or attention; strict",
+    "synonym": "demanding",
+    "sentence": "The exacting teacher expected neat, careful lab notebooks from students."
+  },
+  {
+    "word": "DOTE",
+    "definition": "to show extreme fondness or love for someone",
+    "synonym": "adore",
+    "sentence": "The grandmother would dote on her grandchildren whenever they visited."
+  },
+  {
+    "word": "BANAL",
+    "definition": "so lacking in originality as to be obvious and boring",
+    "synonym": "trite",
+    "sentence": "The movieâ€™s plot was so banal that many people left early."
+  },
+  {
+    "word": "CONSERVATIVE",
+    "definition": "resistant to change or favoring traditional ideas",
+    "synonym": "traditionalist",
+    "sentence": "A conservative approach favored tried-and-true methods in the project."
+  },
+  {
+    "word": "CAJOLE",
+    "definition": "to persuade someone with flattery or gentle urging",
+    "synonym": "coax",
+    "sentence": "She tried to cajole her parents into letting her go to the party."
+  },
+  {
+    "word": "ADVERSITY",
+    "definition": "serious trouble or difficulty",
+    "synonym": "hardship",
+    "sentence": "Even in the face of adversity, she kept working toward her goals."
+  },
+  {
+    "word": "BONA FIDE",
+    "definition": "genuine and real, not fake",
+    "synonym": "genuine",
+    "sentence": "She presented bona fide evidence to support her science project claims."
+  },
+  {
+    "word": "ELLIPTICAL",
+    "definition": "having an oval shape, or using few words",
+    "synonym": "oval",
+    "sentence": "The planet follows an elliptical orbit around the sun."
+  },
+  {
+    "word": "PROCRASTINATE",
+    "definition": "to delay doing something until later",
+    "synonym": "delay",
+    "sentence": "Donâ€™t procrastinateâ€”start your project early to avoid stress."
+  },
+  {
+    "word": "DOCUMENT",
+    "definition": "to record something in writing or with photographs",
+    "synonym": "record",
+    "sentence": "Students must document their research sources for the history project."
+  },
+  {
+    "word": "ENVELOPE",
+    "definition": "to wrap up or surround completely",
+    "synonym": "surround",
+    "sentence": "Fog began to envelope the school building early in the morning."
+  },
+  {
+    "word": "ENTIRETY",
+    "definition": "the whole of something; completeness",
+    "synonym": "whole",
+    "sentence": "She read the long novel in its entirety over the weekend."
+  },
+  {
+    "word": "DISCRETE",
+    "definition": "separate and distinct from others",
+    "synonym": "separate",
+    "sentence": "The teacher divided the class into discrete groups for the project."
+  },
+  {
+    "word": "EDIFY",
+    "definition": "to instruct or improve someone morally or intellectually",
+    "synonym": "educate",
+    "sentence": "The talk was meant to edify students about civic responsibilities."
+  },
+  {
+    "word": "SUSTAIN",
+    "definition": "to support or keep something going over time",
+    "synonym": "maintain",
+    "sentence": "The small grant helped sustain the music program for another year."
+  },
+  {
+    "word": "GUILE",
+    "definition": "clever but dishonest behavior used to deceive",
+    "synonym": "trickery",
+    "sentence": "The con artist used guile to steal valuables from the tourists."
+  },
+  {
+    "word": "EMPATHY",
+    "definition": "the ability to understand and share the feelings of another",
+    "synonym": "compassion",
+    "sentence": "Showing empathy made her a trusted friend to many classmates."
+  },
+  {
+    "word": "DETRIMENTAL",
+    "definition": "causing harm or damage",
+    "synonym": "harmful",
+    "sentence": "Excessive screen time can be detrimental to sleep quality."
+  },
+  {
+    "word": "ELLIPSE",
+    "definition": "an oval shape, like a flattened circle",
+    "synonym": "oval",
+    "sentence": "In geometry class, we learned to draw a perfect ellipse."
+  },
+  {
+    "word": "ARDUOUS",
+    "definition": "very difficult and requiring much effort",
+    "synonym": "difficult",
+    "sentence": "Completing the project on time proved to be an arduous task."
+  },
+  {
+    "word": "FALTER",
+    "definition": "a person who falts or a thing that does falt",
+    "synonym": "falt",
+    "sentence": "The falter showed how to do the task quickly and well."
+  },
+  {
+    "word": "BANTER",
+    "definition": "playful and friendly exchange of teasing remarks",
+    "synonym": "teasing",
+    "sentence": "The teammates exchanged banter and laughed between drills."
+  },
+  {
+    "word": "ELAN",
+    "definition": "energy, style, and enthusiasm in doing something",
+    "synonym": "flair",
+    "sentence": "She performed the dance routine with great elan and confidence."
+  },
+  {
+    "word": "ABERRATION",
+    "definition": "a change from what is normal or expected",
+    "synonym": "anomaly",
+    "sentence": "The scientist called the strange reading an aberration and repeated the test."
+  },
+  {
+    "word": "ENVISION",
+    "definition": "the act or process of envis",
+    "synonym": "envis",
+    "sentence": "The envision was discussed at the meeting as an important step."
+  },
+  {
+    "word": "EXTRICATE",
+    "definition": "to free someone from a difficult or tangled situation",
+    "synonym": "release",
+    "sentence": "Rescuers worked to extricate the trapped animals from the wreckage."
+  },
+  {
+    "word": "PIVOTAL",
+    "definition": "very important and central to the outcome",
+    "synonym": "crucial",
+    "sentence": "That exam was pivotal for deciding her final grade."
+  },
+  {
+    "word": "LEGIBLE",
+    "definition": "clear enough to read",
+    "synonym": "readable",
+    "sentence": "Please write neatly so your notes are legible to everyone."
+  },
+  {
+    "word": "AFFABLE",
+    "definition": "pleasant and easy to talk to",
+    "synonym": "friendly",
+    "sentence": "Our new neighbor is so affable that everyone stops to chat."
+  },
+  {
+    "word": "CALAMITY",
+    "definition": "a disaster or terrible event causing great damage or distress",
+    "synonym": "disaster",
+    "sentence": "The flood was a calamity that affected the entire town."
+  },
+  {
+    "word": "AUSPICIOUS",
+    "definition": "showing signs that something will be successful; favorable",
+    "synonym": "favorable",
+    "sentence": "The sunny weather was an auspicious start to the picnic."
+  },
+  {
+    "word": "OPAQUE",
+    "definition": "not allowing light through; hard to understand",
+    "synonym": "unclear",
+    "sentence": "The glass was opaque, so we couldnâ€™t see who was inside."
+  },
+  {
+    "word": "INEFFECTUAL",
+    "definition": "not producing the desired effect; weak",
+    "synonym": "ineffective",
+    "sentence": "His ineffectual attempt to fix the bike left it worse than before."
+  },
+  {
+    "word": "OXIDIZE",
+    "definition": "to combine with oxygen; to cause to rust or change chemically",
+    "synonym": "rust",
+    "sentence": "If you leave the metal outside, it will oxidize and turn brown."
+  },
+  {
+    "word": "OBSCURE",
+    "definition": "not well known or hard to understand",
+    "synonym": "unclear",
+    "sentence": "The ancient map used obscure symbols that took hours to decode."
+  },
+  {
+    "word": "PROFANE",
+    "definition": "showing disrespect for sacred things; vulgar",
+    "synonym": "irreverent",
+    "sentence": "Using profane language in the chapel was not allowed."
+  },
+  {
+    "word": "PONDER",
+    "definition": "to think about something carefully",
+    "synonym": "consider",
+    "sentence": "He would ponder the best answer before raising his hand."
+  },
+  {
+    "word": "CORROBORATE",
+    "definition": "to confirm or give support to a statement or idea",
+    "synonym": "confirm",
+    "sentence": "The video helped corroborate his version of the events."
+  },
+  {
+    "word": "ARRAIGN",
+    "definition": "to formally accuse someone of a crime in court",
+    "synonym": "accuse",
+    "sentence": "The judge will arraign the suspect next Monday morning."
+  },
+  {
+    "word": "CORDIAL",
+    "definition": "warm and friendly; sincere",
+    "synonym": "friendly",
+    "sentence": "They exchanged cordial greetings at the start of the meeting."
+  },
+  {
+    "word": "LAX",
+    "definition": "not strict or careful enough",
+    "synonym": "lenient",
+    "sentence": "The schoolâ€™s lax rules allowed students to use phones during lunch."
+  },
+  {
+    "word": "FURTIVE",
+    "definition": "done secretly to avoid notice",
+    "synonym": "secretive",
+    "sentence": "He cast a furtive glance at the answers on the desk beside him."
+  },
+  {
+    "word": "ALLEVIATE",
+    "definition": "to make something less severe or painful",
+    "synonym": "relieve",
+    "sentence": "A warm bath helped alleviate his sore muscles after the game."
+  },
+  {
+    "word": "OMNIPOTENT",
+    "definition": "all-powerful; having unlimited power",
+    "synonym": "all-powerful",
+    "sentence": "In myths, gods are often shown as omnipotent beings."
+  },
+  {
+    "word": "DIMINUTIVE",
+    "definition": "very small in size",
+    "synonym": "tiny",
+    "sentence": "The diminutive puppy fit into the small backpack comfortably."
+  },
+  {
+    "word": "INCISIVE",
+    "definition": "showing clear thinking and good judgment; sharp",
+    "synonym": "sharp",
+    "sentence": "Her incisive comments improved the whole discussion."
+  },
+  {
+    "word": "TARNISH",
+    "definition": "to damage the good quality or reputation of something",
+    "synonym": "soil",
+    "sentence": "The scandal would tarnish the politicianâ€™s reputation for years."
+  },
+  {
+    "word": "KEN",
+    "definition": "knowledge or understanding",
+    "synonym": "awareness",
+    "sentence": "Gardening is outside my ken, so I asked for advice."
+  },
+  {
+    "word": "MELODRAMATIC",
+    "definition": "excessively emotional or dramatic",
+    "synonym": "overly emotional",
+    "sentence": "Her melodramatic reaction made the small problem seem huge."
+  },
+  {
+    "word": "DILETTANTE",
+    "definition": "a person who dabbles in an art or field without serious commitment",
+    "synonym": "dabbler",
+    "sentence": "He was called a dilettante in music because he never practiced seriously."
+  },
+  {
+    "word": "BRAVADO",
+    "definition": "a show of boldness intended to impress or intimidate",
+    "synonym": "showiness",
+    "sentence": "His bravado in the face of danger hid how scared he really was."
+  },
+  {
+    "word": "ADULTHOOD",
+    "definition": "the stage of being an adult",
+    "synonym": "maturity",
+    "sentence": "Many students think about responsibilities theyâ€™ll have in adulthood."
+  },
+  {
+    "word": "FACTION",
+    "definition": "the act or process of fact",
+    "synonym": "fact",
+    "sentence": "The faction was discussed at the meeting as an important step."
+  },
+  {
+    "word": "CALUMNY",
+    "definition": "a false statement meant to damage someoneâ€™s reputation",
+    "synonym": "slander",
+    "sentence": "The actor sued the tabloid for spreading calumny about him."
+  },
+  {
+    "word": "CONJECTURE",
+    "definition": "an opinion or conclusion formed without all the facts; a guess",
+    "synonym": "guess",
+    "sentence": "His theory was interesting but mostly conjecture without the data."
+  },
+  {
+    "word": "NEBULOUS",
+    "definition": "vague, unclear, or ill-defined",
+    "synonym": "unclear",
+    "sentence": "His plan remained nebulous until he listed specific steps."
+  },
+  {
+    "word": "DELECTABLE",
+    "definition": "very pleasant to taste or smell; delightful",
+    "synonym": "delicious",
+    "sentence": "The bakery sold delectable pastries that disappeared quickly."
+  },
+  {
+    "word": "AVARICE",
+    "definition": "extreme greed for wealth or material gain",
+    "synonym": "greed",
+    "sentence": "His avarice made him keep all the treasure for himself."
+  },
+  {
+    "word": "JOVIAL",
+    "definition": "cheerful and friendly",
+    "synonym": "merry",
+    "sentence": "Her jovial laugh made the whole classroom smile."
+  },
+  {
+    "word": "AMASS",
+    "definition": "to collect a large amount of something over time",
+    "synonym": "accumulate",
+    "sentence": "He began to amass a collection of rare coins."
+  },
+  {
+    "word": "APPEASE",
+    "definition": "to calm or satisfy someone by giving in to their demands",
+    "synonym": "pacify",
+    "sentence": "To appease the class, the teacher extended the project deadline."
+  },
+  {
+    "word": "BURGEONING",
+    "definition": "growing or expanding rapidly",
+    "synonym": "flourishing",
+    "sentence": "The burgeoning tech club attracted many new members this year."
+  },
+  {
+    "word": "FACSIMILE",
+    "definition": "an exact copy of something, especially a document",
+    "synonym": "copy",
+    "sentence": "The museum displayed a facsimile of the original Declaration of Independence."
+  },
+  {
+    "word": "AGAPE",
+    "definition": "wide open, especially with surprise or wonder",
+    "synonym": "open-mouthed",
+    "sentence": "The crowd stood agape at the magicianâ€™s final trick."
+  },
+  {
+    "word": "CONNOISSEUR",
+    "definition": "an expert judge in matters of taste, such as art or food",
+    "synonym": "expert",
+    "sentence": "A connoisseur of films, she recommended classic movies to friends."
+  },
+  {
+    "word": "GRAVITY",
+    "definition": "the force that pulls objects toward the earth, or seriousness",
+    "synonym": "seriousness",
+    "sentence": "The principal spoke with gravity about the importance of honesty."
+  },
+  {
+    "word": "MUTABLE",
+    "definition": "likely to change; not constant",
+    "synonym": "changeable",
+    "sentence": "Human opinions can be mutable depending on new information."
+  },
+  {
+    "word": "ESOTERIC",
+    "definition": "intended for or understood by only a small group",
+    "synonym": "arcane",
+    "sentence": "The clubâ€™s rules sounded esoteric to anyone outside the group."
+  },
+  {
+    "word": "AMIABLE",
+    "definition": "friendly and pleasant",
+    "synonym": "friendly",
+    "sentence": "Even on Mondays, Mr. Lee was so amiable that students wanted to talk to him."
+  },
+  {
+    "word": "CARPING",
+    "definition": "complaining constantly in a petty way",
+    "synonym": "critical",
+    "sentence": "All that carping about the food made the volunteers feel discouraged."
+  },
+  {
+    "word": "CONFOUND",
+    "definition": "to confuse or surprise someone",
+    "synonym": "confuse",
+    "sentence": "The magic trick would confound even the smartest students."
+  },
+  {
+    "word": "FABRICATE",
+    "definition": "to invent or make up, often to deceive; to construct",
+    "synonym": "invent/forge",
+    "sentence": "He tried to fabricate a story to explain the broken vase but was caught."
+  },
+  {
+    "word": "DICTION",
+    "definition": "the act or process of dict",
+    "synonym": "dict",
+    "sentence": "The diction was discussed at the meeting as an important step."
+  },
+  {
+    "word": "ACRID",
+    "definition": "having a strong, unpleasant smell or taste; sharp in manner",
+    "synonym": "pungent",
+    "sentence": "The acrid smoke made everyone leave the kitchen quickly."
+  },
+  {
+    "word": "CLAUSE",
+    "definition": "a group of words containing a subject and verb, part of a sentence",
+    "synonym": "phrase",
+    "sentence": "The grammar lesson focused on identifying the main clause in sentences."
+  },
+  {
+    "word": "ACQUITTAL",
+    "definition": "a judgment that someone is not guilty of a crime",
+    "synonym": "clearance",
+    "sentence": "The jury's acquittal meant the defendant was found innocent."
+  },
+  {
+    "word": "NOVICE",
+    "definition": "a person new to something; a beginner",
+    "synonym": "beginner",
+    "sentence": "As a novice skateboarder, Priya practiced the basic moves in the empty parking lot."
+  },
+  {
+    "word": "CYNICAL",
+    "definition": "doubtful of peopleâ€™s sincerity or goodness",
+    "synonym": "skeptical",
+    "sentence": "A cynical student questioned whether the promise of awards would be kept."
+  },
+  {
+    "word": "PURGATORY",
+    "definition": "a place or state of suffering or waiting for purification",
+    "synonym": "limbo",
+    "sentence": "After exams, the students felt like they were in academic purgatory."
+  },
+  {
+    "word": "FOREBODE",
+    "definition": "to predict or indicate a future misfortune; to foretell",
+    "synonym": "predict",
+    "sentence": "The dark clouds seemed to forebode a storm."
+  },
+  {
+    "word": "DISSIDENT",
+    "definition": "a person who opposes official policy or authority",
+    "synonym": "protester",
+    "sentence": "Dissidents spoke out at the rally for change."
+  },
+  {
+    "word": "CLAIMANT",
+    "definition": "a person making a claim, especially in a legal context",
+    "synonym": "applicant",
+    "sentence": "The claimant filed papers asking for review of the decision."
+  },
+  {
+    "word": "ATTENUATE",
+    "definition": "to make something weaker or less intense",
+    "synonym": "weaken",
+    "sentence": "The medicine attenuated the pain so she could sleep."
+  },
+  {
+    "word": "DIFFUSE",
+    "definition": "to spread over a wide area or to make less concentrated",
+    "synonym": "spread",
+    "sentence": "The teacher tried to diffuse the tension between the arguing students."
+  },
+  {
+    "word": "SCRUPULOUS",
+    "definition": "very careful to do what is morally right; honest",
+    "synonym": "ethical",
+    "sentence": "He was scrupulous about citing every source in his report."
+  },
+  {
+    "word": "PATENT",
+    "definition": "obvious or clear; also an official right to an invention",
+    "synonym": "obvious",
+    "sentence": "The mistake was patent to everyone after the test results came out."
+  },
+  {
+    "word": "CONTENTIOUS",
+    "definition": "causing or likely to cause disagreement; argumentative",
+    "synonym": "controversial",
+    "sentence": "The debate became contentious when people started shouting."
+  },
+  {
+    "word": "DILIGENT",
+    "definition": "hardworking and careful in doing tasks",
+    "synonym": "industrious",
+    "sentence": "The diligent student reviewed her notes every night."
+  },
+  {
+    "word": "EXCESS",
+    "definition": "an amount that is more than necessary or allowed",
+    "synonym": "surplus",
+    "sentence": "The excess food from lunch was donated to the local food bank."
+  },
+  {
+    "word": "QUIRK",
+    "definition": "a strange habit or peculiar trait",
+    "synonym": "idiosyncrasy",
+    "sentence": "One quirky habit of his is collecting odd-shaped rocks."
+  },
+  {
+    "word": "PERIL",
+    "definition": "serious danger or risk",
+    "synonym": "danger",
+    "sentence": "The hikers knew they faced peril if they continued without supplies."
+  },
+  {
+    "word": "OSTENTATIOUS",
+    "definition": "showy in a way meant to attract attention or impress others",
+    "synonym": "showy",
+    "sentence": "Her ostentatious jewelry made her stand out at the simple party."
+  },
+  {
+    "word": "ELUSTRATE",
+    "definition": "to explain something by giving examples or making it clear",
+    "synonym": "demonstrate",
+    "sentence": "The teacher used diagrams to elustrate the concept for her students."
+  },
+  {
+    "word": "PRECIPICE",
+    "definition": "a very steep cliff or dangerous situation",
+    "synonym": "cliff",
+    "sentence": "The hikers stood at the edge of a precipice and felt dizzy."
+  },
+  {
+    "word": "DECLAIM",
+    "definition": "to speak loudly and passionately, often in a formal way",
+    "synonym": "orate",
+    "sentence": "He would declaim the poem in a dramatic voice during class."
+  },
+  {
+    "word": "DISCORD",
+    "definition": "disagreement or lack of harmony among people",
+    "synonym": "conflict",
+    "sentence": "There was discord in the group about how to spend the prize money."
+  },
+  {
+    "word": "EQUABLE",
+    "definition": "calm and steady; not easily upset",
+    "synonym": "calm",
+    "sentence": "The equable teacher never raised her voice, even when students misbehaved."
+  },
+  {
+    "word": "BESIEGE",
+    "definition": "to surround with armed forces or cause constant trouble or pressure",
+    "synonym": "surround",
+    "sentence": "The project team felt besieged by constant last-minute requests."
+  },
+  {
+    "word": "COVERAGE",
+    "definition": "the extent to which something is reported or dealt with",
+    "synonym": "reporting",
+    "sentence": "The school newspaper provided excellent coverage of the science fair."
+  },
+  {
+    "word": "GENUINE",
+    "definition": "real and authentic; not fake or pretended",
+    "synonym": "real",
+    "sentence": "Her genuine smile showed she was truly happy about the good news."
+  },
+  {
+    "word": "EXCULPATE",
+    "definition": "to show that someone is not guilty of wrongdoing",
+    "synonym": "exonerate",
+    "sentence": "New evidence might exculpate the defendant from the accusation."
+  },
+  {
+    "word": "NEPOTISM",
+    "definition": "favoritism shown to relatives or friends, usually in jobs",
+    "synonym": "favoritism",
+    "sentence": "People criticized the company for hiring by nepotism instead of merit."
+  },
+  {
+    "word": "CONDUCIVE",
+    "definition": "making a certain situation or outcome likely or possible",
+    "synonym": "helpful",
+    "sentence": "Good lighting and quiet study areas are conducive to concentrated reading."
+  },
+  {
+    "word": "IMPARTIAL",
+    "definition": "fair and not taking sides",
+    "synonym": "neutral",
+    "sentence": "A judge must remain impartial and base decisions on facts."
+  },
+  {
+    "word": "DEFER",
+    "definition": "to delay or put off to a later time (repeat)",
+    "synonym": "postpone",
+    "sentence": "They decided to defer the decision until more information was gathered."
+  },
+  {
+    "word": "CONUNDRUM",
+    "definition": "a confusing and difficult problem or question",
+    "synonym": "puzzle",
+    "sentence": "The riddle was a real conundrum that puzzled everyone."
+  },
+  {
+    "word": "BEGET",
+    "definition": "to cause or bring about",
+    "synonym": "produce",
+    "sentence": "Hard work can beget success over time."
+  },
+  {
+    "word": "ALTRUISTIC",
+    "definition": "showing concern for the welfare of others",
+    "synonym": "selfless",
+    "sentence": "Her altruistic actions helped feed families in need."
+  },
+  {
+    "word": "CHARLATAN",
+    "definition": "a person who pretends to have skills or knowledge they do not have",
+    "synonym": "fraud",
+    "sentence": "The so-called expert turned out to be a charlatan who sold fake remedies."
+  },
+  {
+    "word": "DERIDE",
+    "definition": "to laugh at or insult someone in a cruel way",
+    "synonym": "mock",
+    "sentence": "They would deride the new idea until they actually tried it."
+  },
+  {
+    "word": "IMMINENT",
+    "definition": "about to happen very soon",
+    "synonym": "impending",
+    "sentence": "Dark clouds and thunder made an imminent storm likely."
+  },
+  {
+    "word": "PAINSTAKING",
+    "definition": "done with great care and attention to detail",
+    "synonym": "thorough",
+    "sentence": "Her painstaking study notes helped many classmates prepare for the exam."
+  },
+  {
+    "word": "RUDIMENTARY",
+    "definition": "basic or simple; not fully developed",
+    "synonym": "elementary",
+    "sentence": "They used rudimentary tools to build the small bridge."
+  },
+  {
+    "word": "AUTHENTIC",
+    "definition": "genuine and real; not fake",
+    "synonym": "genuine",
+    "sentence": "The signature on the note proved the document authentic."
+  },
+  {
+    "word": "EXPATRIATE",
+    "definition": "to live outside oneâ€™s native country; someone who does so",
+    "synonym": "emigrant",
+    "sentence": "Her parents would expatriate for work, and she hoped to join them later."
+  },
+  {
+    "word": "ABATE",
+    "definition": "to become less strong or to reduce",
+    "synonym": "subside",
+    "sentence": "The storm finally began to abate after several hours of heavy rain."
+  },
+  {
+    "word": "OCCLUDE",
+    "definition": "to block or close up",
+    "synonym": "block",
+    "sentence": "A blood clot can occlude an artery and cause serious harm."
+  },
+  {
+    "word": "TORPOR",
+    "definition": "a state of physical or mental inactivity; sluggishness",
+    "synonym": "lethargy",
+    "sentence": "After lunch, a torpor fell over the study hall and few worked."
+  },
+  {
+    "word": "CONVULSIVE",
+    "definition": "producing sudden, violent movement; uncontrollable",
+    "synonym": "spasmodic",
+    "sentence": "The sudden convulsive laughter made the room erupt with giggles."
+  },
+  {
+    "word": "FRAGMENT",
+    "definition": "a small piece or part of something larger",
+    "synonym": "piece",
+    "sentence": "Only a fragment of the ancient pottery was found during the dig."
+  },
+  {
+    "word": "CAUSTIC",
+    "definition": "able to burn or corrode, or sharply critical or sarcastic",
+    "synonym": "biting",
+    "sentence": "Her caustic remark stung him more than she expected."
+  },
+  {
+    "word": "DEFERENTIAL",
+    "definition": "showing respect or esteem to someone else",
+    "synonym": "respectful",
+    "sentence": "Students were deferential to the visiting elders at the ceremony."
+  },
+  {
+    "word": "AFFLUENT",
+    "definition": "having a great deal of money; wealthy",
+    "synonym": "wealthy",
+    "sentence": "The affluent neighborhood had well-kept lawns and large houses."
+  },
+  {
+    "word": "PALPABLE",
+    "definition": "able to be felt or easily noticed",
+    "synonym": "tangible",
+    "sentence": "The excitement in the room was palpable before the concert."
+  },
+  {
+    "word": "AMELIORATE",
+    "definition": "to improve or make better",
+    "synonym": "improve",
+    "sentence": "Volunteering helped ameliorate the neighborhood parkâ€™s condition."
+  },
+  {
+    "word": "CONTRIVE",
+    "definition": "to plan cleverly or invent a scheme",
+    "synonym": "engineer",
+    "sentence": "They contrived a way to finish the project faster."
+  },
+  {
+    "word": "ARABLE",
+    "definition": "suitable for growing crops",
+    "synonym": "fertile",
+    "sentence": "Farmers looked for arable land to plant the spring crops."
+  },
+  {
+    "word": "BREVITY",
+    "definition": "shortness in time or words; being brief",
+    "synonym": "conciseness",
+    "sentence": "The teacher appreciated the brevity of his clear presentation."
+  },
+  {
+    "word": "LETHARGIC",
+    "definition": "tired, sluggish, or lacking energy",
+    "synonym": "sluggish",
+    "sentence": "After the movie marathon, Leo felt too lethargic to finish his homework."
+  },
+  {
+    "word": "REFUTE",
+    "definition": "to prove that a statement or argument is false",
+    "synonym": "disprove",
+    "sentence": "He used data to refute the mistaken belief about the experiment."
+  },
+  {
+    "word": "COMPLACENT",
+    "definition": "self-satisfied and unconcerned with possible problems",
+    "synonym": "self-satisfied",
+    "sentence": "After winning a few games, the team became complacent and stopped practicing."
+  },
+  {
+    "word": "DISPEL",
+    "definition": "to make something disappear or go away",
+    "synonym": "eliminate",
+    "sentence": "The teacher's explanation helped dispel the students' confusion about the assignment."
+  },
+  {
+    "word": "CONTEMPLATE",
+    "definition": "to think deeply or carefully about something",
+    "synonym": "ponder",
+    "sentence": "She would contemplate her answer before writing it down."
+  },
+  {
+    "word": "FAWN",
+    "definition": "to try to please someone by being overly friendly",
+    "synonym": "flatter",
+    "sentence": "Some students fawn over the teacher hoping for better grades."
+  },
+  {
+    "word": "CATHARSIS",
+    "definition": "the process of releasing strong emotions to achieve relief",
+    "synonym": "release",
+    "sentence": "Writing in her journal was a catharsis after a stressful week."
+  },
+  {
+    "word": "CONVERGE",
+    "definition": "to come together from different directions to meet",
+    "synonym": "meet",
+    "sentence": "Paths from the north and south converge at the old oak tree."
+  },
+  {
+    "word": "AUGMENT",
+    "definition": "to make larger or increase",
+    "synonym": "increase",
+    "sentence": "They augmented the team with two new players before the tournament."
+  },
+  {
+    "word": "GRIEVOUS",
+    "definition": "very serious or severe; causing grief",
+    "synonym": "serious",
+    "sentence": "Cheating on the test was a grievous mistake that affected his reputation."
+  },
+  {
+    "word": "CAPTIVATE",
+    "definition": "to attract and hold the attention of someone",
+    "synonym": "charm",
+    "sentence": "The magicianâ€™s performance would captivate the younger audience members."
+  },
+  {
+    "word": "BILK",
+    "definition": "to cheat or swindle someone out of money or goods",
+    "synonym": "defraud",
+    "sentence": "The scam tried to bilk customers out of their savings."
+  },
+  {
+    "word": "ENDEMIC",
+    "definition": "common in a particular area or among a particular group",
+    "synonym": "native",
+    "sentence": "Some diseases are endemic to regions with certain climates."
+  },
+  {
+    "word": "SERENDIPITY",
+    "definition": "finding something good by chance",
+    "synonym": "luck",
+    "sentence": "By serendipity, they found a lost bracelet while gardening."
+  },
+  {
+    "word": "PURPORT",
+    "definition": "to claim or appear to be something, often falsely",
+    "synonym": "claim",
+    "sentence": "The message purported to be from the principal but was actually a joke."
+  },
+  {
+    "word": "FIDGET",
+    "definition": "to make small movements because you are restless or nervous",
+    "synonym": "squirm",
+    "sentence": "Students tend to fidget in their seats during long lectures."
+  },
+  {
+    "word": "BARRAGE",
+    "definition": "a concentrated outpouring of something, like questions or criticism",
+    "synonym": "outpouring",
+    "sentence": "He faced a barrage of questions after his surprising announcement."
+  },
+  {
+    "word": "PENCHANT",
+    "definition": "a strong liking or tendency for something",
+    "synonym": "inclination",
+    "sentence": "She has a penchant for sketching animals in her notebook."
+  },
+  {
+    "word": "ELATE",
+    "definition": "to make someone feel very happy and excited",
+    "synonym": "thrill",
+    "sentence": "The good news about the field trip will elate the entire class."
+  },
+  {
+    "word": "BOTCH",
+    "definition": "to do something badly or carelessly; to mess up",
+    "synonym": "bungle",
+    "sentence": "They were worried that a single mistake could botch the whole presentation."
+  },
+  {
+    "word": "CAVIL",
+    "definition": "to make petty objections or unnecessary criticisms",
+    "synonym": "find fault",
+    "sentence": "Try not to cavil over tiny points when the main idea is strong."
+  },
+  {
+    "word": "DISARMING",
+    "definition": "having the quality of removing hostility or suspicion",
+    "synonym": "charming",
+    "sentence": "Her disarming smile helped calm the nervous new students."
+  },
+  {
+    "word": "HASTEN",
+    "definition": "to make something happen sooner or move quickly",
+    "synonym": "hurry",
+    "sentence": "They had to hasten their steps to catch the last bus."
+  },
+  {
+    "word": "ANOMALY",
+    "definition": "something that is unusual or unexpected",
+    "synonym": "irregularity",
+    "sentence": "The glowing plant was an anomaly that puzzled the scientists."
+  },
+  {
+    "word": "ASPIRANT",
+    "definition": "someone who wants to achieve a particular goal or position",
+    "synonym": "candidate",
+    "sentence": "Each aspirant for student council president gave a campaign speech."
+  },
+  {
+    "word": "MUNDANE",
+    "definition": "ordinary and not interesting; common",
+    "synonym": "ordinary",
+    "sentence": "She wanted to escape her mundane chores with an exciting trip."
+  },
+  {
+    "word": "ELICIT",
+    "definition": "to draw out or bring forth a response or reaction",
+    "synonym": "provoke",
+    "sentence": "The teacher's question was designed to elicit thoughtful discussion from students."
+  },
+  {
+    "word": "CADENCE",
+    "definition": "a rhythmic flow or beat of sounds or words",
+    "synonym": "rhythm",
+    "sentence": "The poemâ€™s cadence made it pleasant to perform aloud."
+  },
+  {
+    "word": "CHERISH",
+    "definition": "to hold something dear and care for it affectionately",
+    "synonym": "treasure",
+    "sentence": "They cherish family traditions during holidays."
+  },
+  {
+    "word": "GRAVITATE",
+    "definition": "to be naturally attracted to or move toward something",
+    "synonym": "attract",
+    "sentence": "Students often gravitate toward teachers who make learning fun."
+  },
+  {
+    "word": "MERCURIAL",
+    "definition": "changing often and quickly in mood or behavior",
+    "synonym": "volatile",
+    "sentence": "Her mercurial temper made it hard to predict her reactions."
+  },
+  {
+    "word": "ADVOCATE",
+    "definition": "to support or argue for something; a person who supports a cause",
+    "synonym": "support",
+    "sentence": "He decided to advocate for later school start times after reading the studies."
+  },
+  {
+    "word": "CONVOLUTED",
+    "definition": "extremely complicated and difficult to follow",
+    "synonym": "complex",
+    "sentence": "The instructions were so convoluted that no one knew where to start."
+  },
+  {
+    "word": "ALLEGORY",
+    "definition": "a story with a hidden meaning, often moral or political",
+    "synonym": "symbolic story",
+    "sentence": "The novel is an allegory about friendship and loyalty under pressure."
+  },
+  {
+    "word": "SUBTLE",
+    "definition": "not obvious; slight and hard to notice",
+    "synonym": "delicate",
+    "sentence": "She used subtle hints to show she needed help without asking outright."
+  },
+  {
+    "word": "COLLOQUIAL",
+    "definition": "used in ordinary or familiar conversation rather than formal speech",
+    "synonym": "informal",
+    "sentence": "The essay was fine but a bit too colloquial for a formal assignment."
+  },
+  {
+    "word": "DEBAUCHERY",
+    "definition": "excessive indulgence in sensual pleasures",
+    "synonym": "excess",
+    "sentence": "The book described the rulerâ€™s life of debauchery before the fall of the kingdom."
+  },
+  {
+    "word": "DESIST",
+    "definition": "to stop doing something; cease",
+    "synonym": "stop",
+    "sentence": "After repeated warnings, they were told to desist from trespassing."
+  },
+  {
+    "word": "INNATE",
+    "definition": "natural or inborn; existing from birth",
+    "synonym": "inborn",
+    "sentence": "Her innate musical talent became obvious at an early age."
+  },
+  {
+    "word": "CLANDESTINE",
+    "definition": "kept secret, especially because it is illicit",
+    "synonym": "secret",
+    "sentence": "They held clandestine meetings to plan the surprise party."
+  },
+  {
+    "word": "IMPLICIT",
+    "definition": "implied though not plainly expressed; understood without being stated",
+    "synonym": "implied",
+    "sentence": "There was an implicit agreement that everyone would bring snacks."
+  },
+  {
+    "word": "LUGUBRIOUS",
+    "definition": "very sad or gloomy in an exaggerated way",
+    "synonym": "mournful",
+    "sentence": "The foggy weather made the town look lugubrious and quiet."
+  },
+  {
+    "word": "BENEVOLENT",
+    "definition": "kind and wanting to help others",
+    "synonym": "kind",
+    "sentence": "The benevolent group donated books to the school library."
+  },
+  {
+    "word": "RIGID",
+    "definition": "stiff and not easily changed or bent",
+    "synonym": "inflexible",
+    "sentence": "The rules were rigid and left no room for exceptions."
+  },
+  {
+    "word": "CREPUSCULAR",
+    "definition": "relating to twilight; active during dawn or dusk",
+    "synonym": "twilight",
+    "sentence": "Owls are crepuscular creatures that hunt during the evening hours."
+  },
+  {
+    "word": "CONSOLATION",
+    "definition": "comfort given to someone after a loss or disappointment",
+    "synonym": "comfort",
+    "sentence": "As consolation for losing, they awarded everyone a small prize."
+  },
+  {
+    "word": "ENMITY",
+    "definition": "deep hatred or hostility between people",
+    "synonym": "hostility",
+    "sentence": "Longstanding enmity between the teams made the game intense."
+  },
+  {
+    "word": "TREPIDATION",
+    "definition": "a feeling of fear or anxiety about something that may happen",
+    "synonym": "fear",
+    "sentence": "With trepidation, she stepped onto the stage for her solo performance."
+  },
+  {
+    "word": "DUBIOUS",
+    "definition": "doubtful or uncertain; causing doubt",
+    "synonym": "doubtful",
+    "sentence": "Her explanation sounded dubious, so the teacher asked for proof."
+  },
+  {
+    "word": "CHRONIC",
+    "definition": "lasting a long time or recurring often",
+    "synonym": "persistent",
+    "sentence": "He suffered from chronic headaches that needed treatment."
+  },
+  {
+    "word": "DENEUTRALIZE",
+    "definition": "to remove the neutral quality from something; to make biased",
+    "synonym": "bias",
+    "sentence": "The editorial seemed to deneutralize what should have been a factual news report."
+  },
+  {
+    "word": "FORMIDABLE",
+    "definition": "inspiring fear or respect because of size or power",
+    "synonym": "intimidating",
+    "sentence": "Facing a formidable opponent, the team trained harder than ever."
+  },
+  {
+    "word": "TEPID",
+    "definition": "only slightly warm or showing little enthusiasm",
+    "synonym": "lukewarm",
+    "sentence": "The audience gave a tepid response to the new song."
+  },
+  {
+    "word": "FATED",
+    "definition": "destined to happen; certain by fate",
+    "synonym": "destined",
+    "sentence": "They joked that meeting in the cafÃ© was fated after so many coincidences."
+  },
+  {
+    "word": "DOGGED",
+    "definition": "having been dogg or affected by dogg",
+    "synonym": "dogg",
+    "sentence": "He looked dogged after the long, hard day."
+  },
+  {
+    "word": "DELIBERATE",
+    "definition": "done consciously and intentionally; careful in thought or action",
+    "synonym": "intentional",
+    "sentence": "They took deliberate steps to plan the event carefully."
+  },
+  {
+    "word": "COSTUME",
+    "definition": "special clothes worn to look like someone or something else",
+    "synonym": "outfit",
+    "sentence": "Everyone wore a creative costume to the school Halloween party."
+  },
+  {
+    "word": "BUOYANT",
+    "definition": "able to float; cheerful and optimistic",
+    "synonym": "cheerful",
+    "sentence": "Her buoyant mood lifted the spirits of the whole group."
+  },
+  {
+    "word": "CONSTRAIN",
+    "definition": "to limit or restrict someoneâ€™s actions or freedom",
+    "synonym": "restrict",
+    "sentence": "Rules can constrain how students choose their projects."
+  },
+  {
+    "word": "COMPLEMENT",
+    "definition": "something that completes or enhances something else",
+    "synonym": "supplement",
+    "sentence": "The new mural will complement the schoolâ€™s art collection nicely."
+  },
+  {
+    "word": "BANE",
+    "definition": "a cause of great trouble or annoyance",
+    "synonym": "curse",
+    "sentence": "Mosquitoes were the bane of their camping trip."
+  },
+  {
+    "word": "BESEECH",
+    "definition": "to beg eagerly or urgently",
+    "synonym": "implore",
+    "sentence": "She would beseech the teacher for extra time to finish the test."
+  },
+  {
+    "word": "SPONTANEOUS",
+    "definition": "done suddenly without planning or premeditation",
+    "synonym": "impromptu",
+    "sentence": "They gave a spontaneous performance that delighted the crowd."
+  },
+  {
+    "word": "CHAOTIC",
+    "definition": "completely disordered and unpredictable",
+    "synonym": "disordered",
+    "sentence": "The classroom became chaotic when the substitute left for a moment."
+  },
+  {
+    "word": "BLATANT",
+    "definition": "obvious and done without shame; flagrant (repeat)",
+    "synonym": "obvious",
+    "sentence": "Her blatant disregard for the rules led to immediate consequences."
+  },
+  {
+    "word": "LUDICROUS",
+    "definition": "ridiculous and unreasonable; silly",
+    "synonym": "absurd",
+    "sentence": "The idea of a flying bicycle sounded ludicrous at first."
+  },
+  {
+    "word": "DEXTEROUS",
+    "definition": "skillful with the hands or mind",
+    "synonym": "adept",
+    "sentence": "The dexterous artist painted fine details with ease."
+  },
+  {
+    "word": "BELEAGUER",
+    "definition": "to surround or besiege; to cause continuous trouble",
+    "synonym": "beset",
+    "sentence": "The small store was beleaguered by rising costs and fewer customers."
+  },
+  {
+    "word": "IMPOVERISH",
+    "definition": "to make poor or reduce the quality of something",
+    "synonym": "deprive",
+    "sentence": "Overuse of the soil can impoverish the land and reduce crops."
+  },
+  {
+    "word": "EXPEDITE",
+    "definition": "to make something happen sooner or faster",
+    "synonym": "hasten",
+    "sentence": "They paid extra to expedite the shipping of the textbooks."
+  },
+  {
+    "word": "DIVERGE",
+    "definition": "to move or extend in different directions from a common point",
+    "synonym": "separate",
+    "sentence": "The two paths diverge after the old oak tree; one leads to the river and the other to the hill."
+  },
+  {
+    "word": "ADULTERATE",
+    "definition": "to make something poorer in quality by adding inferior substances",
+    "synonym": "contaminate",
+    "sentence": "They were fined for trying to adulterate the juice with cheaper syrup."
+  }
+]
