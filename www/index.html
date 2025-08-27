@@ -720,7 +720,6 @@
                 grid-column: 1 / -1; /* makes it span all columns in a grid */
             }
         }
-
         /* Tighten layout by ~10% on short screens to avoid vertical scrolling */
         @media (max-height: 850px) {
             .container { padding: 8px; }
@@ -741,15 +740,6 @@
             .word-definition { font-size: 0.9rem; }
             .option-button { padding: 10px 12px; min-height: 46px; font-size: 0.85rem; }
             .action-buttons { gap: 8px; }
-        }
-
-        /* Further tighten layout on short displays to avoid vertical scroll */
-        @media (max-height: 700px) {
-            .header { margin-bottom: 8px; padding: 10px; }
-            .title { font-size: 1.5rem; }
-            .subtitle { font-size: 0.8rem; }
-            .speech-bubble { font-size: 0.95rem; }
-            .quest-button { padding: 18px 14px; min-height: 64px; font-size: 1rem; }
         }
 
         /* Allow the intro row to wrap on very narrow screens to prevent overflow */

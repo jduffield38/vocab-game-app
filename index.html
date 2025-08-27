@@ -743,15 +743,6 @@
             .action-buttons { gap: 8px; }
         }
 
-        /* Further tighten layout on short displays to avoid vertical scroll */
-        @media (max-height: 700px) {
-            .header { margin-bottom: 8px; padding: 10px; }
-            .title { font-size: 1.5rem; }
-            .subtitle { font-size: 0.8rem; }
-            .speech-bubble { font-size: 0.95rem; }
-            .quest-button { padding: 18px 14px; min-height: 64px; font-size: 1rem; }
-        }
-
         /* Allow the intro row to wrap on very narrow screens to prevent overflow */
         @media (max-width: 400px) {
             #mainMenu .setup-message { flex-wrap: wrap !important; justify-content: center !important; }
