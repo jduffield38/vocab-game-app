@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, shrink-to-fit=no">
     <title>K-Pop Word Warrior: SSAT Vocabulary Quest</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@400;600;700;800&display=swap');
@@ -18,15 +18,21 @@
             font-family: 'Inter', 'Poppins', sans-serif;
             background: linear-gradient(135deg, #0a0a0a 0%, #1a0033 50%, #330066 100%);
             -webkit-color-rendering: optimizeQuality;
-            min-height: 100vh;
-            min-height: 100svh;
-            min-height: 100dvh;
+            height: 100vh;
+            height: 100svh;
+            height: 100dvh;
             color: #ffffff;
-            overflow-x: hidden;
-            padding-top: env(safe-area-inset-top);
-            padding-top: constant(safe-area-inset-top);
-            padding-bottom: env(safe-area-inset-bottom);
-            padding-bottom: constant(safe-area-inset-bottom);
+            overflow: hidden;
+            padding-top: env(safe-area-inset-top, 0px);
+            padding-bottom: env(safe-area-inset-bottom, 0px);
+            padding-left: env(safe-area-inset-left, 0px);
+            padding-right: env(safe-area-inset-right, 0px);
+            /*position: fixed;*/
+            top: 0;
+            left: 0;
+            width: 100vw;
+            width: 100svw;
+            width: 100dvw;
         }
 
         /*main menu stuff*/
@@ -104,15 +110,16 @@
         .container {
             max-width: 900px;
             margin: 0 auto;
-            padding: 10px;
+            padding: 8px;
             position: relative;
             z-index: 1;
-            min-height: 100vh;
-            min-height: 100svh;
-            min-height: 100dvh;
+            height: 100vh;
+            height: 100svh;
+            height: 100dvh;
             display: flex;
             flex-direction: column;
             overflow: hidden;
+            box-sizing: border-box;
         }
         
         .header {
@@ -668,6 +675,34 @@
             font-size: 0.85rem;
         }
 
+        /* App-specific viewport fixes */
+        @supports (-webkit-touch-callout: none) {
+            /* iOS Safari specific */
+            body {
+                height: -webkit-fill-available;
+            }
+            .container {
+                height: -webkit-fill-available;
+            }
+        }
+        
+        /* Prevent zoom and bounce on mobile apps */
+        * {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        input, textarea, button {
+            -webkit-user-select: auto;
+        }
+        
+        /* Force hardware acceleration */
+        .container, .game-setup, .quiz-container {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
         /* Mobile-specific optimizations */
         @media (max-width: 768px) {
             .container {
@@ -804,10 +839,18 @@
             }
         }
 
-        /* Very short screens - compress vertically */
-        @media (max-height: 650px) {
+        /* Very short screens and native app optimization */
+        @media (max-height: 650px), 
+               (max-height: 700px) and (orientation: portrait),
+               (max-width: 400px) {
             .container { 
-                padding: 4px; 
+                padding: 4px;
+                height: 100vh !important;
+                height: 100svh !important;
+                height: 100dvh !important;
+                max-height: 100vh !important;
+                max-height: 100svh !important;
+                max-height: 100dvh !important;
             }
             
             .header { 
