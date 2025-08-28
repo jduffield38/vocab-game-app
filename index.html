@@ -661,26 +661,6 @@
             color: #ccffcc;
             font-size: 0.85rem;
         }
-
-               /* App-specific height calculation */
-        @media screen and (max-device-width: 768px) {
-            .container {
-                height: calc(100vh - 40px);
-                max-height: calc(100vh - 40px);
-                margin-bottom: 20px;
-            }
-            
-            .header {
-                margin-bottom: 8px;
-                padding: 8px;
-            }
-            
-            .game-setup, .quiz-container {
-                padding: 8px;
-                flex: 1;
-                min-height: 0;
-            }
-        }
         /* Mobile-specific optimizations */
         @media (max-width: 768px) {
             .container {
@@ -816,104 +796,41 @@
                 width: 90vw;
             }
         }
-
-        /* Very short screens and native app optimization */
-        @media (max-height: 650px), 
-               (max-height: 700px) and (orientation: portrait),
-               (max-width: 400px) {
-            .container { 
+        /* Consolidated mobile and app optimization */
+        @media screen and (max-width: 768px) {
+            .container {
                 padding: 4px;
-                height: 100vh !important;
-                height: 100svh !important;
-                height: 100dvh !important;
-                max-height: 100vh !important;
-                max-height: 100svh !important;
-                max-height: 100dvh !important;
+                height: calc(100vh - 60px);
+                max-height: calc(100vh - 60px);
+                margin-bottom: 20px;
             }
             
-            .header { 
-                margin-bottom: 6px; 
-                padding: 8px; 
+            .header {
+                margin-bottom: 6px;
+                padding: 6px;
             }
             
-            .title { 
-                font-size: 1.3rem; 
+            .title {
+                font-size: 1.3rem;
             }
             
-            .subtitle { 
-                font-size: 0.7rem; 
+            .subtitle {
+                font-size: 0.7rem;
             }
             
-            .game-setup, .quiz-container { 
-                padding: 8px; 
+            .game-setup, .quiz-container {
+                padding: 6px;
             }
             
-            #mainMenu .setup-message { 
-                gap: 8px !important; 
+            .quest-buttons {
+                gap: 0.5em;
+                max-width: 320px;
             }
             
-            #mainMenu .setup-message img { 
-                width: 16vw !important; 
-                max-width: 80px !important; 
-            }
-            
-            #mainMenu .speech-bubble { 
-                padding: 12px 14px; 
-                font-size: 0.85rem; 
-                max-width: 280px; 
-            }
-            
-            .quest-buttons { 
-                gap: 0.5em; 
-                max-width: 320px; 
-            }
-            
-            .quest-button { 
-                padding: 14px 12px; 
-                min-height: 60px; 
-                font-size: 0.85rem; 
-            }
-            
-            #welcomeMessage { 
-                margin: 2px 0 6px 0 !important; 
-                font-size: 0.8rem;
-            }
-            
-            .question-header { 
-                margin-bottom: 6px; 
-                gap: 6px; 
-            }
-            
-            .question-number { 
-                padding: 4px 8px; 
-                font-size: 0.7rem; 
-            }
-            
-            .score { 
-                font-size: 0.75rem; 
-            }
-            
-            .vocabulary-word { 
-                font-size: 1.3rem; 
-            }
-            
-            .word-definition { 
-                font-size: 0.85rem; 
-            }
-            
-            .option-button { 
-                padding: 8px 10px; 
-                min-height: 40px; 
-                font-size: 0.8rem; 
-            }
-            
-            .action-buttons { 
-                gap: 6px; 
-            }
-            
-            .flashcard-container {
-                height: min(40vh, 180px);
-                margin: 8px auto;
+            .quest-button {
+                padding: 14px 10px;
+                min-height: 60px;
+                font-size: 0.85rem;
             }
         }
     </style>

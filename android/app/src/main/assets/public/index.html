@@ -18,21 +18,10 @@
             font-family: 'Inter', 'Poppins', sans-serif;
             background: linear-gradient(135deg, #0a0a0a 0%, #1a0033 50%, #330066 100%);
             -webkit-color-rendering: optimizeQuality;
-            height: 100vh;
-            height: 100svh;
-            height: 100dvh;
+            min-height: 100vh;
             color: #ffffff;
-            overflow: hidden;
-            padding-top: env(safe-area-inset-top, 0px);
-            padding-bottom: env(safe-area-inset-bottom, 0px);
-            padding-left: env(safe-area-inset-left, 0px);
-            padding-right: env(safe-area-inset-right, 0px);
-            /*position: fixed;*/
-            top: 0;
-            left: 0;
-            width: 100vw;
-            width: 100svw;
-            width: 100dvw;
+            overflow-x: hidden;
+            padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
         }
 
         /*main menu stuff*/
@@ -110,22 +99,20 @@
         .container {
             max-width: 900px;
             margin: 0 auto;
-            padding: 8px;
+            padding: 6px;
             position: relative;
             z-index: 1;
-            height: 100vh;
-            height: 100svh;
-            height: 100dvh;
+            height: calc(100vh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 20px);
+            height: calc(100svh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 20px);
             display: flex;
             flex-direction: column;
             overflow: hidden;
-            box-sizing: border-box;
         }
         
         .header {
             text-align: center;
-            margin-bottom: 12px;
-            padding: 12px;
+            margin-bottom: 6px;
+            padding: 6px;
             background: linear-gradient(45deg, rgba(255, 0, 150, 0.2), rgba(0, 255, 255, 0.2));
             border-radius: 15px;
             border: 2px solid rgba(255, 100, 255, 0.3);
@@ -674,44 +661,15 @@
             color: #ccffcc;
             font-size: 0.85rem;
         }
-
-        /* App-specific viewport fixes */
-        @supports (-webkit-touch-callout: none) {
-            /* iOS Safari specific */
-            body {
-                height: -webkit-fill-available;
-            }
-            .container {
-                height: -webkit-fill-available;
-            }
-        }
-        
-        /* Prevent zoom and bounce on mobile apps */
-        * {
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -webkit-tap-highlight-color: transparent;
-        }
-        
-        input, textarea, button {
-            -webkit-user-select: auto;
-        }
-        
-        /* Force hardware acceleration */
-        .container, .game-setup, .quiz-container {
-            -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-        }
-
         /* Mobile-specific optimizations */
         @media (max-width: 768px) {
             .container {
-                padding: 6px;
+                padding: 4px;
             }
             
             .header {
-                padding: 8px;
-                margin-bottom: 8px;
+                padding: 4px;
+                margin-bottom: 4px;
             }
             
             .title {
@@ -838,104 +796,41 @@
                 width: 90vw;
             }
         }
-
-        /* Very short screens and native app optimization */
-        @media (max-height: 650px), 
-               (max-height: 700px) and (orientation: portrait),
-               (max-width: 400px) {
-            .container { 
+        /* Consolidated mobile and app optimization */
+        @media screen and (max-width: 768px) {
+            .container {
                 padding: 4px;
-                height: 100vh !important;
-                height: 100svh !important;
-                height: 100dvh !important;
-                max-height: 100vh !important;
-                max-height: 100svh !important;
-                max-height: 100dvh !important;
+                height: calc(100vh - 60px);
+                max-height: calc(100vh - 60px);
+                margin-bottom: 20px;
             }
             
-            .header { 
-                margin-bottom: 6px; 
-                padding: 8px; 
+            .header {
+                margin-bottom: 6px;
+                padding: 6px;
             }
             
-            .title { 
-                font-size: 1.3rem; 
+            .title {
+                font-size: 1.3rem;
             }
             
-            .subtitle { 
-                font-size: 0.7rem; 
+            .subtitle {
+                font-size: 0.7rem;
             }
             
-            .game-setup, .quiz-container { 
-                padding: 8px; 
+            .game-setup, .quiz-container {
+                padding: 6px;
             }
             
-            #mainMenu .setup-message { 
-                gap: 8px !important; 
+            .quest-buttons {
+                gap: 0.5em;
+                max-width: 320px;
             }
             
-            #mainMenu .setup-message img { 
-                width: 16vw !important; 
-                max-width: 80px !important; 
-            }
-            
-            #mainMenu .speech-bubble { 
-                padding: 12px 14px; 
-                font-size: 0.85rem; 
-                max-width: 280px; 
-            }
-            
-            .quest-buttons { 
-                gap: 0.5em; 
-                max-width: 320px; 
-            }
-            
-            .quest-button { 
-                padding: 14px 12px; 
-                min-height: 60px; 
-                font-size: 0.85rem; 
-            }
-            
-            #welcomeMessage { 
-                margin: 2px 0 6px 0 !important; 
-                font-size: 0.8rem;
-            }
-            
-            .question-header { 
-                margin-bottom: 6px; 
-                gap: 6px; 
-            }
-            
-            .question-number { 
-                padding: 4px 8px; 
-                font-size: 0.7rem; 
-            }
-            
-            .score { 
-                font-size: 0.75rem; 
-            }
-            
-            .vocabulary-word { 
-                font-size: 1.3rem; 
-            }
-            
-            .word-definition { 
-                font-size: 0.85rem; 
-            }
-            
-            .option-button { 
-                padding: 8px 10px; 
-                min-height: 40px; 
-                font-size: 0.8rem; 
-            }
-            
-            .action-buttons { 
-                gap: 6px; 
-            }
-            
-            .flashcard-container {
-                height: min(40vh, 180px);
-                margin: 8px auto;
+            .quest-button {
+                padding: 14px 10px;
+                min-height: 60px;
+                font-size: 0.85rem;
             }
         }
     </style>
@@ -943,8 +838,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1 class="title">🎤 K-POP WORD WARRIOR 🎤</h1>
-            <p class="subtitle">A Mystical Vocabulary Quest</p>
+                <h1 class="title">🎤 K-POP WORD WARRIOR 🎤</h1>
+                <p class="subtitle">A Mystical Vocabulary Quest</p>
         </div>
         <div id="mainMenu" class="game-setup">
             <!-- initial menu -->
