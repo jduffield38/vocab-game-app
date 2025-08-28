@@ -9,6 +9,7 @@ I made some changes to my html and javascript code. Do I need to re-run the Capa
 Step 1: Update Your Files
 bash
 # Copy your updated HTML to the www directory (where Capacitor looks for web files)
+bash
 cp index.html www/
 cp *.css www/ 2>/dev/null || true
 cp *.js www/ 2>/dev/null || true
@@ -16,7 +17,7 @@ cp *.json www/ 2>/dev/null || true
 cp *.png www/ 2>/dev/null || true
 
 # Step 2: Sync to Mobile Projects
-
+bash
 npx cap sync
 
 # This updates both your Android and iOS projects with the latest web files.
