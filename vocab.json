@@ -91,7 +91,7 @@
   },
   {
     "word": "DEBILITATING",
-    "definition": "making someone weak or infirm (repeat)",
+    "definition": "making someone weak or infirm",
     "synonym": "weakening",
     "sentence": "A debilitating illness kept him out of school for weeks."
   },
@@ -1225,7 +1225,7 @@
   },
   {
     "word": "EUPHORIA",
-    "definition": "a feeling of intense happiness and excitement (repeat)",
+    "definition": "a feeling of intense happiness and excitement",
     "synonym": "elation",
     "sentence": "Winning the championship brought a wave of euphoria to the team."
   },
@@ -1375,7 +1375,7 @@
   },
   {
     "word": "BURGEON",
-    "definition": "to grow or increase rapidly (repeat)",
+    "definition": "to grow or increase rapidly",
     "synonym": "expand",
     "sentence": "After the first success, club membership continued to burgeon each month."
   },
@@ -1459,7 +1459,7 @@
   },
   {
     "word": "ANACHRONISTIC",
-    "definition": "out of its proper time period (repeat)",
+    "definition": "out of its proper time period",
     "synonym": "out-of-time",
     "sentence": "The costume looked anachronistic in the modern movie scene."
   },
@@ -1563,7 +1563,7 @@
     "word": "DISSENT",
     "definition": "to disagree with a common opinion or decision",
     "synonym": "disagree",
-    "sentence": "A few students dissent from the popular view and explain why."
+    "sentence": "When Mom suggested broccoli ice cream for dessert, the kids' loud dissent could be heard three blocks away."
   },
   {
     "word": "PROCLAIM",
@@ -1952,7 +1952,7 @@
   {
     "word": "APOLOGIZE",
     "definition": "to say sorry for something wrong you have done",
-    "synonym": "apologize",
+    "synonym": "say sorry",
     "sentence": "She decided to apologize for interrupting the class discussion."
   },
   {
@@ -2767,7 +2767,7 @@
   },
   {
     "word": "ENIGMATIC",
-    "definition": "mysterious and difficult to understand (repeat)",
+    "definition": "mysterious and difficult to understand",
     "synonym": "cryptic",
     "sentence": "The old map contained enigmatic symbols that puzzled everyone."
   },
@@ -2840,7 +2840,7 @@
   {
     "word": "COMPATIBLE",
     "definition": "able to exist or work well together",
-    "synonym": "able",
+    "synonym": "congenial",
     "sentence": "The two software programs were compatible and worked well together."
   },
   {
@@ -2962,12 +2962,6 @@
     "definition": "clear or obvious to the mind; to show or reveal",
     "synonym": "obvious",
     "sentence": "Her talent for drawing was manifest from a young age."
-  },
-  {
-    "word": "CROWD-PLEASER",
-    "definition": "something that appeals to many people; a performer popular with general audiences",
-    "synonym": "popular",
-    "sentence": "The band played several crowd-pleasers to get everyone singing along."
   },
   {
     "word": "ANTITHESIS",
@@ -4351,7 +4345,7 @@
   },
   {
     "word": "DEFER",
-    "definition": "to delay or put off to a later time (repeat)",
+    "definition": "to delay or put off to a later time",
     "synonym": "postpone",
     "sentence": "They decided to defer the decision until more information was gathered."
   },
@@ -4879,7 +4873,7 @@
   },
   {
     "word": "BLATANT",
-    "definition": "obvious and done without shame; flagrant (repeat)",
+    "definition": "obvious and done without shame; flagrant",
     "synonym": "obvious",
     "sentence": "Her blatant disregard for the rules led to immediate consequences."
   },
